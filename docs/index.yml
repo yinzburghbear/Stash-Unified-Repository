@@ -701,10 +701,10 @@
   name: External Links Enhanced
   metadata:
     description: Adds additional icons for external links.
-  version: 1.2-bfdbba9
-  date: 2025-04-22 02:06:52
-  path: https://qxxxgit.github.io/stash-plugins/externalLinksEnhanced.zip
-  sha256: 52027bec4e4ebeeb9c47c146e18d47244b6f5815ad4a51d1383aa80e6e222210
+  version: 1.2-43feb59
+  date: 2025-12-20 01:59:59
+  path: https://stashapp.github.io/CommunityScripts/stable/externalLinksEnhanced.zip
+  sha256: aaf7a5b2875cab46002793aac9ca8d54e971fda1d08307bfb16a23def9f05dc4
 - id: external-player-launcher
   name: External Player Launcher
   metadata:
@@ -1665,12 +1665,11 @@
 - id: nfoSceneParser
   name: nfoSceneParser
   metadata:
-    description: Fills scene data from NFO or filename pattern (jav fork - do NOT
-      install alongside upstream nfoSceneParser)
-  version: 1.7.0
-  date: 2026-09-23 23:33:50
-  path: https://github.com/k6cc/nfoSceneParser-jav/releases/download/v1.7.0/nfoSceneParser-v1.7.0.zip
-  sha256: ab9275f5ae30b1725007aeb0989bbda5bc0420746445c099743b0906e1037b21
+    description: Fills scene data from NFO or filename pattern
+  version: 1.5.0-43feb59
+  date: 2025-12-20 01:59:59
+  path: https://stashapp.github.io/CommunityScripts/stable/nfoSceneParser.zip
+  sha256: 5a0d253667e19a6a92ddea612b1cd3808b8b71473e67b66bb65df1b957524ce5
 - id: no-autotag
   name: no-autotag
   metadata:
@@ -1813,10 +1812,10 @@
   name: Path Parser
   metadata:
     description: Updates scene info based on the file path.
-  version: 1.1-ce860db
-  date: 2024-04-21 02:06:48
-  path: https://ceequester.github.io/CommunityScripts/stable/pathParser.zip
-  sha256: a7591d2ffe0524571a0252429fb9ff918f6215fa97faf5b07d85c51b4fbd471a
+  version: 1.0-43feb59
+  date: 2025-12-20 01:59:59
+  path: https://stashapp.github.io/CommunityScripts/stable/pathParser.zip
+  sha256: ad81c99a9d7d9b1139f0283d7ab1e84d08f29411d60f5a31944ba0222ee05c26
 - id: performerAttributeTagger
   name: Performer Attribute Tagger
   metadata:
@@ -1849,11 +1848,11 @@
   name: Performer Cut/Uncut Badge
   metadata:
     description: Shows a cut or uncut badge overlay on performer card images based
-      on their circumcised status
-  version: 1.0.0-911da41
-  date: 2026-03-26 02:09:45
-  path: https://opietaylor911.github.io/StashPlugins/main/opie_performerCircumcisedBadge.zip
-  sha256: 6c69f36b2e9b0cca0e5836e5e15be3e91657ec7145c704eed36df33f7e6b888b
+      on their circumcised status - Customized from Opie.
+  version: 0.1.0-32c324a
+  date: 2026-08-06 20:58:21
+  path: https://yinzburghbear.github.io/solid-guacamole/main/opie_performerCircumcisedBadge.zip
+  sha256: e7f64f9e53c87c7e62d72d9b7d25ca0270f1324d8c28789e556bec59a0eea10c
 - id: PerformerDetailsExtended
   name: Performer Details Extended
   metadata:
@@ -3545,10 +3544,10 @@
   metadata:
     description: Adds a button to the navigation bar which opens a small window for
       writing notes to your browser's local storage.
-  version: 1.0-a1f5957
-  date: 2025-04-06 13:30:57
-  path: https://qxxxgit.github.io/stash-plugins/stashNotes.zip
-  sha256: eece510a7c9a4cf27f57c14668c96d5dd282025aa5fd798fdc60ccb5ae23f49a
+  version: 1.0-43feb59
+  date: 2025-12-20 01:59:59
+  path: https://stashapp.github.io/CommunityScripts/stable/stashNotes.zip
+  sha256: 0ab38177509d7c6f81795997fda2000e8cf722edcc5ba550d7d9687326077532
 - id: stashOpenMediaPlayer
   name: Stash Open Media Player
   metadata:
@@ -4112,10 +4111,10 @@
   name: StashNotifications
   metadata:
     description: Receive notifications about plugin and scraper changes.
-  version: 1.1-50bf88c
-  date: 2025-04-22 16:50:29
-  path: https://qxxxgit.github.io/stash-plugins/stashNotifications.zip
-  sha256: a8fb10b3a735a826b69a2b0274104298af6f2e670751a1b97df18ea0391eb670
+  version: 1.1-43feb59
+  date: 2025-12-20 01:59:59
+  path: https://stashapp.github.io/CommunityScripts/stable/stashNotifications.zip
+  sha256: 1408fdac6c40b2c7620e5b560ccc9f19431a2da8d4fd037a1dfcd5b985319d26
 - id: stashTagPerformerImage
   name: stashTagPerformerImage
   metadata:
@@ -4770,12 +4769,11 @@
 - id: visage
   name: Visage
   metadata:
-    description: Use facial Recognition To Lookup Performers. Roughly patched and
-      uses marquee selection instead of face detection
-  version: 2.0.15-8991fab
-  date: 2026-06-01 04:19:13
-  path: https://rollainkraus.github.io/stash-plugins/main/visage.zip
-  sha256: d83ff1700537ec5b957cb1843b0be2e3fe555407b7241f7e9ac92ef8445eb831
+    description: Use facial recognition to lookup performers from scene sprites
+  version: 2.8.0-b8dff1a
+  date: 2026-09-24 09:31:06
+  path: https://stashapp.github.io/CommunityScripts/stable/visage.zip
+  sha256: 5b7bf37bdb85a843ff12cfb97fcd9087b26a143f29395a5dfcb9fb2aae3e142e
 - id: vjs-mmb-fullscreen
   name: vjs-mmb-fullscreen
   metadata:

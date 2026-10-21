@@ -30,59 +30,92 @@
   ],
   "conflicts": [
     {
-      "id": "binge",
-      "kept": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
-      "skipped": "https://ordureconnoisseur.github.io/plugins/main/index.yml"
-    },
-    {
-      "id": "StashInteractiveTools",
-      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
-      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash-next.yml"
-    },
-    {
-      "id": "StashInteractiveTools",
-      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
-      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash.yml"
+      "id": "pathParser",
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "1.0-43feb59",
+      "skipped": "https://ceequester.github.io/CommunityScripts/stable/index.yml",
+      "skipped_version": "1.1-ce860db",
+      "selection_reason": "source_priority"
     },
     {
       "id": "stashBatchSave",
       "kept": "https://dogmadragon.github.io/7dJx1qP-stash-plugins/main/index.yml",
-      "skipped": "https://serechops.github.io/Serechops-Stash/index.yml"
+      "kept_version": "0.6.1-0d840ce",
+      "skipped": "https://serechops.github.io/Serechops-Stash/index.yml",
+      "skipped_version": "0.6-10a6a27",
+      "selection_reason": "source_priority"
+    },
+    {
+      "id": "binge",
+      "kept": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
+      "kept_version": "0.10.9",
+      "skipped": "https://ordureconnoisseur.github.io/plugins/main/index.yml",
+      "skipped_version": "0.14.2-c87177c",
+      "selection_reason": "highest_version"
     },
     {
       "id": "nfoSceneParser",
-      "kept": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
-    },
-    {
-      "id": "externalLinksEnhanced",
-      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
-    },
-    {
-      "id": "pathParser",
-      "kept": "https://ceequester.github.io/CommunityScripts/stable/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
-    },
-    {
-      "id": "visage",
-      "kept": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
-    },
-    {
-      "id": "stashNotes",
-      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
-    },
-    {
-      "id": "stashNotifications",
-      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
-      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "1.5.0-43feb59",
+      "skipped": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
+      "skipped_version": "1.7.0",
+      "selection_reason": "source_priority"
     },
     {
       "id": "opie_performerCircumcisedBadge",
-      "kept": "https://opietaylor911.github.io/StashPlugins/main/index.yml",
-      "skipped": "https://yinzburghbear.github.io/solid-guacamole/main/index.yml"
+      "kept": "https://yinzburghbear.github.io/solid-guacamole/main/index.yml",
+      "kept_version": "0.1.0-32c324a",
+      "skipped": "https://opietaylor911.github.io/StashPlugins/main/index.yml",
+      "skipped_version": "1.0.0-911da41",
+      "selection_reason": "source_priority"
+    },
+    {
+      "id": "stashNotes",
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "1.0-43feb59",
+      "skipped": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped_version": "1.0-a1f5957",
+      "selection_reason": "source_priority"
+    },
+    {
+      "id": "externalLinksEnhanced",
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "1.2-43feb59",
+      "skipped": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped_version": "1.2-bfdbba9",
+      "selection_reason": "source_priority"
+    },
+    {
+      "id": "stashNotifications",
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "1.1-43feb59",
+      "skipped": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped_version": "1.1-50bf88c",
+      "selection_reason": "source_priority"
+    },
+    {
+      "id": "StashInteractiveTools",
+      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
+      "kept_version": "1.2.0-alpha.13",
+      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash-next.yml",
+      "skipped_version": "1.1.1-next.1",
+      "selection_reason": "highest_version"
+    },
+    {
+      "id": "StashInteractiveTools",
+      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
+      "kept_version": "1.2.0-alpha.13",
+      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash.yml",
+      "skipped_version": "1.1.0",
+      "selection_reason": "highest_version"
+    },
+    {
+      "id": "visage",
+      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
+      "kept_version": "2.8.0-b8dff1a",
+      "skipped": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
+      "skipped_version": "2.0.15-8991fab",
+      "selection_reason": "source_priority"
     }
   ]
 }
