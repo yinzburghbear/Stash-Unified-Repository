@@ -99,6 +99,17 @@
   date: '2026-10-15 21:16:32'
   path: https://github.com/Servbot91/Sakotos-Stash-Repo/raw/main/plugins/Ascension/plugins/Ascension.zip
   sha256: efe00abc852f62c8e4001da555821aea69d2496a018ab68b25cc235562782f17
+- id: AscensionI18n
+  name: Ascension I18n
+  metadata:
+    description: 'Performer/scene rating and tier system (Ascension): real-time Elo
+      battle scoring with S~F tiers across four modes (head-to-head / placement /
+      champion / scenes), with bilingual (ä¸­æ/EN) UI following the Stash interface
+      language.'
+  version: 1.4.1-4
+  date: 2026-10-18 19:11:24
+  path: https://github.com/k6cc/stash-i18n/releases/download/AscensionI18n-v1.4.1-4/AscensionI18n-v1.4.1-4.zip
+  sha256: 894bbbc0e71267f9a4a31d864760e5686c949278566479ff29bbbe643bc9b92c
 - id: aspect_ratio
   name: Aspect Ratio tagger
   metadata:
@@ -209,12 +220,29 @@
 - id: binge
   name: Binge
   metadata:
-    description: Instagram-shaped social + discovery layer for Stash. Stories, vertical
-      reel, performer profiles, and StashDB-powered Follow/Discover.
-  version: 0.14.2-c87177c
-  date: 2026-09-06 21:28:26
-  path: https://ordureconnoisseur.github.io/plugins/main/binge.zip
-  sha256: d66d727121b9157499e0d5af322ddcb4db510a87bd468b7b2c21368684949d8d
+    description: Instagram-shaped social + discovery layer for Stash - stories, vertical
+      reel, performer profiles, and StashDB-powered Follow/Discover. (Chinese localization)
+  version: 0.10.9
+  date: 2026-10-18 07:10:38
+  path: https://github.com/k6cc/binge-cn/releases/download/v0.10.9/binge-v0.10.9.zip
+  sha256: 3f16ef60533915feff85f92eb68160606f079701482176ef2a1eb7eec39ef6f8
+- id: bracketTags
+  name: Bracket Tags
+  metadata:
+    description: Add scene tags from [bracketed] parts of the filename
+  version: 1.2.1-6e85da6
+  date: 2026-10-09 19:04:05
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/bracketTags.zip
+  sha256: e73ce59fff165e9817d374ed8d78025f87e59e3ef5ebfc486ec637d49bbbf9cf
+- id: BulkGEVIPerformerScrape
+  name: Bulk GEVI Performer Scrape
+  metadata:
+    description: Bulk scrape selected performers with the installed GEVI scraper,
+      applying only explicitly selected fields.
+  version: 1.1.3-4b6a95a
+  date: 2026-07-13 21:54:01
+  path: https://yinzburghbear.github.io/solid-guacamole/main/BulkGEVIPerformerScrape.zip
+  sha256: a7fef307327c907bcb199de8b0fbb179ff4f4c13253a69c26234529ab222a0f1
 - id: BulkImageScrape
   name: Bulk Image Scrape
   metadata:
@@ -291,6 +319,15 @@
   sha256: 30e79bc1daf3487cf2c640307caa3c9f9cf8bfd343d8e6f9a5685fc1724ab434
   requires:
   - CommunityScriptsUILibrary
+- id: ClaudeViewer
+  name: ClaudeViewer
+  metadata:
+    description: Open gallery images in a local image viewer (Honeyview) instead of
+      the web Lightbox
+  version: 0.1.0-281588e
+  date: 2026-03-07 02:53:03
+  path: https://kokkeng1.github.io/stash_plugin_custom/ClaudeViewer.zip
+  sha256: 3e0b5be2fbf4cf204ec4d6ae4ddcdce606ce7a02aefacc7369db22d173a75940
 - id: CleanUpQueue
   name: Clean Up Queue
   metadata:
@@ -326,6 +363,17 @@
   date: 2026-05-29 18:57:39
   path: https://jweno.github.io/stash-clips-source/main/clips.zip
   sha256: 542d3ff0bb188f7ecfbdaa7454879a223e90276dd4edda434bd5561ebda5c858
+- id: CollapsablePluginSettingsI18n
+  name: Collapsable Plugin Settings I18n
+  metadata:
+    description: Makes the plugin groups of Settings â Plugins and Settings â Tasks
+      â Plugin Tasks collapsible, searchable and sortable, plus an optional slider
+      replacing the Enable/Disable buttons, with bilingual (ä¸­æ/EN) UI following
+      the Stash interface language.
+  version: 0.10.4-1
+  date: 2026-10-20 04:37:10
+  path: https://github.com/k6cc/stash-i18n/releases/download/CollapsablePluginSettingsI18n-v0.10.4-1/CollapsablePluginSettingsI18n-v0.10.4-1.zip
+  sha256: 3d84f7ed971d55d01749f0c94122d34832ffbcc02db2035669675e36679e5543
 - id: ColorCodedTags
   name: ColorCodedTags
   metadata:
@@ -410,6 +458,15 @@
   date: 2026-03-18 07:32:13
   path: https://feederbox826.github.io/plugins/main/custom-filepath.zip
   sha256: b814a61f854b7df7f69733a4355d768a1efea261c960ce51a5478985876b36f3
+- id: dark-mode-theme
+  name: Dark Mode Theme
+  metadata:
+    description: A dark theme for Stash based on Solarized. Edited by badyinzbear
+      on GitHub
+  version: 1.0.3-037ccab
+  date: 2026-08-05 22:47:25
+  path: https://yinzburghbear.github.io/solid-guacamole/main/dark-mode-theme.zip
+  sha256: 5147021b512f8a016434530ff6d619fbadb7762d153196c2425a08bcec7bcd3a
 - id: opie_decadeTagger
   name: Decade Tagger
   metadata:
@@ -692,6 +749,15 @@
   date: 2026-10-06 07:36:26
   path: https://druidblack.github.io/stash-plugin/main/filename-title-checker.zip
   sha256: 7f744cdc595e37d8d8f22f9b7509dfccc2bdd5fe20ced6b4b9327d69c819ecdd
+- id: FilenameAutoTagger
+  name: FilenameAutoTagger
+  metadata:
+    description: Automatic tagging based on filename keywords. Runs automatically
+      when a new scene is scanned.
+  version: 1.0-cf5c129
+  date: 2026-03-07 07:31:35
+  path: https://kokkeng1.github.io/stash_plugin_custom/FilenameAutoTagger.zip
+  sha256: c5e0a49ae0beaff571247c957a066741f62f1007cedc5bb97d15652ae48b74ae
 - id: findFileErrors
   name: Find File Errors
   metadata:
@@ -751,6 +817,15 @@
   date: 2025-10-26 01:17:33
   path: https://codddarrr.github.io/stashapp-plugins-repo/main/floating-scene-player.zip
   sha256: ae8b8f0de9e6856d0a89b34a736ac5e154a4fe9c17707260ddc4fc2c5c9f8d4f
+- id: folderSidebar
+  name: Folder Sidebar
+  metadata:
+    description: Sidebar with configurable folder shortcuts; browse subfolders and
+      list scenes by path without filters
+  version: 1.4.6-d7f3838
+  date: 2026-10-05 07:09:39
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/folderSidebar.zip
+  sha256: 80465ce767395a5fbcf138156ee30f1cc67368568e6da1eb269b365f3c05744f
 - id: folderSort
   name: folderSort
   metadata:
@@ -982,6 +1057,15 @@
   - Glassy - Smaller Performer Image Cards
   - Glassy - Video-Res Icons
   - Glassy - Branding
+- id: graphite
+  name: Graphite Theme
+  metadata:
+    description: Graphite 1.0.0-beta3 desktop-first Stash theme. Stash loads source
+      CSS files directly in order.
+  version: 1.0.0-beta3-1823dbe
+  date: 2026-07-29 12:44:32
+  path: https://yinzburghbear.github.io/solid-guacamole/main/graphite.zip
+  sha256: 3c9d5ca0c4ec14881199883597adab7bb0f92e2153c7725877c48a100e8f99c1
 - id: group-cover-darwin-amd64
   name: Group Cover (darwin-amd64)
   version: 0.3.0
@@ -1193,6 +1277,18 @@
   sha256: da5296f73eb0932b211bbcdbf3ed59d19d0b57d47d7f3bb33604429c9b94f8cc
   requires:
   - CommunityScriptsUILibrary
+- id: ImageMetaSync
+  name: ImageMetaSync
+  metadata:
+    description: Backfills metadata (performers, studio, date, tags, title, code,
+      urls, details) onto the images of a scene's gallery (cover/fanart/stills) from
+      the linked scene. Galleries and scenes whose performers are ambiguous (0 or
+      2+) are skipped. Optional fallback for scenes without a gallery. Requires Python
+      and requests.
+  version: 1.0.0
+  date: 2026-10-18 19:09:39
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/ImageMetaSync-v1.0.0/ImageMetaSync-v1.0.0.zip
+  sha256: 8c247c0916a6e8b22315e112e708e3ed948b574e66c6e9dcb68b227a1fcc91f3
 - id: ImportFavoritePerformers
   name: Import Favorite Performers
   metadata:
@@ -1212,6 +1308,16 @@
   sha256: 32ae5e1cd6ac74d2a78221a42df5ab95a5a687a423011722c28a494056570ece
   requires:
   - CommunityScriptsUILibrary
+- id: InsightsI18n
+  name: Insights I18n
+  metadata:
+    description: 'Statistics dashboard for the Stash stats page: You / Actions / Library
+      / Files and quality / Metadata health / Collection (and Movies with Movies Toolkit),
+      with bilingual (ä¸­æ/EN) UI following the Stash interface language.'
+  version: 2.12.0-1
+  date: 2026-10-19 20:50:17
+  path: https://github.com/k6cc/stash-i18n/releases/download/InsightsI18n-v2.12.0-1/InsightsI18n-v2.12.0-1.zip
+  sha256: 8adcd9cac46cf9a8b8e7a525e0e1f4db4b56e407683d5693f50109a32bee6c66
 - id: javstashAutofill
   name: Javstash Autofill
   metadata:
@@ -1221,6 +1327,25 @@
   date: 2026-10-15 22:18:28
   path: https://stashapp.github.io/CommunityScripts/stable/javstashAutofill.zip
   sha256: 74293abe1c4aa3e47deba3a0f5a29b37ae7b68347fdaccf988f14908f1806a33
+- id: javstashAutofill+
+  name: Javstash Autofill+
+  metadata:
+    description: Auto-fills new performers from JAVStash (empty fields only, stash_id
+      written); new scenes looked up by oshash with empty fields filled and stash_id
+      appended; a manual task backfills existing scenes.
+  version: 1.3.1
+  date: 2026-09-26 04:38:04
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/javstashAutofill+-v1.3.1/javstashAutofill+-v1.3.1.zip
+  sha256: 2719dc27000cbf04b18f435b10abcf1772aa436545cf8569e050e27a551038ca
+- id: JavStashLinker
+  name: JavStashLinker
+  metadata:
+    description: Batch match JAVStash performer IDs via scene-based reverse lookup,
+      code matching, and alias matching
+  version: 1.5.10
+  date: 2026-09-25 22:21:14
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/JavStashLinker-v1.5.10/JavStashLinker-v1.5.10.zip
+  sha256: ac197798fb765a39a01a6830c1f9da0e460aa350f3533de92aa2ecfc2afd1aa8
 - id: JellyfinSync
   name: Jellyfin Sync
   metadata:
@@ -1285,6 +1410,15 @@
   date: null
   path: https://misofist.github.io/misofist-stash-plugins/locateChangedExtensions.zip
   sha256: 0dd3ffc9ffb2b438e3967a8d7ae070ede4146c42185cb82aca74f67a4c530138
+- id: LockdownI18n
+  name: Lockdown I18n
+  metadata:
+    description: Locks Stash to a performer, studio or tag until you get out, with
+      bilingual (ä¸­æ/EN) UI following the Stash interface language.
+  version: 2.8.0-1
+  date: 2026-10-19 21:09:01
+  path: https://github.com/k6cc/stash-i18n/releases/download/LockdownI18n-v2.8.0-1/LockdownI18n-v2.8.0-1.zip
+  sha256: 9aad15b06b83060a5dd5ea2ab54c9094eb01ddf21a5fffb2e6cf2a1038cb5968
 - id: log-console
   name: log-console
   metadata:
@@ -1301,6 +1435,14 @@
   date: 2025-05-27 02:26:22
   path: https://feederbox826.github.io/plugins/main/log-toast.zip
   sha256: 4e4bcd57543ae028b2ef30aeebb85313081447da3fb3baac0cdaade821dc2475
+- id: kokkengMangaViewer
+  name: Manga Utilities
+  metadata:
+    description: Manga viewing UX improvements
+  version: 1.1.0-84ba7ad
+  date: 2026-03-14 01:16:52
+  path: https://kokkeng1.github.io/stash_plugin_custom/kokkengMangaViewer.zip
+  sha256: a18d33404b1e52729237d16f66a02de7b9b3e04b67b592e5807474f7df198ef5
 - id: markerDeleteButton
   name: Marker Delete Button
   metadata:
@@ -1506,11 +1648,12 @@
 - id: nfoSceneParser
   name: nfoSceneParser
   metadata:
-    description: Fills scene data from NFO or filename pattern
-  version: 1.5.0-43feb59
-  date: 2025-12-20 01:59:59
-  path: https://stashapp.github.io/CommunityScripts/stable/nfoSceneParser.zip
-  sha256: 5a0d253667e19a6a92ddea612b1cd3808b8b71473e67b66bb65df1b957524ce5
+    description: Fills scene data from NFO or filename pattern (jav fork - do NOT
+      install alongside upstream nfoSceneParser)
+  version: 1.7.0
+  date: 2026-09-23 23:33:50
+  path: https://github.com/k6cc/nfoSceneParser-jav/releases/download/v1.7.0/nfoSceneParser-v1.7.0.zip
+  sha256: ab9275f5ae30b1725007aeb0989bbda5bc0420746445c099743b0906e1037b21
 - id: no-autotag
   name: no-autotag
   metadata:
@@ -1527,6 +1670,15 @@
   date: 2025-02-12 02:41:49
   path: https://feederbox826.github.io/themes/main/no-speed.zip
   sha256: 7b1d430b0193955c79f75a15aae71b28a949e7ebe1393a76f035df61c9e71927
+- id: normalizePerformerFields
+  name: Normalize Performer Fields
+  metadata:
+    description: Normalizes performer fake_tits and ethnicity values from Natural
+      or Caucasian to one preferred value.
+  version: 1.1.0-97f546e
+  date: 2026-07-15 17:28:07
+  path: https://yinzburghbear.github.io/solid-guacamole/main/normalizePerformerFields.zip
+  sha256: ebb8e3880f219b4448824f9dffaaa098e8d81e2c2ab9fd2c820d6b72a558e37c
 - id: noto-color-emoji
   name: noto-color-emoji
   metadata:
@@ -1542,15 +1694,24 @@
   version: 0.3-af4de7b
   date: 2026-10-19 19:20:40
   path: https://sanjiswe.github.io/plugins/main/ocheevs.zip
-  sha256: 84e5561bfff3f268526aab8ad413f6f44cad7165723f76a2a49961fcd6ba23bb
+  sha256: bd99d072957ff46480249c1f0a1bbe889729f6eadb67f9f063e6fa61890a5bb3
 - id: ostats
   name: O Stats
   metadata:
     description: Adds O stats to the stats page
-  version: 2.1-5f3ff99
-  date: 2026-10-19 18:46:38
+  version: 2.2-a9c0c0d
+  date: 2026-10-21 16:51:10
   path: https://sanjiswe.github.io/plugins/main/ostats.zip
-  sha256: d0e9065fa90ed9ef522294c7d9370648ceb491a485cf7b4c611dcbb6a050e02c
+  sha256: 9cdaf1cda9f01959f32df022d9f139683aa5cd490f6bb14e6a7c503b2b469cf4
+- id: oStatsI18n
+  name: O Stats I18n
+  metadata:
+    description: Adds O stats and watch-time tracking to the stats page with bilingual
+      (ä¸­æ/EN) UI following the Stash interface language.
+  version: 2.1.0-1
+  date: 2026-10-20 04:18:55
+  path: https://github.com/k6cc/stash-i18n/releases/download/oStatsI18n-v2.1.0-1/oStatsI18n-v2.1.0-1.zip
+  sha256: 621008e20886e1d8b2013ae77793911fe8f382623ae8fe229430c36a3e702c0a
 - id: OStickers
   name: O Stickers
   metadata:
@@ -1728,6 +1889,15 @@
   date: 2026-09-29 13:42:19
   path: https://carrotwaxr.github.io/stash-plugins/stable/performerImageSearch.zip
   sha256: 2b8c8d74cfa68869cd601e9ea97ec442e31798bd1906adb6fa4c4b826822df08
+- id: performerMerge
+  name: Performer Merge
+  metadata:
+    description: Find performers with duplicate names/aliases and merge them into
+      one performer. Requires Stash v0.31.0+.
+  version: 1.6.6
+  date: 2026-09-25 22:21:14
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/performerMerge-v1.6.6/performerMerge-v1.6.6.zip
+  sha256: 5c75b5ff13ec46110e767fc62c3f14fdcc567572f84959c2f05e9482384d86a8
 - id: performer-poster-backdrop
   name: Performer Poster Backdrop
   metadata:
@@ -1881,6 +2051,16 @@
   date: 2025-11-26 02:52:07
   path: https://dopeniko.github.io/stash-scripts/main/pluginDev.zip
   sha256: 8dd896d24c60a11a52acca884e268bc9b341e308bf1399a074403c147c08d05f
+- id: pmv-creator
+  name: PMV Creator
+  metadata:
+    description: Deterministic PMV editor â pick scenes and markers, arrange them
+      on a beat grid, fine-tune every clip and render with FFmpeg or export as EDL/OTIO.
+      Works in classic Stash and in Stash UI.
+  version: 0.5.0-5d204a9
+  date: 2026-10-21 16:57:53
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/pmv-creator.zip
+  sha256: 14aa1cca1098e609b79955653b04d07b5ccc1463cc95c48b196e189f0b818778
 - id: stash-ppics
   name: PornPics Importer
   metadata:
@@ -1940,6 +2120,16 @@
   date: 2026-08-04 01:07:52
   path: https://pouki-dlb.github.io/stash-plugins/main/QuickFolders.zip
   sha256: 6a547be70e213fa9efabead23fb16231d0eee8a73d7b77a7046fc222f4ab296c
+- id: quickMarkers
+  name: Quick Markers
+  metadata:
+    description: Create scene markers with hotkeys and presets (Shift+1â9 select,
+      Shift+I/O range, Shift+M instant), copy markers between scenes and same videos,
+      Marker Sync overview â classic Stash and Stash UI
+  version: 1.13.1-cee5068
+  date: 2026-10-17 15:33:03
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/quickMarkers.zip
+  sha256: 60ecdd84a297bf63c3c8e7eecf5a41d56ea51700cd311bcf863c584203db8cdc
 - id: quickSentiment
   name: Quick Sentiment
   metadata:
@@ -2169,6 +2359,14 @@
   date: 2026-07-02 03:34:55
   path: https://rollainkraus.github.io/stash-plugins/main/SavedFilterNavMenus.zip
   sha256: 963a5c2d8cec03ecb7b5e7d40c648a7d3fd95ca0a42c06735d843ca90aba180b
+- id: scanImageScrape
+  name: Scan Image Scrape
+  metadata:
+    description: ''
+  version: 1.1.0-9ee5e0c
+  date: 2026-08-27 14:03:19
+  path: https://yinzburghbear.github.io/solid-guacamole/main/scanImageScrape.zip
+  sha256: 4dff1092072b1bf811e73f2e307fa24ff662778e9b526ca951b6dd3968312ee3
 - id: sceneCodeSearch
   name: Scene Code Search
   version: 1.0.0
@@ -2273,6 +2471,26 @@
   date: 2026-04-05 08:45:08
   path: https://stashapp.github.io/CommunityScripts/stable/scene-to-imageclip.zip
   sha256: b25b3913af9a063e01962c1ddfca97365acecab391281c2237b51f2c95384b55
+- id: sceneTranslate
+  name: Scene Translate
+  metadata:
+    description: Add one-click translate buttons to scene, image, and gallery edit
+      pages. Supports Google Free, Google API, Microsoft, Baidu, DeepL, and OpenAI
+      engines.
+  version: 2.9.3
+  date: 2026-09-22 23:37:10
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/sceneTranslate-v2.9.3/sceneTranslate-v2.9.3.zip
+  sha256: aa63d8795a2bf1ae56ac02907f92387b46fd67a88eea7556c3eb491addd08994
+- id: sceneTranslateAuto
+  name: Scene Translate Auto
+  metadata:
+    description: Automatic scene title/details translation with zero UI - translates
+      on scene create/update, a manual task sweeps the backlog; same engines as Scene
+      Translate.
+  version: 1.3.1
+  date: 2026-10-01 00:49:09
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/sceneTranslateAuto-v1.3.1/sceneTranslateAuto-v1.3.1.zip
+  sha256: 2a27dcb9e017cea2b95f50e0bba865c3a95e7c0c9509556816d8cc63942a57b8
 - id: sceneTrimmer
   name: Scene Trimmer
   metadata:
@@ -2298,6 +2516,15 @@
     tags:
     - scene
     author: AnonTester
+- id: sceneGallerySync
+  name: sceneGallerySync
+  metadata:
+    description: Automatically creates galleries for scenes with matching metadata,
+      cover, and fanart images
+  version: 1.9.7
+  date: 2026-09-26 11:35:15
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/sceneGallerySync-v1.9.7/sceneGallerySync-v1.9.7.zip
+  sha256: 22add9f77fffb0d95eea73f5866d40bbd00a43d909d54025aedf8d70cb8d71d3
 - id: SceneHub
   name: SceneHub
   metadata:
@@ -2333,6 +2560,24 @@
   date: '2026-10-07 19:50:28'
   path: https://codeberg.org/surging9143/scout-plugin/releases/download/v0.1.0/scout-plugin.zip
   sha256: 1fb29233590a9c3dd35b62512a9a62192196161de305c4501c3d6978a64da930
+- id: ScrapeLens
+  name: Scrape Lens
+  metadata:
+    description: Live word-level diff for Details/Synopsis, tag highlighting, and
+      image resolution display in Stash scrape result modals.
+  version: 1.0.1-45b9063
+  date: 2026-05-18 11:42:22
+  path: https://rchrdcho.github.io/StashPlugins/main/ScrapeLens.zip
+  sha256: 1983de01bb7581f184acc1f5c4499386606ca77ad6f417623b451c013aa3f185
+- id: ScrapeDiff
+  name: ScrapeDiff
+  metadata:
+    description: â ï¸ This plugin has been renamed to ScrapeLens. Please install ScrapeLens
+      from the plugin source and remove ScrapeDiff.
+  version: 1.4.1-b07ffaf
+  date: 2026-05-15 02:50:32
+  path: https://rchrdcho.github.io/StashPlugins/main/ScrapeDiff.zip
+  sha256: e0dc0620c9c7cebd3957646ecdde3002fb90f1491532d7a2d8ab0373230371fd
 - id: mobileWallLayout
   name: scrollFeed
   metadata:
@@ -2465,6 +2710,14 @@
   date: 2026-04-02 22:57:30
   path: https://rollainkraus.github.io/stash-plugins/main/SimpleImageCrop.zip
   sha256: e152ae6a22643ffeaa6ff610e0a75b6a52c11749c4c42d5a50504e242e6c88ff
+- id: SimpleLightbox
+  name: Simple Lightbox
+  metadata:
+    description: Removes unnecessary information from the lightbox
+  version: 1.0.0-df455b4
+  date: 2026-03-07 19:25:15
+  path: https://kokkeng1.github.io/stash_plugin_custom/SimpleLightbox.zip
+  sha256: d9a80182c006e9704e20313d76f92578872c37472aa1f15036722ec0f4dc108a
 - id: ratingBanners
   name: Simple Rating Banners
   metadata:
@@ -2810,6 +3063,14 @@
   date: 2026-04-09 14:57:20
   path: https://stashapp.github.io/CommunityScripts/stable/SmartResolve.zip
   sha256: cdc9df7332bbcefb968c6b449aa1e658f168dc79f889eaf16460439b6bb88405
+- id: softDelete
+  name: Soft Delete
+  metadata:
+    description: DBë ì ì§íê³  íì¼ë§ ì­ì íë ìµìì ì¬ ì­ì  ë¤ì´ì¼ë¡ê·¸ì ì¶ê°í©ëë¤.
+  version: 1.0-cf5c129
+  date: 2026-03-07 07:31:35
+  path: https://kokkeng1.github.io/stash_plugin_custom/softDelete.zip
+  sha256: f408911fed5549ae0b1a3350fe670d327bcda1ab9a4ca83043823c6c65bfd30b
 - id: stashSortPerformerURLs
   name: Sort Performer URLs
   metadata:
@@ -3786,6 +4047,16 @@
   requires:
   - stashDisableAll
   - stashEnableFromSave
+- id: stashDiscover
+  name: stashDiscover
+  metadata:
+    description: Adds a "Missing Scenes" tab to performer pages, discovering scenes
+      from configured stash-box instances that are not in the local library. Browse
+      covers, view details, save to Stash, and search/download resources via Jackett.
+  version: 2.0.1
+  date: 2026-10-19 03:57:57
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/stashDiscover-v2.0.1/stashDiscover-v2.0.1.zip
+  sha256: 90532086919a5313facb0ff806c9caefc4194ed1cf52823981c925e2f8e42755
 - id: stashgifs
   name: StashGifs
   metadata:
@@ -3883,6 +4154,24 @@
   date: 2026-09-29 13:42:09
   path: https://carrotwaxr.github.io/stash-plugins/stable/studioManager.zip
   sha256: 570cb552924e6eb6a3d49834dc56955e855a2846c57948df72cbf676df33a865
+- id: studioTools
+  name: Studio Tools
+  metadata:
+    description: Studio page toolkit - merge studios and search/update from StashDB.
+  version: 1.5.9
+  date: 2026-09-23 12:09:17
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/studioTools-v1.5.9/studioTools-v1.5.9.zip
+  sha256: b45a319b04b9df9791d810a310d1908afd74acab99565400e37a756b7d13bddb
+- id: studioToolsAuto
+  name: Studio Tools Auto
+  metadata:
+    description: Automatic studio cleanup with zero UI - scrapes new studios from
+      configured Stash-box instances, merges duplicates or fills in-place; a manual
+      task sweeps the backlog.
+  version: 1.1.3
+  date: 2026-09-24 15:31:18
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/studioToolsAuto-v1.1.3/studioToolsAuto-v1.1.3.zip
+  sha256: a62fb4f9eb1345aaf99e1137d0b9395881bd5295eb153ee2ea7d9ba35ee46908
 - id: studioTopPerformer
   name: Studio Top Performer
   metadata:
@@ -3914,10 +4203,20 @@
     description: Glossy sticker icons for your tags. Matches each tag by its StashDB
       link or its name and has Stash download the icon from candyboudoir.github.io.
       Needs Stash v0.31.0 or later.
-  version: 0.1.2-bd96ce3
-  date: 2026-10-20 12:27:57
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.2/TagCandy.zip
-  sha256: 0c3254b3672396e2f53b41280a582b0e3ed27be1b5881f4e6d86d032d4af91dc
+  version: 0.1.3-71a6eb6
+  date: 2026-10-21 12:53:39
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.3/TagCandy.zip
+  sha256: 8e6fb45d439e52bb47d6191c8d38b2542de711b8f3f645410187c461f2af8a4b
+- id: tagCategories
+  name: Tag Categories
+  metadata:
+    description: Browse scenes by named categories â each category lists tags and
+      performers; click to show scenes matching any of them, narrow down with chips
+      and a main tag
+  version: 1.10.1-cee5068
+  date: 2026-10-17 15:33:03
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagCategories.zip
+  sha256: 17d2cde098a93897f01e7e850ca76350efb2e62144a9a85795d5e51fb7a6337f
 - id: tagFileOrganizer
   name: Tag File Organizer
   metadata:
@@ -3987,6 +4286,33 @@
   date: 2026-09-29 05:27:49
   path: https://carrotwaxr.github.io/stash-plugins/stable/tagManager.zip
   sha256: 35db86ca87adf027b153e48520cbf46318e8527c38ba465a4502fb02617eb7dc
+- id: tagMerge
+  name: Tag Merge
+  metadata:
+    description: Merge similar tags (EN/JP/CN variants) into canonical Chinese tags
+      based on an editable mapping database.
+  version: 2.7.5
+  date: 2026-09-25 23:24:52
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/tagMerge-v2.7.5/tagMerge-v2.7.5.zip
+  sha256: c97607d34482a7e92c0942b571d0c6f5e68c61955f6e7d0ec8064535c983c24d
+- id: tagMergeAuto
+  name: Tag Merge Auto
+  metadata:
+    description: Automatic tag merge with zero UI - new tags merge into canonical
+      targets on creation, a manual task sweeps pre-existing ones; same local mapping
+      database as Tag Merge.
+  version: 1.2.5
+  date: 2026-09-25 03:21:25
+  path: https://github.com/k6cc/stash-jav-tools/releases/download/tagMergeAuto-v1.2.5/tagMergeAuto-v1.2.5.zip
+  sha256: be17361ceb326133659850eba09722cd4a7bad99113b242fb16b98b467f9d0a7
+- id: tagPerformers
+  name: Tag Performers
+  metadata:
+    description: Add performers to scenes that carry a tag with the performer's name
+  version: 1.0.0-dd9ced9
+  date: 2026-10-15 09:28:02
+  path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagPerformers.zip
+  sha256: cfe2a700f0d3cd8bb4cd0818d588d9d1326061aaafbe80f3093cadcaf273944a
 - id: tagScenesWithPerfTags
   name: Tag Scenes From Performer Tags
   metadata:
@@ -4071,6 +4397,16 @@
   date: 2025-03-08 20:46:07
   path: https://feederbox826.github.io/plugins/main/tagger-img-res.zip
   sha256: 3232c3e33f96811ee324d373107fcd0f52c5b97d7708af17facd0ee90b6d09d1
+- id: tagsPanel
+  name: Tags Panel
+  metadata:
+    description: Replaces the tag display with an interactive badge panel on Scene,
+      Gallery, and Image pages. Attached tags are bright; unattached are dim. Click
+      to toggle instantly.
+  version: 0.1.0-81dc44c
+  date: 2026-03-08 15:14:11
+  path: https://kokkeng1.github.io/stash_plugin_custom/tagsPanel.zip
+  sha256: 22613b5dbc840af5bb3d9f609f05fdda60f37a1ff51e6f027e93bad844e2c75c
 - id: TPDBMarkers
   name: The Porn DB Markers
   metadata:
@@ -4497,3 +4833,13 @@
   date: 2024-05-23 05:20:40
   path: https://feederbox826.github.io/themes/main/wrap-subtag.zip
   sha256: 308362d85e79b40d3adb458b4f4b49d1ba787f25d84719426b580c10a2de28db
+- id: XenithI18n
+  name: Xenith I18n
+  metadata:
+    description: 'Performer/scene Elo battle rating and leaderboard (Xenith, äºé):
+      head-to-head / gauntlet / champion modes, writing ratings and records into Stash
+      custom fields, with bilingual (ä¸­æ/EN) UI following the Stash interface language.'
+  version: 3.2.1
+  date: 2026-10-18 04:29:37
+  path: https://github.com/k6cc/stash-i18n/releases/download/XenithI18n-v3.2.1/XenithI18n-v3.2.1.zip
+  sha256: 85f48d8bbacaf46a98fdf21cc14f0d4a07ee25733cba9ef88e132fc0d3da4ddd
