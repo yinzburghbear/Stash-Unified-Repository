@@ -1,3 +1,6 @@
+
+
+
 #!/usr/bin/env python3
 """Build a unified Stash plugin index from community and custom source URLs."""
 import json
@@ -14,6 +17,9 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs'
 FORUM = 'https://discourse.stashapp.cc/t/list-of-plugin-sources/122'
 OFFICIAL = 'https://stashapp.github.io/CommunityScripts/stable/index.yml'
+PREFERRED_SOURCES = {
+    'stashBatchSave': 'https://dogmadragon.github.io/7dJx1qP-stash-plugins/main/index.yml',
+}
 SESSION = requests.Session()
 SESSION.headers.update({'User-Agent': 'StashUnifiedRepository/1.0 (+GitHub Actions)'})
 logging.basicConfig(level=logging.INFO, format='%(levelname)s %(message)s')
@@ -23,6 +29,15 @@ def get(url):
     response = SESSION.get(url, timeout=25)
     response.raise_for_status()
     return response.text
+
+
+def sanitize_yaml(value):
+    """Remove Unicode control characters disallowed by YAML (including C1)."""
+    cleaned = ''.join(
+        ch for ch in value
+        if ch in '\t\n\r' or (ord(ch) >= 0x20 and not 0x7F <= ord(ch) <= 0x9F)
+    )
+    return cleaned
 
 
 def valid_url(url):
@@ -71,7 +86,11 @@ def main():
     all_sources = sources()
     for url in all_sources:
         try:
-            packages = yaml.safe_load(get(url))
+            raw = get(url)
+            cleaned = sanitize_yaml(raw)
+            if cleaned != raw:
+                logging.warning('Sanitized invalid YAML control characters in %s', url)
+            packages = yaml.safe_load(cleaned)
             if not isinstance(packages, list):
                 raise ValueError('index is not a YAML list')
             working += 1
@@ -85,7 +104,13 @@ def main():
                     continue
                 if package_id in selected:
                     if package != selected[package_id]:
-                        conflicts.append({'id': package_id, 'kept': origin[package_id], 'skipped': url})
+                        preferred = PREFERRED_SOURCES.get(package_id)
+                        if preferred == url and origin[package_id] != preferred:
+                            conflicts.append({'id': package_id, 'kept': url, 'skipped': origin[package_id]})
+                            selected[package_id] = package
+                            origin[package_id] = url
+                        else:
+                            conflicts.append({'id': package_id, 'kept': origin[package_id], 'skipped': url})
                     continue
                 selected[package_id] = package
                 origin[package_id] = url
@@ -109,3 +134,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
