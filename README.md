@@ -11,7 +11,7 @@ A single Stash plugin-manager source index built from the [community source list
 5. Open **Actions → Update Stash catalog → Run workflow**. Wait for it to finish and for Pages to publish.
 6. In Stash **Settings → Plugins → Available Plugins → Add Source**, enter:
 
-   `https://YOUR-USERNAME.github.io/stash-unified-repository/index.yml`
+   `https://yinzburghbear.github.io/stash-unified-repository/index.yml`
 
    Change the repository segment if you used a different name. Test installing one plugin before deleting existing source entries.
 
