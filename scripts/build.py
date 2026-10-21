@@ -1,6 +1,3 @@
-
-
-
 #!/usr/bin/env python3
 """Build a unified Stash plugin index from community and custom source URLs."""
 import json
@@ -134,4 +131,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
