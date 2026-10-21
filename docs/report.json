@@ -1,0 +1,89 @@
+{
+  "sources_total": 94,
+  "sources_working": 84,
+  "packages": 484,
+  "failed": [
+    {
+      "url": "https://atreemandork.github.io/index.yml",
+      "error": "404 Client Error: Not Found for url: https://atreemandork.github.io/index.yml"
+    },
+    {
+      "url": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
+      "error": "unacceptable character #x0096: special characters are not allowed\n  in \"<unicode string>\", position 5364"
+    },
+    {
+      "url": "https://kokkeng1.github.io/stash_plugin_custom/index.yml",
+      "error": "unacceptable character #x008a: special characters are not allowed\n  in \"<unicode string>\", position 337"
+    },
+    {
+      "url": "https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/index.yml",
+      "error": "unacceptable character #x0080: special characters are not allowed\n  in \"<unicode string>\", position 107"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Servbot91/Ascension/main/plugins/manifest.yml",
+      "error": "404 Client Error: Not Found for url: https://raw.githubusercontent.com/Servbot91/Ascension/main/plugins/manifest.yml"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Servbot91/Deck-Viewer/main/plugins/manifest.yml",
+      "error": "404 Client Error: Not Found for url: https://raw.githubusercontent.com/Servbot91/Deck-Viewer/main/plugins/manifest.yml"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Servbot91/DiceR/refs/heads/main/plugins/manifest.yml",
+      "error": "404 Client Error: Not Found for url: https://raw.githubusercontent.com/Servbot91/DiceR/refs/heads/main/plugins/manifest.yml"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/evolite/stashgifs/master/index.yml",
+      "error": "404 Client Error: Not Found for url: https://raw.githubusercontent.com/evolite/stashgifs/master/index.yml"
+    },
+    {
+      "url": "https://rchrdcho.github.io/StashPlugins/main/index.yml",
+      "error": "unacceptable character #x009a: special characters are not allowed\n  in \"<unicode string>\", position 405"
+    },
+    {
+      "url": "https://thismanyboyfriends2.github.io/stash-plugins/main/index.yml",
+      "error": "404 Client Error: Not Found for url: https://thismanyboyfriends2.github.io/stash-plugins/main/index.yml"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "StashInteractiveTools",
+      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
+      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash-next.yml"
+    },
+    {
+      "id": "StashInteractiveTools",
+      "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
+      "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash.yml"
+    },
+    {
+      "id": "stashBatchSave",
+      "kept": "https://dogmadragon.github.io/7dJx1qP-stash-plugins/main/index.yml",
+      "skipped": "https://serechops.github.io/Serechops-Stash/index.yml"
+    },
+    {
+      "id": "externalLinksEnhanced",
+      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+    },
+    {
+      "id": "pathParser",
+      "kept": "https://ceequester.github.io/CommunityScripts/stable/index.yml",
+      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+    },
+    {
+      "id": "visage",
+      "kept": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
+      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+    },
+    {
+      "id": "stashNotes",
+      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+    },
+    {
+      "id": "stashNotifications",
+      "kept": "https://qxxxgit.github.io/stash-plugins/index.yml",
+      "skipped": "https://stashapp.github.io/CommunityScripts/stable/index.yml"
+    }
+  ]
+}
