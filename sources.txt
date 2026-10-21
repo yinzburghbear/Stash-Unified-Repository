@@ -1,0 +1,2 @@
+# Extra source indexes not in the community forum list (one URL per line)
+# https://example.github.io/plugins/main/index.yml
