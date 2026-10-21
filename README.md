@@ -31,3 +31,18 @@ A single Stash plugin-manager source index built from the [community source list
 - This is a catalog, not a security review. Install only plugins you trust.
 - Stash's update/migration behavior with already-installed plugins should be verified before removing old source entries.
 - Existing sources remain untouched until you remove them yourself.
+
+
+- Updated priority logic.
+```
+FORUM = 'https://discourse.stashapp.cc/t/list-of-plugin-sources/122'
+OFFICIAL = 'https://stashapp.github.io/CommunityScripts/stable/index.yml'
+PRIORITY_SOURCES = [
+    'https://yinzburghbear.github.io/solid-guacamole/main/index.yml',
+    OFFICIAL,
+]
+# Per-plugin overrides apply only after the priority repositories.
+PREFERRED_SOURCES = {
+    'stashBatchSave': 'https://dogmadragon.github.io/7dJx1qP-stash-plugins/main/index.yml',
+}
+```

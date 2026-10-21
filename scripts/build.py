@@ -9,16 +9,22 @@ from urllib.parse import urljoin, urlparse
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from packaging.version import Version, InvalidVersion
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs'
 FORUM = 'https://discourse.stashapp.cc/t/list-of-plugin-sources/122'
 OFFICIAL = 'https://stashapp.github.io/CommunityScripts/stable/index.yml'
+PRIORITY_SOURCES = [
+    'https://yinzburghbear.github.io/solid-guacamole/main/index.yml',
+    OFFICIAL,
+]
+# Per-plugin overrides apply only after the priority repositories.
 PREFERRED_SOURCES = {
     'stashBatchSave': 'https://dogmadragon.github.io/7dJx1qP-stash-plugins/main/index.yml',
 }
 SESSION = requests.Session()
-SESSION.headers.update({'User-Agent': 'StashUnifiedRepository/1.0 (+GitHub Actions)'})
+SESSION.headers.update({'User-Agent': 'StashUnifiedRepository/1.3 (+GitHub Actions)'})
 logging.basicConfig(level=logging.INFO, format='%(levelname)s %(message)s')
 
 
@@ -66,6 +72,48 @@ def sources():
     return sorted(discovered)
 
 
+def source_priority(package_id, url):
+    """Own repository, official stable, explicit third-party picks, then others."""
+    if url in PRIORITY_SOURCES:
+        return (0, PRIORITY_SOURCES.index(url))
+    if url == PREFERRED_SOURCES.get(package_id):
+        return (1, 0)
+    return (2, 0)
+
+
+def parsed_version(package):
+    """Return a comparable version or None for nonstandard/missing versions."""
+    raw = package.get('version')
+    if raw is None:
+        return None
+    try:
+        return Version(str(raw).strip())
+    except InvalidVersion:
+        return None
+
+
+def choose_candidate(package_id, candidates):
+    """Priorities first; highest comparable version within same tier."""
+    def key(candidate):
+        package, url = candidate
+        return source_priority(package_id, url)
+
+    best_tier = min(key(candidate) for candidate in candidates)
+    eligible = [candidate for candidate in candidates if key(candidate) == best_tier]
+    valid = [candidate for candidate in eligible if parsed_version(candidate[0]) is not None]
+    if valid:
+        newest = max(parsed_version(package) for package, _ in valid)
+        tied = [candidate for candidate in valid if parsed_version(candidate[0]) == newest]
+        winner = min(tied, key=lambda candidate: candidate[1])
+        reason = 'highest_version' if len(eligible) > 1 and len(tied) < len(eligible) else 'source_order_tiebreak'
+    else:
+        winner = min(eligible, key=lambda candidate: candidate[1])
+        reason = 'source_order_tiebreak'
+    if len(eligible) == 1 and len(candidates) > 1:
+        reason = 'source_priority' if best_tier[0] == 0 else 'preferred_source' if best_tier[0] == 1 else 'source_priority'
+    return winner, reason
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     old_path = OUT / 'index.yml'
@@ -75,8 +123,8 @@ def main():
             old = {str(p['id']): p for p in yaml.safe_load(old_path.read_text(encoding='utf-8')) or [] if isinstance(p, dict) and p.get('id')}
         except Exception as exc:
             logging.warning('Old catalog invalid: %s', exc)
+    candidates = {}
     selected = {}
-    origin = {}
     failed = []
     conflicts = []
     working = 0
@@ -99,23 +147,28 @@ def main():
                 package['path'] = urljoin(url, str(package['path']))
                 if not valid_url(package['path']):
                     continue
-                if package_id in selected:
-                    if package != selected[package_id]:
-                        preferred = PREFERRED_SOURCES.get(package_id)
-                        if preferred == url and origin[package_id] != preferred:
-                            conflicts.append({'id': package_id, 'kept': url, 'skipped': origin[package_id]})
-                            selected[package_id] = package
-                            origin[package_id] = url
-                        else:
-                            conflicts.append({'id': package_id, 'kept': origin[package_id], 'skipped': url})
-                    continue
-                selected[package_id] = package
-                origin[package_id] = url
+                candidates.setdefault(package_id, []).append((package, url))
         except Exception as exc:
             logging.warning('Failed %s: %s', url, exc)
             failed.append({'url': url, 'error': str(exc)})
     if working == 0:
         raise RuntimeError('No upstream sources could be fetched; keeping previous catalog')
+    for package_id, options in candidates.items():
+        (winner, kept_url), reason = choose_candidate(package_id, options)
+        selected[package_id] = winner
+        for package, url in options:
+            if package is winner:
+                continue
+            if package == winner and url == kept_url:
+                continue
+            conflicts.append({
+                'id': package_id,
+                'kept': kept_url,
+                'kept_version': str(winner.get('version', '')),
+                'skipped': url,
+                'skipped_version': str(package.get('version', '')),
+                'selection_reason': reason if source_priority(package_id, kept_url) == source_priority(package_id, url) else 'source_priority',
+            })
     # Retain previously published packages from sources currently offline.
     for package_id, package in old.items():
         if package_id not in selected:
