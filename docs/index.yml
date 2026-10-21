@@ -261,6 +261,14 @@
   date: 2024-05-15 15:46:51
   path: https://serechops.github.io/Serechops-Stash/bulkImportPerformers.zip
   sha256: 7868900a5072981e58408d583359ec5da74d538ec4c7ce0d7af5b1513a241db6
+- id: BulkPerformerScraper
+  name: Bulk Performer Scraper
+  metadata:
+    description: Scrapes many performers at once, with selectable scrapers and fields.
+  version: 0.3.1
+  date: '2026-10-10 14:33:15'
+  path: https://jacksyy420.github.io/Stash-Plugins/BulkPerformerScraper.zip
+  sha256: f830c503dd68f1e3ff35cbfd27abe58ec4fa016ae449daf852efded3b7ca23f9
 - id: card-eye-candy
   name: Card Eye Candy
   metadata:
@@ -363,6 +371,15 @@
   date: 2026-05-29 18:57:39
   path: https://jweno.github.io/stash-clips-source/main/clips.zip
   sha256: 542d3ff0bb188f7ecfbdaa7454879a223e90276dd4edda434bd5561ebda5c858
+- id: collapsible-plugin-settings
+  name: Collapsable Plugin Settings
+  metadata:
+    description: Makes the plugins in Settings â Plugins and Settings â Tasks â Plugin
+      Tasks collapsable, searchable and sortable.
+  version: 0.10.4
+  date: '2026-10-19 19:19:03'
+  path: https://jacksyy420.github.io/Stash-Plugins/collapsible-plugin-settings.zip
+  sha256: 6d3f038c7eae1abbdce31be44b5c52e93b1406b87712826a4e1a770b5cc38beb
 - id: CollapsablePluginSettingsI18n
   name: Collapsable Plugin Settings I18n
   metadata:
@@ -2445,6 +2462,15 @@
     tags:
     - scene
     author: AnonTester
+- id: SceneSnapshot
+  name: Scene Snapshots
+  metadata:
+    description: Screenshot suggestions in the scene player, save them as images in
+      the library path, set cover
+  version: 1.0.1
+  date: '2026-10-09 22:17:36'
+  path: https://jacksyy420.github.io/Stash-Plugins/SceneSnapshot.zip
+  sha256: 32a4396658e7ba905816585127dd3ee6c21b407fa60003e13834e9fbe0fac53c
 - id: sceneTagCleaner
   name: Scene Tag Cleaner
   metadata:
