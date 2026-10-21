@@ -220,12 +220,12 @@
 - id: binge
   name: Binge
   metadata:
-    description: Instagram-shaped social + discovery layer for Stash - stories, vertical
-      reel, performer profiles, and StashDB-powered Follow/Discover. (Chinese localization)
-  version: 0.10.9
-  date: 2026-10-18 07:10:38
-  path: https://github.com/k6cc/binge-cn/releases/download/v0.10.9/binge-v0.10.9.zip
-  sha256: 3f16ef60533915feff85f92eb68160606f079701482176ef2a1eb7eec39ef6f8
+    description: Instagram-shaped social + discovery layer for Stash. Stories, vertical
+      reel, performer profiles, and StashDB-powered Follow/Discover.
+  version: 0.14.2-c87177c
+  date: 2026-09-06 21:28:26
+  path: https://ordureconnoisseur.github.io/plugins/main/binge.zip
+  sha256: d66d727121b9157499e0d5af322ddcb4db510a87bd468b7b2c21368684949d8d
 - id: bracketTags
   name: Bracket Tags
   metadata:
@@ -391,6 +391,16 @@
   date: 2026-10-20 04:37:10
   path: https://github.com/k6cc/stash-i18n/releases/download/CollapsablePluginSettingsI18n-v0.10.4-1/CollapsablePluginSettingsI18n-v0.10.4-1.zip
   sha256: 3d84f7ed971d55d01749f0c94122d34832ffbcc02db2035669675e36679e5543
+- id: Collections
+  name: Collections
+  version: 1.5.0
+  date: '2026-10-19 08:02:22'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Collections.zip
+  sha256: 7b94eee556a86fdf6accdd5953745b69961f58d25500090876b1b42a83f749e3
+  metadata:
+    description: 'Give a studio its own tab in the top bar, sorted by O count, and
+      keep it out of the main Scenes list. Optional round scores for Cock Hero videos:
+      how far you got before pressing O, as Hardcore and Easy records.'
 - id: ColorCodedTags
   name: ColorCodedTags
   metadata:
@@ -826,6 +836,19 @@
   date: 2026-04-07 07:08:41
   path: https://qxxxgit.github.io/stash-plugins/flexibleDateInput.zip
   sha256: b74291fd2c382a898c2dec1a538ff9468239523bf18a46041f833d20b08844c6
+- id: Flexoki
+  name: Flexoki Theme
+  version: 1.10.0
+  date: '2026-10-19 08:02:22'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Flexoki.zip
+  sha256: f80fbd91226e6e421ee91fe75f6894ab5ec4482622cd7ef53bb4d0371f5ee2ae
+  metadata:
+    description: 'A warm ink-and-paper theme for Stash, built on Steph Ango''s Flexoki
+      palette: every colour in Stash''s interface remapped, with depth (raised cards
+      and dialogs, sunk inputs), dark tag chips, a Flexoki rating ramp, a choice of
+      accent and, if wanted, one background behind see-through performer pictures.
+      Matches the QuickTools, Insights, Todo and other plugins from this repository.
+      Turn off other themes and custom CSS colours while using it.'
 - id: floating-scene-player
   name: Floating Scene Player
   metadata:
@@ -893,6 +916,21 @@
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/funscriptMarkers.zip
   sha256: 81b374086936f1c1cc3086639f0ae586ad02ed3761b5da9c31ddb80411d9f44f
+- id: GalleriesToolkit
+  name: Galleries Toolkit
+  version: 0.6.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/GalleriesToolkit.zip
+  sha256: 0d51cf22e9f7278a9e0173bc8664cf8a87ecd35dae07897ebd97ee5be499b892
+  metadata:
+    description: Fills in image galleries downloaded as folders. A background scan
+      reads each folder (site, post, title, the performers and studios you have, the
+      post's link), the photos' own dates, your gallery scrapers and the scene each
+      may belong to; then you save the sure ones in one go and review the rest one
+      at a time. Passes a gallery's details on to its images in the background, deletes
+      extra copies of a post downloaded twice and tiny galleries (after a list of
+      what goes and what stays, checked again on the server), and picks covers. Fills
+      only empty fields. Everything can be undone.
 - id: date_parser
   name: Gallery Date Parser
   metadata:
@@ -1325,6 +1363,29 @@
   sha256: 32ae5e1cd6ac74d2a78221a42df5ab95a5a687a423011722c28a494056570ece
   requires:
   - CommunityScriptsUILibrary
+- id: Insights
+  name: Insights
+  version: 2.13.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Insights.zip
+  sha256: 87c63b57e4b9f5071c4fc67cf3c604e66c538660e8dbd38134f7a8c0c21b9ef2
+  metadata:
+    description: 'A stats dashboard on Stash''s Stats page, in six tabs: You (O''s,
+      streaks, a year calendar, watch time, what works for you by performer and scene
+      traits, your queue), Actions (with the toolkit plugins, a library to-do list:
+      what each one''s last scan found, a button to scan them all and their one-click
+      jobs; a duplicate cleaner that keeps the best copy for a 1080p target (picture
+      first, then codec, length, frame rate) and moves markers, O''s, plays, rating
+      and tags over before removing the rest; files to re-encode or upgrade; space
+      hogs; metadata fixes), Library (size, records, timelines), Files and quality
+      (codecs, resolutions, bitrates, where the space goes), Metadata health (a grade,
+      what is missing, what is probably wrong) and Collection (growth, tags, studio
+      networks, countries, pairs). With the Movies Toolkit plugin, a Movies tab too
+      (your movies by plays, gaps in their scene numbers, how far you are into each,
+      what their details lack, chapters). Every bar and row leads into Stash. Opens
+      at once and reads only what changed since the last visit. With the Lockdown
+      plugin, the You tab shows your runs too; with the Slideshow plugin, your time
+      with pictures. Replaces O Stats and Stats Enhancer.'
 - id: InsightsI18n
   name: Insights I18n
   metadata:
@@ -1335,6 +1396,15 @@
   date: 2026-10-19 20:50:17
   path: https://github.com/k6cc/stash-i18n/releases/download/InsightsI18n-v2.12.0-1/InsightsI18n-v2.12.0-1.zip
   sha256: 8adcd9cac46cf9a8b8e7a525e0e1f4db4b56e407683d5693f50109a32bee6c66
+- id: IntifaceSync
+  name: Intiface Sync
+  version: 1.46-vibe
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/IntifaceSync.zip
+  sha256: d83ea748cb901fd2585ede7a64de4dd3b977d495cf6b3028cd20bc6d4c784eeb
+  metadata:
+    description: Syncs Funscripts with Buttplug.io / Intiface Central / TheHandy devices.
+      Vibe fork adds support for vibrating (scalar) toys such as Lovense.
 - id: javstashAutofill
   name: Javstash Autofill
   metadata:
@@ -1427,6 +1497,21 @@
   date: null
   path: https://misofist.github.io/misofist-stash-plugins/locateChangedExtensions.zip
   sha256: 0dd3ffc9ffb2b438e3967a8d7ae070ede4146c42185cb82aca74f67a4c530138
+- id: Lockdown
+  name: Lockdown
+  version: 2.11.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Lockdown.zip
+  sha256: a079af601a38a368046ba5faab96508632af10b723f0b97f7fe96c48b707aaff
+  metadata:
+    description: 'Lock Stash to a performer, a studio, or one or more tags until you
+      get out: by an O (Finish), when a timer runs out (Timer), or by watching without
+      finishing (Edge). Stack conditions for heat and a higher score; its own page
+      has your run, a leaderboard and history. The lock holds on every device; hold
+      Give up for 5 seconds to quit early. With the Slideshow plugin, a Pictures button
+      plays what a run is locked to. Recommended performers (for you, neglected, backlog,
+      discover, surprise me; they rotate) help pick who, and new pictures looked at
+      during a run score a point each.'
 - id: LockdownI18n
   name: Lockdown I18n
   metadata:
@@ -1607,6 +1692,17 @@
   date: 2024-05-28 13:36:18
   path: https://serechops.github.io/Serechops-Stash/Movie-Fy Update Movie Scene Covers.zip
   sha256: b0b6d939938cfdc0651fbe2399443669d965f2e22869a6bdb4e1ec401de45175
+- id: Movies
+  name: Movies Toolkit
+  version: 1.6.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Movies.zip
+  sha256: dafd493305770e7d36d020dcc9ae26cc2de565773f4e0ae5eb3bb82a7b7ee45b
+  metadata:
+    description: 'Turns your scenes into movies. Scans for the movie each scene belongs
+      to, then makes the ready ones in one go: covers, details, numbered scenes. Fills
+      in your existing movies. Adds chapters to full-movie files. Big jobs run in
+      the background. Everything can be undone.'
 - id: MRStashDeviceAuth
   name: MRStashDeviceAuth
   metadata:
@@ -2022,6 +2118,26 @@
   date: 2024-06-17 21:42:45
   path: https://feederbox826.github.io/themes/main/performer-grid.zip
   sha256: bf1678809cbfad70f23e7c99f33f35a924d92c45aa89e9b644230072bab4f0fa
+- id: PerformersToolkit
+  name: Performers Toolkit
+  version: 0.18.2
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/PerformersToolkit.zip
+  sha256: 9b937c89f6d25429e45f5c2f778df4c932122a07659445182d45038bd2999c2f
+  metadata:
+    description: 'Your performers, complete. On each performer''s page: watch time,
+      their rank among your performers and when you last watched them under the name,
+      with their top studio, rating, career and library at a glance, and Stash''s
+      own fields tidied; a Stats tab in sections (your viewing, what works for you,
+      their body, career, library, similar performers) and the Catalog tab. A second,
+      full-body picture per performer shows on their cards when the pointer rests
+      on one. The toolkit page scans in the background for performers to link to a
+      stash-box, empty fields it can fill, missing or poor pictures, duplicates and
+      performers with nothing; then you save the sure ones in one go and review the
+      rest. A picture picker (every stash-box, picture sites, your scenes and images)
+      frames the face, can blur or replace the background in your browser and adjusts
+      the light, one performer or many in a row. Fills only empty fields. Everything
+      can be undone, except merging and deleting, which ask twice.'
 - id: phashDuplicateTagger
   name: PHash Duplicate Tagger
   metadata:
@@ -2154,6 +2270,21 @@
   date: null
   path: https://withoutpants.github.io/stash-plugin-prototypes/main/quickSentiment.zip
   sha256: 09749fa453b5a0edc6d591c7103c51c978f0ce42919c46693875d941ae497b09
+- id: QuickTools
+  name: Quick Tools
+  version: 1.20.0
+  date: '2026-10-20 11:58:56'
+  path: https://allisless0.gitlab.io/stash-plugins/main/QuickTools.zip
+  sha256: e425413565b5b662a8c03ea6863dc6148b929b6a5de957c261d3b7b04117e6db
+  metadata:
+    description: Keyboard and mouse shortcuts for the scene player and performer pages.
+      R rates, M adds a marker (Shift+M a range, U undoes), D marks the scene for
+      delete, T adds and removes tags on scenes and performers (also the card under
+      the mouse in any list), F switches, renames and deletes saved scene and performer
+      filters, the mouse wheel seeks over the player (and sets volume on its left
+      half), double-click or middle-click jumps through the scene queue. With Ratings
+      Toolkit installed, R on a performer's page or over a performer card, and Shift+R
+      in the player, open its rating panel. Each feature can be turned off.
 - id: quickRating
   name: QuickRating
   metadata:
@@ -2241,6 +2372,27 @@
   date: 2025-12-16 18:05:10
   path: https://xiosensei.github.io/Xio-Stash/randomize-performer-images-using-gallery.zip
   sha256: ed89a7d1f0cfc4e4ee7114d289a4c6fe6327ade70b6f5416b7d76792efef9b80
+- id: RatingsToolkit
+  name: Ratings Toolkit
+  version: 0.2.1
+  date: '2026-10-20 11:58:56'
+  path: https://allisless0.gitlab.io/stash-plugins/main/RatingsToolkit.zip
+  sha256: f9a2d65dcc5ca9d0a5de4c7dea62c7a142543985705ed56172dfda9929f90c1e
+  metadata:
+    description: 'Rate performers on a few criteria of your own (Face, Body, Passion,
+      Charisma, Consistency, Range by default; groups, weights and what each level
+      means are yours to change), 1 to 5 against the rest of your library, with "not
+      sure" when you are not. The overall score goes to Stash''s own rating, so sorting
+      and filters keep working. R on a performer''s page or over a performer card
+      (with Quick Tools), Shift+R in the player for the performer on screen. Shows
+      what your watching says, who else you gave the same score, and when a rating
+      has gone stale. Compare mode: two performers side by side, pick the one higher
+      on a criterion (arrow keys or a tap); rounds mostly among performers with the
+      same score, and suggested changes at the end to accept or skip. A Rate queue
+      of unrated and stale performers, a criteria editor that keeps old scores attached
+      when you rename, split or merge, a one-time import from the Advanced Rating
+      plugin''s star tags (nothing deleted), and History with undo. Scores are kept
+      by Suite Data when it is installed.'
 - id: rebrand
   name: Rebrand
   metadata:
@@ -2577,6 +2729,23 @@
   date: 2026-08-31 16:15:19
   path: https://stashapp.github.io/CommunityScripts/stable/scenerename.zip
   sha256: 1daa6fb6f6485f21be8c7d328d686046725a7ac967d52321e90ec7ec12f70f10
+- id: SceneToolkit
+  name: Scenes Toolkit
+  version: 0.11.1
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/SceneToolkit.zip
+  sha256: dfbf262376581452359c14175aa7c6e973bdd89a826954a820bcb7482dd034bd
+  metadata:
+    description: 'Finds details for scenes without a match: by fingerprint first,
+      then by what the file name says. Scan in the background, then review: the ready
+      ones save in one go (in the background or in the tab), the rest wait for a fast
+      one-scene-at-a-time review. A Performers tab shows how complete each performer''s
+      scenes and catalog are, and a Catalog tab on performer pages shows what a stash-box
+      lists that you do not have (with Performers Toolkit installed, both move there
+      and the Catalog is drawn inside its tab). A Fill tab adds the performers a linked
+      scene''s stash-box record has and the scene lacks (and, when asked, makes the
+      missing ones of the genders you tick). Fills only empty fields. Everything can
+      be undone.'
 - id: scout-plugin
   name: Scout-Plugin
   metadata:
@@ -3077,6 +3246,27 @@
   requires:
   - Shinobi-Api
   - skManager
+- id: Slideshow
+  name: Slideshow
+  version: 0.7.0
+  date: '2026-10-19 08:02:22'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Slideshow.zip
+  sha256: bc4b8b154753b5ff85e5af6872a2abe982ea2756c1ba71fb2a71cf0bc2a62ecc
+  metadata:
+    description: 'Plays pictures full screen, one at a time, on a timer (3, 5, 8 or
+      12 seconds, or by hand) with a quick dissolve between them: a Play pictures
+      button under a performer''s, studio''s, tag''s or gallery''s name plays all
+      of theirs, the same button in the toolbar of image and gallery lists plays exactly
+      what the list shows, and a play mark on gallery cards plays that gallery. Shuffle,
+      in order (gallery by gallery) or unseen first. Clean while it plays: move the
+      mouse or tap to see the controls, who is in the picture and the gallery. GIFs
+      and clips play through before it moves on. Remembers which pictures you have
+      seen, on every device, and shows on its buttons how many you have seen ("340
+      of 1,625 seen") and how many are new. A slow pan and zoom on photos while they
+      show (on by default, K or the menu to turn it off). Arrow keys or swipe to move,
+      Space to pause, F for full screen, Esc to close. With Lockdown, plays what a
+      run is locked to; with Insights, your time with pictures shows on the Stats
+      page.'
 - id: SmartResolve
   name: Smart Resolver
   metadata:
@@ -4214,6 +4404,36 @@
   date: 2025-11-05 21:07:11
   path: https://feederbox826.github.io/themes/main/studio-clickthrough.zip
   sha256: 979cc6f1c7b8ec1c3242ec10992d461e69775b29f908ec733d5a0b2ac1c75ed7
+- id: StudiosToolkit
+  name: Studios Toolkit
+  version: 0.4.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/StudiosToolkit.zip
+  sha256: 8ace2c1f79c24149a1f38008ea556509c49bd541c946bfdf614b221ae54f37ba
+  metadata:
+    description: 'Your studios, complete. On each studio''s page: its scenes, watch
+      time, O''s and its rank among your studios under the name, and a Catalog tab
+      (what the stash-box lists for the studio and its sub-studios, and what you have
+      of it). The toolkit page scans in the background for studios to link to a stash-box
+      and the parent networks, logos, links and aliases their records fill; then you
+      save the sure ones in one go and review the rest, logos side by side. Also merges
+      duplicate studios and deletes studios with nothing. Fills only empty fields.
+      Everything can be undone, except merging and deleting, which ask twice.'
+- id: SuiteData
+  name: Suite Data
+  version: 1.1.10
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/SuiteData.zip
+  sha256: c12ccaf3f6ffb8293d1ab0fbbcb5533bb321f3b39088ec6332c3d1cdf1e5406c
+  metadata:
+    description: 'One safe place for what the suite''s plugins remember: Todo''s tasks,
+      Lockdown''s history, watch time, toolkit histories and undo logs, hidden lists,
+      presets. Kept in files next to Stash''s config (outside every plugin folder,
+      so updates leave them alone), out of reach of the Settings page, which can otherwise
+      roll them back. Keeps backups of every change. Install it first; each plugin
+      moves its data over the next time it opens. See, restore, export and import
+      everything on the Your data page: open /suitedata in Stash (also linked from
+      Insights > Actions).'
 - id: TagBasedBrowser
   name: Tag Based Browser
   metadata:
@@ -4432,6 +4652,50 @@
   date: 2026-03-08 15:14:11
   path: https://kokkeng1.github.io/stash_plugin_custom/tagsPanel.zip
   sha256: 22613b5dbc840af5bb3d9f609f05fdda60f37a1ff51e6f027e93bad844e2c75c
+- id: TagAtlas
+  name: Tags Toolkit
+  version: 1.7.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/TagAtlas.zip
+  sha256: d4619646593c31b5f024311237211471ba7ec380f750dadb5f504267470fdf51
+  metadata:
+    description: 'Makes a messy tag list usable again. A background scan asks StashDB
+      what each tag means; then you fill in the sure ones in one go (description,
+      aliases, StashDB link, and a place under People, Action or Scene and StashDB''s
+      categories, so Stash''s own hover card explains any tag) and review the rest
+      one at a time: tags StashDB knows only by another name, and possible duplicates
+      to merge. Tags on nothing are parked under Unused. Clean up lists tags that
+      do not tell scenes apart: technical ones (frame rates, "4K Available"), tags
+      about men, nationalities, age numbers, gendered variants, release info, vague
+      and duplicate ones. A tree view shows every tag in its place, with marks and
+      merges you set up by hand. Tag previews saved as video (WebM) play instead of
+      showing broken. Nothing changes without a look or your go-ahead, and every change
+      can be undone. Opens from a button on the Tags page.'
+- id: TasksToolkit
+  name: Tasks Toolkit
+  version: 0.3.0
+  date: '2026-10-21 22:50:03'
+  path: https://allisless0.gitlab.io/stash-plugins/main/TasksToolkit.zip
+  sha256: 7d13d25b8601377344a1c1234089efd233f51afbfb9911b6dbab20b101373b99
+  metadata:
+    description: 'One place for Stash''s own jobs and the toolkits'' scans. An overview
+      of what your library needs (files to scan, scenes without a phash or cover,
+      scenes a stash-box can identify by fingerprint, toolkit scans and backups gone
+      stale), grouped into what is safe to run now, what is better left for the night
+      and what needs a look first; Do the safe ones queues the safe ones in a sensible
+      order. Auto tag goes only through the folders of what was added since the last
+      one and looks only for the performer, studio and tag names found in their paths,
+      and each toolkit''s scan is planned by the toolkit itself on the server, so
+      both run from a schedule too. Routines run steps on a schedule from this browser,
+      or from your server with a script it writes for Unraid User Scripts or cron.
+      Tasks sends one job at a time and keeps Stash responsive (at most 3 jobs in
+      Stash''s queue, one heavy job at a time, routines held while a scene plays).
+      A task viewer shows the running job with Stop, Stash''s queue, what waits here,
+      and the history of the last 200 jobs. Nothing that changes what you made runs
+      by itself: saving matches, merging and deleting stay on their own pages. Scenes
+      Toolkit''s Fill performers from stash-box is listed under Needs a look with
+      a link to its page. Open /taskstoolkit in Stash, or the Tasks button beside
+      Statistics in the top bar.'
 - id: TPDBMarkers
   name: The Porn DB Markers
   metadata:
@@ -4648,6 +4912,19 @@
   date: 2026-04-27 17:47:05
   path: https://lurking987.github.io/stash-plugins/main/tmdb-backdrop.zip
   sha256: 693bf92cf8aa46e63b1f11f247700d8a01434b30a19ec7ee5255515fc234bb5e
+- id: Todo
+  name: Todo
+  version: 1.7.0
+  date: '2026-10-19 08:02:22'
+  path: https://allisless0.gitlab.io/stash-plugins/main/Todo.zip
+  sha256: 87a9a24d0aac82e85a9b466e66d9476bfc3acb21c751de3b9db6109bd70de900
+  metadata:
+    description: A simple task list behind a Todo button in the top bar. Tasks link
+      to the scene, performer, studio, tag, gallery or group (movie) page you wrote
+      them on, or a plugin page (Lockdown, Movies Toolkit, Scenes Toolkit, Tags Toolkit,
+      Insights); scene, performer and other item pages show a chip with their tasks.
+      Pin, group by who or what, undo a delete. Saved in Stash, so the list is the
+      same on every device.
 - id: toggle-sprite
   name: Toggle Sprite
   metadata:

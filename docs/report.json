@@ -1,7 +1,7 @@
 {
   "sources_total": 96,
   "sources_working": 90,
-  "packages": 524,
+  "packages": 541,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
@@ -43,22 +43,6 @@
       "kept_version": "0.6.1-0d840ce",
       "skipped": "https://serechops.github.io/Serechops-Stash/index.yml",
       "skipped_version": "0.6-10a6a27",
-      "selection_reason": "source_priority"
-    },
-    {
-      "id": "binge",
-      "kept": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
-      "kept_version": "0.10.9",
-      "skipped": "https://ordureconnoisseur.github.io/plugins/main/index.yml",
-      "skipped_version": "0.14.2-c87177c",
-      "selection_reason": "highest_version"
-    },
-    {
-      "id": "nfoSceneParser",
-      "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
-      "kept_version": "1.5.0-43feb59",
-      "skipped": "https://k6cc.github.io/stash-plugins/plugins/main/index.yml",
-      "skipped_version": "1.7.0",
       "selection_reason": "source_priority"
     },
     {
