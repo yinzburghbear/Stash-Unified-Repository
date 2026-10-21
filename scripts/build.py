@@ -69,7 +69,20 @@ def sources():
             discovered.update(u for u in json.loads(previous.read_text(encoding='utf-8')) if valid_url(u))
         except Exception as exc:
             logging.warning('Could not read previous source list: %s', exc)
-    return sorted(discovered)
+    excluded_file = ROOT / 'excluded_sources.txt'
+
+    excluded = set()
+
+    if excluded_file.exists():
+        excluded = {
+            line.strip()
+            for line in excluded_file.read_text(
+                encoding='utf-8'
+            ).splitlines()
+            if line.strip() and not line.strip().startswith('#')
+        }
+
+    return sorted(discovered - excluded)
 
 
 def source_priority(package_id, url):

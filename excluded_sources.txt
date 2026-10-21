@@ -1,0 +1,2 @@
+# Repositories to permanently exclude
+https://k6cc.github.io/stash-plugins/plugins/main/index.yml

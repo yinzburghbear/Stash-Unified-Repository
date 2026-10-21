@@ -1,3 +1,4 @@
 # Extra source indexes not in the community forum list (one URL per line)
 # https://example.github.io/plugins/main/index.yml
 https://jacksyy420.github.io/Stash-Plugins/index.yml
+https://allisless0.gitlab.io/stash-plugins/main/index.yml
