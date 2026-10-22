@@ -233,7 +233,7 @@
   version: 1.2.1-6e85da6
   date: 2026-10-09 19:04:05
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/bracketTags.zip
-  sha256: e73ce59fff165e9817d374ed8d78025f87e59e3ef5ebfc486ec637d49bbbf9cf
+  sha256: 575a5e5c216d1005e41e3beca78001f3dcf262fad427d7b5db74b55388d53210
 - id: BulkGEVIPerformerScrape
   name: Bulk GEVI Performer Scrape
   metadata:
@@ -865,7 +865,7 @@
   version: 1.4.6-d7f3838
   date: 2026-10-05 07:09:39
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/folderSidebar.zip
-  sha256: 80465ce767395a5fbcf138156ee30f1cc67368568e6da1eb269b365f3c05744f
+  sha256: 9b156ba85440a5c1eee208f88a48e80a546abce3d3863d83e732035f574101a2
 - id: folderSort
   name: folderSort
   metadata:
@@ -1587,10 +1587,10 @@
     description: Generates NFO metadata files for Jellyfin/Emby/Plex, organizes/renames
       video files using customizable templates, and exports performer images to media
       server folders.
-  version: 1.6.0-4d37e7b
-  date: 2026-09-29 06:36:31
+  version: 1.6.1-a5e3c56
+  date: 2026-10-22 04:47:21
   path: https://carrotwaxr.github.io/stash-plugins/stable/mcMetadata.zip
-  sha256: 7ea8ff5233bf551a9dcc692be295aa1f4b5a4b6d256516a95e6c80efbdf1d66c
+  sha256: 5fb30f28929275d5b972652459e703ae9e72f0e726d72bb6702a8c6fd7471da4
 - id: miscTags
   name: Misc Tags
   metadata:
@@ -1806,15 +1806,15 @@
   version: 0.3-af4de7b
   date: 2026-10-19 19:20:40
   path: https://sanjiswe.github.io/plugins/main/ocheevs.zip
-  sha256: bd99d072957ff46480249c1f0a1bbe889729f6eadb67f9f063e6fa61890a5bb3
+  sha256: d88680ca0b2f8c4166e6faeb2546e5545d0a92d5b3942429a084e56d7b0c74e1
 - id: ostats
   name: O Stats
   metadata:
     description: Adds O stats to the stats page
-  version: 2.2-a9c0c0d
-  date: 2026-10-21 16:51:10
+  version: 2.2-fb5e0e6
+  date: 2026-10-22 02:42:27
   path: https://sanjiswe.github.io/plugins/main/ostats.zip
-  sha256: 9cdaf1cda9f01959f32df022d9f139683aa5cd490f6bb14e6a7c503b2b469cf4
+  sha256: 881621ae8f0b9e14dbdbd769b4f88117c8fbdb45842fa44c3b1605d8079b437c
 - id: oStatsI18n
   name: O Stats I18n
   metadata:
@@ -2152,10 +2152,10 @@
   metadata:
     description: Add and remove a scene's tags and performers from a panel inside
       the video player, creating new ones on the spot. Works in fullscreen.
-  version: 0.1.1-c5e5d6d
-  date: 2026-10-17 03:26:38
+  version: 0.2.0-14f25e5
+  date: 2026-10-22 02:04:47
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/playerQuickAdd.zip
-  sha256: c9513eb8d93360d0c8cba77a452eeef7dcdbe4bdf5a50a8fee71038240a2338b
+  sha256: 077c2b86486c7a51a24752eda9c0d733190da041035f3c6b134ff25722c3e14e
 - id: PlexSync
   name: Plex Sync
   metadata:
@@ -2189,10 +2189,10 @@
     description: Deterministic PMV editor â pick scenes and markers, arrange them
       on a beat grid, fine-tune every clip and render with FFmpeg or export as EDL/OTIO.
       Works in classic Stash and in Stash UI.
-  version: 0.5.0-5d204a9
-  date: 2026-10-21 16:57:53
+  version: 0.7.0-86853ac
+  date: 2026-10-22 14:09:22
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/pmv-creator.zip
-  sha256: 14aa1cca1098e609b79955653b04d07b5ccc1463cc95c48b196e189f0b818778
+  sha256: 0c6044de246ff36e551af3e1ea6362f9d640c65b5db82191d2fb9f5b3a49e0a7
 - id: stash-ppics
   name: PornPics Importer
   metadata:
@@ -2261,7 +2261,7 @@
   version: 1.13.1-cee5068
   date: 2026-10-17 15:33:03
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/quickMarkers.zip
-  sha256: 60ecdd84a297bf63c3c8e7eecf5a41d56ea51700cd311bcf863c584203db8cdc
+  sha256: 378f130d9e885e340238a76f88add226e18a9494fb29cb19372b9045ac61bcbb
 - id: quickSentiment
   name: Quick Sentiment
   metadata:
@@ -2569,7 +2569,7 @@
   version: 1.0.1-122de4f
   date: 2026-09-01 10:06:10
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/SceneEditFirstTab.zip
-  sha256: a57266cc4f3d916b6d9bae419aa21c3668e35468c94308b62cd0bad7bce7a430
+  sha256: b61d76e8499e3073340c04d55f2f03de332bb1ba4083f01530e0aad44ee33825
 - id: markerTagToScene
   name: Scene Marker Tags to Scene
   metadata:
@@ -2677,7 +2677,7 @@
   version: 0.4.0-03f32b4
   date: 2026-10-09 22:39:32
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/sceneTrimmer.zip
-  sha256: b50961267623b0fd879c98efeb1b3376d57c627918cdf4b903d8131b34ef98ec
+  sha256: 5d66d808e270ee54eb222e1fe5366ce21ec0aaf8ed88333d0963d7bd6b46e775
 - id: sceneUrlEnhancements
   name: Scene URL Enhancements
   version: 1.0.0
@@ -3686,10 +3686,10 @@
   metadata:
     description: Export scene metadata into MP4 metadata atoms for portable, self-describing
       media files
-  version: 0.3.0-0d16022
-  date: 2026-10-14 09:14:44
+  version: 0.3.1-8451bfc
+  date: 2026-10-22 13:31:28
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/StashMetadataMapper.zip
-  sha256: 3639cfcdcce0a31377e28ea7b456b71b6c98cddbe1be5b10a259b437e8a4136c
+  sha256: e1860abbee990b6add07294042c8d9b42b9578e3b88fa71ea0f9c3b73a0b8811
 - id: StashMiniGUI
   name: Stash Mini Gui
   metadata:
@@ -4461,7 +4461,7 @@
   version: 1.10.1-cee5068
   date: 2026-10-17 15:33:03
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagCategories.zip
-  sha256: 17d2cde098a93897f01e7e850ca76350efb2e62144a9a85795d5e51fb7a6337f
+  sha256: f059d87dedcb5e812281d474c4044fcdc3f7e96538eca8982ee5dfd69724d6a5
 - id: tagFileOrganizer
   name: Tag File Organizer
   metadata:
@@ -4470,7 +4470,7 @@
   version: 0.4.1-ec59786
   date: 2026-10-15 23:08:33
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagFileOrganizer.zip
-  sha256: 636e2818e2a2f70d66fda4c131416a04be80debeac8de1be2d3e7b0a37d066a3
+  sha256: 15d47ef72aae380e2ad05b9ad6378523060a152f3f69940a9552d700eac4a566
 - id: tagGalleriesFromImages
   name: Tag galleries from images
   metadata:
@@ -4496,7 +4496,7 @@
   version: 0.14-cf8e746
   date: 2026-10-03 00:52:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagImageGrabber.zip
-  sha256: de7b4267d00cbe234814653a954ea9fa23796f7144431f1afb14584d7f4f76e5
+  sha256: d3307b56509aa30115a7bf4ae75d92ae23b8f9c968e74f6c0b41368180baedab
 - id: TagImagesFromGalleries
   name: Tag Images From Galleries
   metadata:
@@ -4557,7 +4557,7 @@
   version: 1.0.0-dd9ced9
   date: 2026-10-15 09:28:02
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagPerformers.zip
-  sha256: cfe2a700f0d3cd8bb4cd0818d588d9d1326061aaafbe80f3093cadcaf273944a
+  sha256: ba23ff1f8e9ebb7e47caf1826eafd25661daf5e274faeb0a621c64ca0c3eed1a
 - id: tagScenesWithPerfTags
   name: Tag Scenes From Performer Tags
   metadata:
@@ -4972,7 +4972,7 @@
   version: 0.5-53d9e2f
   date: 2026-09-12 19:43:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/ultimateScrape.zip
-  sha256: 85c33c653b67630fd3b5c493b7c724679d5f3120c96702a61a2bdae22edf241e
+  sha256: b8a8e3560156e4a0bca102c2c696282a89a6c1be671fdf73858143360d57e938
 - id: UniversalMediaLauncher
   name: Universal Media Launcher
   metadata:
