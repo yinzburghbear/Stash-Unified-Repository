@@ -4276,10 +4276,10 @@
   name: StashGifs
   metadata:
     description: Social Media style browsing experience
-  version: 7.22.0
-  date: '2026-10-22 17:56:48'
-  path: https://github.com/evolite/stashgifs/releases/download/v7.22.0/stashgifs.zip
-  sha256: 1959a488cef3b79f14836e8c6d983b6a486a0dd734645ce98e3d59c9df572a69
+  version: 7.23.1
+  date: '2026-10-23 13:37:01'
+  path: https://github.com/evolite/stashgifs/releases/download/v7.23.1/stashgifs.zip
+  sha256: a75190e3b1c943f62d9d1e4b8e5deb1329a01d2376476a71d6182f76c38b50af
 - id: stashlist-sync
   name: stashlist-sync
   metadata:
@@ -4746,20 +4746,20 @@
   metadata:
     description: Pink, playful and a little naughty. Glossy candy stickers, gold hearts
       for ratings and a gum-bubble loader.
-  version: 0.5.3-2469263
-  date: 2026-10-21 00:55:30
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/juicy-v0.5.3/Theme-Juicy.zip
-  sha256: 5d36177cb2124aa5e717aa675a0a1bfd43cae6be00402a646ceb948944b07add
+  version: 0.5.4-8ecb8c8
+  date: 2026-10-23 12:20:03
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/juicy-v0.5.4/Theme-Juicy.zip
+  sha256: db48bc9cf0668ab81b1e6bd5a95db034eb0db558576d6b399736ada61d2fb945
 - id: Theme-Leather
   name: Theme - Leather
   metadata:
     description: Black pebble-grain leather, saddle stitching and nickel studs with
       a blood-red accent. Studs for ratings, a collar for favourites and a strict
       voice.
-  version: 0.2.2-de2af8a
-  date: 2026-10-21 00:55:30
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/leather-v0.2.2/Theme-Leather.zip
-  sha256: 1c396e3541c0cfbb8939f7ed380ed3f598d34b7dfee09658001a4f455ad493c8
+  version: 0.2.3-5c97ff4
+  date: 2026-10-23 12:20:03
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/leather-v0.2.3/Theme-Leather.zip
+  sha256: 98125599954a5294e8eb287ba2661aba168ff195f1384d94b083df653809a24c
 - id: Theme-Minimal
   name: Theme - Minimal
   metadata:
