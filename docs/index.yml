@@ -199,7 +199,7 @@
   version: 1.1.1-0776003
   date: 2026-09-27 18:39:24
   path: https://rollainkraus.github.io/stash-plugins/main/BackgroundImagesSlideshow.zip
-  sha256: a7388bb9e38456076182ff7e279060c54534620a6c27a12d30cc8132e0eed0a4
+  sha256: 9d4698bf69e300ab433bf84828e49d635d7296cf7fbb522b52760ffdfe7c036c
 - id: pluginsBackup
   name: Backup Plugins
   metadata:
@@ -233,7 +233,7 @@
   version: 1.2.1-6e85da6
   date: 2026-10-09 19:04:05
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/bracketTags.zip
-  sha256: c713534cd14ad1225016af5266d5ab538976d1faeb126667d267bc5288038e4f
+  sha256: c1f7b02c0c233f3b9984ec710f240ce5aa7f72196d42dee861017e695df92b4c
 - id: BulkGEVIPerformerScrape
   name: Bulk GEVI Performer Scrape
   metadata:
@@ -344,7 +344,7 @@
   version: 0.1.3-9d9481e
   date: 2026-09-04 03:59:31
   path: https://rollainkraus.github.io/stash-plugins/main/CleanUpQueue.zip
-  sha256: 3335fbb12e16154a2bbf7e0e61ce98e5da3c40a032a00fd6acd2a464d1724b1b
+  sha256: 4d25dae2e76f3a368b9f59530163ec15526db1bd3776c70d181b38ea497fdbf2
 - id: cleanupUI
   name: CleanupUI
   metadata:
@@ -451,7 +451,7 @@
   version: 2.4.0-4649c96
   date: 2026-09-04 05:44:41
   path: https://rollainkraus.github.io/stash-plugins/main/ContentBanners.zip
-  sha256: 37a0ca014b40bb2e0154d4021b9503ecdf566ab872886c2cbd56af02de28351e
+  sha256: 418fb0ceb6d6ae5441a92ff2e1199246d12c0136c368309ecb5ad106adfb1718
 - id: cuptag
   name: cuptag
   metadata:
@@ -476,7 +476,7 @@
   version: 0.4.1-46220f2
   date: 2026-06-29 01:49:19
   path: https://rollainkraus.github.io/stash-plugins/main/CustomTagsManager.zip
-  sha256: c27f8864f87989a2d1b8ef541b6f0f6b0633bfc7020dd891ebe3e3b2e597be04
+  sha256: 605f1d7690d5cc190ee618e7132f9a674bdab8d64f11256fbddece2ed9a82271
 - id: custom-filepath
   name: custom-filepath
   metadata:
@@ -535,7 +535,7 @@
   version: 0.1.3-5d266a4
   date: 2026-04-17 02:20:23
   path: https://rollainkraus.github.io/stash-plugins/main/DetailsTagsOverhaul.zip
-  sha256: 0f721f590a5806a58a0f214f59f941878ddbd4cd5239fc71ab49b1f4918bd70d
+  sha256: 871838ac352102146aac8766571b1e06f8d892aabd6ec2929a4eece0dce8c4e9
 - id: ExtensionChangeDetector
   name: Detect scene and image extension changes
   metadata:
@@ -668,7 +668,7 @@
   version: 2.5.1-d1c9b86
   date: 2026-06-01 07:01:37
   path: https://rollainkraus.github.io/stash-plugins/main/EditTagsOverhaul.zip
-  sha256: e94e034be38391d6a2af3497737ef2cc8703e467a52d5ead6b0242374614217a
+  sha256: b696456a15ebd918398c2a7d8c3f38ccbef722ca8f05b70d8864c96e23128558
 - id: edit-unorganized
   name: edit-unorganized
   metadata:
@@ -865,7 +865,7 @@
   version: 1.4.6-d7f3838
   date: 2026-10-05 07:09:39
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/folderSidebar.zip
-  sha256: 75f06d2c53843f71a7b6decb207eacab166b05ccfb787babed8c0d9659aff48a
+  sha256: 114d9c4d9cd96f672ff2fd3a5078ee427bad254c70e3cdb9bf79a49b2798cb7c
 - id: folderSort
   name: folderSort
   metadata:
@@ -1806,15 +1806,15 @@
   version: 0.3-af4de7b
   date: 2026-10-19 19:20:40
   path: https://sanjiswe.github.io/plugins/main/ocheevs.zip
-  sha256: d88680ca0b2f8c4166e6faeb2546e5545d0a92d5b3942429a084e56d7b0c74e1
+  sha256: d2c4b87733363f5a84653c103116865fec515320323515e9738f2f22933fb19e
 - id: ostats
   name: O Stats
   metadata:
     description: Adds O stats to the stats page
-  version: 2.2-fb5e0e6
-  date: 2026-10-22 02:42:27
+  version: 2.2-d802350
+  date: 2026-10-25 04:11:20
   path: https://sanjiswe.github.io/plugins/main/ostats.zip
-  sha256: 881621ae8f0b9e14dbdbd769b4f88117c8fbdb45842fa44c3b1605d8079b437c
+  sha256: 29d0f8322d023228e06c2203a20cc4799f6ae5240f77bdea0dbe1a11d05a0fb3
 - id: oStatsI18n
   name: O Stats I18n
   metadata:
@@ -1832,7 +1832,7 @@
   version: 1.4.27-c8af8bc
   date: 2026-07-02 17:54:03
   path: https://rollainkraus.github.io/stash-plugins/main/OStickers.zip
-  sha256: e4c98f40cbfb8e83a12219ae02870d23c9eeb9941ee18c3f7502187b2f081093
+  sha256: 7f9603e485ae5fc50d178a7e36c68bfe2fc24de11f77aac18f90ca0060440a65
 - id: ONYX
   name: ONYX
   metadata:
@@ -1858,7 +1858,7 @@
   version: 0.1.0-alpha-09f7ed0
   date: 2026-04-06 15:18:19
   path: https://rollainkraus.github.io/stash-plugins/main/OrganizeImagesByPerformer.zip
-  sha256: dc809f485ac11d83059ee150feab6d463568680a4eeb7f81753c231f843cf620
+  sha256: 2b7cc3cce6269323dece34628680b4c772645bc60e3a1a3fd67ac5ad2dd353c3
 - id: OrganizeScenesByStudio
   name: Organize Scenes By Studio
   metadata:
@@ -1867,7 +1867,7 @@
   version: 0.1.0-alpha-7143aab
   date: 2026-07-27 06:13:14
   path: https://rollainkraus.github.io/stash-plugins/main/OrganizeScenesByStudio.zip
-  sha256: 41059165f8e299fa8ed49d553d0e2de653d76bd582808abaed7e92303fc69a38
+  sha256: 3bc0eca67e0752470442800d4d4fd084833890fd79744f8d72c1c849fa94608e
 - id: organizerOnUpdate
   name: Organizer On Update
   metadata:
@@ -2074,7 +2074,7 @@
   version: 2.4.0-dc84338
   date: 2026-09-26 05:57:11
   path: https://rollainkraus.github.io/stash-plugins/main/PerformerTagBasedSupportingImages.zip
-  sha256: cbf81ca6546fce1f03880c483c20603c17db0732fc6a6a5729d72a3590850bd6
+  sha256: 7eb8a7fcd9ffb88a8b4b04bdba0a253f762203688b2761f13da8da6aecda8548
 - id: PerformerTagReview
   name: Performer Tag Review
   metadata:
@@ -2083,7 +2083,7 @@
   version: 0.11.34-78a16ca
   date: 2026-07-02 05:44:34
   path: https://rollainkraus.github.io/stash-plugins/main/PerformerTagReview.zip
-  sha256: 5f3a4caeb1f70d8f418271ea81b1c6d4d903c0e8729aea1f05cd18edfbe42d92
+  sha256: 05186f3b4cda224c0f23091c8015df24b04a5be735d48ee8caa94b999e930b6c
 - id: performer-tag-sync
   name: Performer Tag Sync
   metadata:
@@ -2098,10 +2098,10 @@
   metadata:
     description: Hierarchical tag browser for performer details with display and edit
       modes
-  version: 0.1.5-a222113
-  date: 2026-09-05 05:32:34
+  version: 0.1.5-148b954
+  date: 2026-10-25 08:22:06
   path: https://rollainkraus.github.io/stash-plugins/main/PerformerTagsOverhaul.zip
-  sha256: a56639b884b98ee6fbc63b54d255f80087c1f6a69034408c1018e61986b81913
+  sha256: 33df04c1337bb2abf62f4d84ce337bcb29a684c3233220ff8efc4bad71b7ef61
 - id: performer-age
   name: performer-age
   metadata:
@@ -2155,7 +2155,7 @@
   version: 0.2.0-14f25e5
   date: 2026-10-22 02:04:47
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/playerQuickAdd.zip
-  sha256: f70cb780a680f81793338348db3e275e64c4023404563eb28a4c5fe99ba94470
+  sha256: 7ff43857f8e1085447d4cfe86aebfe7d018450c82a3c17027a8bec325368ef7e
 - id: PlexSync
   name: Plex Sync
   metadata:
@@ -2189,10 +2189,10 @@
     description: Deterministic PMV editor â pick scenes and markers, arrange them
       on a beat grid, fine-tune every clip and render with FFmpeg or export as EDL/OTIO.
       Works in classic Stash and in Stash UI.
-  version: 0.9.4-c006d9d
-  date: 2026-10-24 09:08:33
+  version: 0.9.8-dd25101
+  date: 2026-10-25 08:43:42
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/pmv-creator.zip
-  sha256: 91f897c958f44115b5f913e8249aea5f300dc5d97c949f6056e103d17264b7b2
+  sha256: 472f52538acf76d58f5bf0ca7398c3990e778c30a4d6f9a054e5869701e4230b
 - id: stash-ppics
   name: PornPics Importer
   metadata:
@@ -2261,7 +2261,7 @@
   version: 1.13.1-cee5068
   date: 2026-10-17 15:33:03
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/quickMarkers.zip
-  sha256: bfd1479272d324131eb5f0f13d467c69d5ff9561c09666fcf33f94ba8e5cfa55
+  sha256: 04e2b217bfa07f0c88af8138292788a567f79f7124a89d7b22408aed0268fdc8
 - id: quickSentiment
   name: Quick Sentiment
   metadata:
@@ -2515,10 +2515,10 @@
     description: Adds a "Roles" tab to the scene page (and a Roles section on images)
       for tagging each performer's role in the content (e.g. Security Officer, Dominant,
       Top).
-  version: 2.2.7-8a6e416
-  date: '2026-10-17 21:22:08'
+  version: 2.5.0-d25c268
+  date: '2026-10-25 07:25:08'
   path: https://heman.codeberg.page/role-tagger/role-tagger.zip
-  sha256: 8ca402e6445abb8d6c4fc6d4a8ec15bea0e213cfb99121465b40e1637ca8b5af
+  sha256: d953fcce7381d2459d6b87c0c0a3f65f7e220b176ae59c234f05aa57406846f7
 - id: SavedFilterNavMenus
   name: Saved Filter Nav Menus
   metadata:
@@ -2526,7 +2526,7 @@
   version: 0.1.1-bf991ae
   date: 2026-07-02 03:34:55
   path: https://rollainkraus.github.io/stash-plugins/main/SavedFilterNavMenus.zip
-  sha256: 963a5c2d8cec03ecb7b5e7d40c648a7d3fd95ca0a42c06735d843ca90aba180b
+  sha256: 663580a527fc442b422850d22f79c94b05d723d570b5118a069ce4141064a625
 - id: scanImageScrape
   name: Scan Image Scrape
   metadata:
@@ -2569,7 +2569,7 @@
   version: 1.0.1-122de4f
   date: 2026-09-01 10:06:10
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/SceneEditFirstTab.zip
-  sha256: b92a0e47a2b24b6a47a302d59425e9131635ebe9aa6caa887f34f8e6e24164a8
+  sha256: 96bf2f43593132558963f6ee93a1ba6dc50386dd36a20c2a0fb657cd51a81705
 - id: markerTagToScene
   name: Scene Marker Tags to Scene
   metadata:
@@ -2674,10 +2674,10 @@
     description: Mark the parts of a scene to keep or cut, right in the video player,
       and playback skips the cut parts. Export a trimmed file (cut, or re-encoded
       with H.264/H.265), re-encode a whole scene, or split a movie into its scenes.
-  version: 0.4.0-03f32b4
-  date: 2026-10-09 22:39:32
+  version: 0.4.1-e951fea
+  date: 2026-10-24 23:00:22
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/sceneTrimmer.zip
-  sha256: f32c468c3eebeac52fb93518345f90d384ff57f0f7d9d75d850955cf9e410da0
+  sha256: 8d210ab94f101dab9604b79811368d62899401933dbc7db2244d00f338f38650
 - id: sceneUrlEnhancements
   name: Scene URL Enhancements
   version: 1.0.0
@@ -2904,7 +2904,7 @@
   version: 0.1.0-38fbf2a
   date: 2026-04-02 22:57:30
   path: https://rollainkraus.github.io/stash-plugins/main/SimpleImageCrop.zip
-  sha256: e152ae6a22643ffeaa6ff610e0a75b6a52c11749c4c42d5a50504e242e6c88ff
+  sha256: 354478815d1216fa197d479f28edec9ad4f2ad3ea8c5d84f43b6442c08eef85d
 - id: SimpleLightbox
   name: Simple Lightbox
   metadata:
@@ -3439,7 +3439,7 @@
   version: 0.1.2-a84f087
   date: 2026-09-05 05:07:51
   path: https://rollainkraus.github.io/stash-plugins/main/StashDashboard.zip
-  sha256: c188c93036b7b333fe66e3c8851d476ba48aee1d683664ad3f7272c27ffaba14
+  sha256: a07656ab2d093e18ff0c66c5bff7223b39650b4561f3f3207bd6b1b18d320561
 - id: stashDisableAll
   name: Stash Disable All
   metadata:
@@ -3687,10 +3687,10 @@
   metadata:
     description: Export scene metadata into MP4 metadata atoms for portable, self-describing
       media files
-  version: 0.3.1-089e49d
-  date: 2026-10-23 22:40:05
+  version: 0.3.5-97ee08b
+  date: 2026-10-24 17:41:30
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/StashMetadataMapper.zip
-  sha256: de7e7ceb176d28cb736ab38884c3193ddaae1c6e876132c7ad997413922d674f
+  sha256: 0af4b79a9d06b2648af2ac003887a3214578ff8be66a38e49efd1a5f3f534f9c
 - id: StashMiniGUI
   name: Stash Mini Gui
   metadata:
@@ -3699,7 +3699,7 @@
   version: 0.2.60-01e6d43
   date: 2026-05-19 01:08:47
   path: https://rollainkraus.github.io/stash-plugins/main/StashMiniGUI.zip
-  sha256: a2f0c442e4c03ba7d7dddbc510aa7ce26a0080ca495435f41eeb830d48752642
+  sha256: 49423e184df6e3687d6fa342e75912543aa7001db927d2b59d2ade7e6a4ca17b
 - id: multiView
   name: Stash Multiview
   metadata:
@@ -3806,7 +3806,7 @@
   version: 1.1.12-3265fc6
   date: 2026-05-29 06:46:29
   path: https://rollainkraus.github.io/stash-plugins/main/StashQuickActionsPanel.zip
-  sha256: e0bf2b53b6ee8ca9df6c6dd01fb14a27da4654c2fe76c5c0048f45c9fe5776bb
+  sha256: 2292c59b3350d94cec808936282c2bf107a4bca455764403163210806db0b895
 - id: StashReels
   name: Stash Reels
   metadata:
@@ -4352,7 +4352,7 @@
   version: 0.1.2-b907332
   date: 2026-09-05 05:09:02
   path: https://rollainkraus.github.io/stash-plugins/main/StudioDashboard.zip
-  sha256: 07659fe6a4f4ed89b5185216624b51fa9fa123dfa8476cca6124736529179618
+  sha256: 22e2a23f4fb78ad02b5e09582d37f32cfc9a2d4e56471bce0baabf63c2d9a6f0
 - id: studio-headers
   name: Studio Headers
   metadata:
@@ -4442,17 +4442,17 @@
   version: 0.1.4-7762c5a
   date: 2026-09-04 04:37:42
   path: https://rollainkraus.github.io/stash-plugins/main/TagBasedBrowser.zip
-  sha256: e7ebc2b031869c4ee7b8c54d6c16e683992ab5c80309ebd5316918ce849dc3dd
+  sha256: cef9b9285fbce9763f49c8bfc36dbdbdc47c44b539c8e24ccf01fc04e1877c41
 - id: TagCandy
   name: Tag Candy
   metadata:
     description: Glossy sticker icons for your tags. Matches each tag by its StashDB
       link or its name and has Stash download the icon from candyboudoir.github.io.
       Needs Stash v0.31.0 or later.
-  version: 0.1.5-93dd14f
-  date: 2026-10-23 14:01:54
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.5/TagCandy.zip
-  sha256: eb8f8357c5b4aec63fb955fa847b7889532b72b4ad8f2ce5bc1955699d393855
+  version: 0.1.6-3416d30
+  date: 2026-10-24 15:33:21
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.6/TagCandy.zip
+  sha256: 9f7ce91722443d8cba9c9c34bb494a6f7445e3590054196188e94524ec110e96
 - id: tagCategories
   name: Tag Categories
   metadata:
@@ -4462,7 +4462,7 @@
   version: 1.10.1-cee5068
   date: 2026-10-17 15:33:03
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagCategories.zip
-  sha256: b2ccf02def52adeb08802f68d6a147f7874bcea923d32a0cc971b278e2f57c85
+  sha256: 46ed0263514d3e135462af133597aa6fc3cd896d97803f3a8610c90eecaed42d
 - id: tagFileOrganizer
   name: Tag File Organizer
   metadata:
@@ -4471,7 +4471,7 @@
   version: 0.4.1-ec59786
   date: 2026-10-15 23:08:33
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagFileOrganizer.zip
-  sha256: 7f304e4436b849739493f8bd6cef676448b4cff5ef43513801456353a62ec68f
+  sha256: ba701274c33b4d088f2dee4d5ad1fb31b58d0e9d33b85004cef6b9fe83272bde
 - id: tagGalleriesFromImages
   name: Tag galleries from images
   metadata:
@@ -4497,7 +4497,7 @@
   version: 0.14-cf8e746
   date: 2026-10-03 00:52:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagImageGrabber.zip
-  sha256: 08b18a9ff656ea8ed248437169007daf34ebededf5c13ff529023bdb0a7ce873
+  sha256: 5402368b1139c8bbed3c47bc5cccf2ac44025835f4f99bf4329240b209b10b54
 - id: TagImagesFromGalleries
   name: Tag Images From Galleries
   metadata:
@@ -4558,7 +4558,7 @@
   version: 1.0.0-dd9ced9
   date: 2026-10-15 09:28:02
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagPerformers.zip
-  sha256: 9234b3f99ba2629a9b7aedc2fe208b4864b68b4486ab83a19e481fc89a3b546d
+  sha256: 24aa80e9d50b936e8c8e2ca76b39d78b2c25d137d13d14bed356e6fbb165fd19
 - id: tagScenesWithPerfTags
   name: Tag Scenes From Performer Tags
   metadata:
@@ -4574,7 +4574,7 @@
   version: 0.1.0-43e7768
   date: 2026-04-04 05:13:28
   path: https://rollainkraus.github.io/stash-plugins/main/TagSidebar.zip
-  sha256: 531e42575921420caf65d97da98e6839d62369c6cb6970dba38ab40e30c541fd
+  sha256: b2642aa16cceacd6cec40532bdd8f0d66cd5ac31f813650684e9a19b94f913fc
 - id: tag-text-to-emoji
   name: Tag Text to Emoji
   metadata:
@@ -4974,7 +4974,7 @@
   version: 0.5-53d9e2f
   date: 2026-09-12 19:43:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/ultimateScrape.zip
-  sha256: d7ae97bf38afd8ccb23166c6a88f53864bf0eff11bfd723253420427f996622b
+  sha256: 9368155196542cee4d115acf54819311cc46a629a37f1f20e7e6b1922071ac0a
 - id: UniversalMediaLauncher
   name: Universal Media Launcher
   metadata:
