@@ -89,6 +89,25 @@
   date: 2026-01-25 20:52:58
   path: https://feederbox826.github.io/themes/main/alternative-tag-layout.zip
   sha256: bbc44e2b53afdf566d066682d8dbf321cbf33b2c72035be46217b3cc908a0a4a
+- id: ArchiveToolkit
+  name: Archive Toolkit
+  version: 0.2.2
+  date: '2026-10-25 23:16:21'
+  path: https://allisless0.gitlab.io/stash-plugins/main/ArchiveToolkit.zip
+  sha256: 446735f454c08ef3eb1f3b1cf99bf1761a53322ba77d21bb2e7f88b705d998ef
+  metadata:
+    description: 'Which organized scenes are in their final archive format, and moves
+      them there: a smarter Librarian. A scan (a Stash task that only reads, a page
+      of scenes at a time) puts every organized scene through the gate (a stash ID;
+      HEVC or AV1 video with AAC, Opus or MP3 audio in MP4, MKV or M4V; not changed
+      in the last 30 minutes; no transcoder''s temp file beside it; studio, date and
+      title; a target path that fits 240 characters as Windows sees it and is free)
+      and sorts them into Ready, Waiting, Needs a look and Done. Archive moves the
+      Ready scenes you tick through Stash''s own move, their funscripts, subtitles
+      and pictures with them, each checked again right before and after its move,
+      logged with Undo. It names files with Librarian''s pattern, smarter by default,
+      and shows which library folders share a mount and orphaned sidecars. Needs Python
+      3 on the Stash server and Suite Data for archiving.'
 - id: Ascension
   name: Ascension
   metadata:
@@ -265,10 +284,10 @@
   name: Bulk Performer Scraper
   metadata:
     description: Scrapes many performers at once, with selectable scrapers and fields.
-  version: 0.3.1
-  date: '2026-10-10 14:33:15'
+  version: 0.5.3
+  date: '2026-10-26 13:29:04'
   path: https://jacksyy420.github.io/Stash-Plugins/BulkPerformerScraper.zip
-  sha256: f830c503dd68f1e3ff35cbfd27abe58ec4fa016ae449daf852efded3b7ca23f9
+  sha256: bf7958219c0420f315b9f4e07c4b689bba1d7feb2cd0382d6c7a6394b5ba61fe
 - id: card-eye-candy
   name: Card Eye Candy
   metadata:
@@ -376,10 +395,10 @@
   metadata:
     description: Makes the plugins in Settings â Plugins and Settings â Tasks â Plugin
       Tasks collapsable, searchable and sortable.
-  version: 0.10.4
-  date: '2026-10-19 19:19:03'
+  version: 0.10.7
+  date: '2026-10-26 11:56:08'
   path: https://jacksyy420.github.io/Stash-Plugins/collapsible-plugin-settings.zip
-  sha256: 6d3f038c7eae1abbdce31be44b5c52e93b1406b87712826a4e1a770b5cc38beb
+  sha256: 9d39e8c48d70d842e53519b4182419e55c5ccfe59a975f56568fe79c5441c1a8
 - id: CollapsablePluginSettingsI18n
   name: Collapsable Plugin Settings I18n
   metadata:
@@ -393,10 +412,10 @@
   sha256: 3d84f7ed971d55d01749f0c94122d34832ffbcc02db2035669675e36679e5543
 - id: Collections
   name: Collections
-  version: 1.5.0
-  date: '2026-10-19 08:02:22'
+  version: 1.5.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Collections.zip
-  sha256: 904ce586fcd0ff810b8758af4aeca5f37cc924a8d798288c87032570019c7aae
+  sha256: 69707d2f7e658fef60fd64527d50a51475955940915525b62fed27e61ca0bfb8
   metadata:
     description: 'Give a studio its own tab in the top bar, sorted by O count, and
       keep it out of the main Scenes list. Optional round scores for Cock Hero videos:
@@ -838,10 +857,10 @@
   sha256: b74291fd2c382a898c2dec1a538ff9468239523bf18a46041f833d20b08844c6
 - id: Flexoki
   name: Flexoki Theme
-  version: 1.12.0
-  date: '2026-10-22 20:25:59'
+  version: 1.12.1
+  date: '2026-10-26 11:39:33'
   path: https://allisless0.gitlab.io/stash-plugins/main/Flexoki.zip
-  sha256: 895b3ae5372230f4440dda2705262d2e58c43dacde6e16ad04cc17f00032202b
+  sha256: 7bfdf86c767225d3da83329ad65f71b3dde013eeb663d12c1a296a2033066bff
   metadata:
     description: 'A warm ink-and-paper theme for Stash, built on Steph Ango''s Flexoki
       palette: every colour in Stash''s interface remapped, with depth (raised cards
@@ -918,10 +937,10 @@
   sha256: 81b374086936f1c1cc3086639f0ae586ad02ed3761b5da9c31ddb80411d9f44f
 - id: GalleriesToolkit
   name: Galleries Toolkit
-  version: 0.6.0
-  date: '2026-10-21 22:50:03'
+  version: 0.6.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/GalleriesToolkit.zip
-  sha256: 253aa81113bab5ef6286a5e479df125ba612775e1c4e20f97cd760eb7fe52117
+  sha256: 6e60af4dc12be6a3f6cfac23f5dd1e64287320d7a9a67f67e437069a21259863
   metadata:
     description: Fills in image galleries downloaded as folders. A background scan
       reads each folder (site, post, title, the performers and studios you have, the
@@ -1365,10 +1384,10 @@
   - CommunityScriptsUILibrary
 - id: Insights
   name: Insights
-  version: 2.13.1
-  date: '2026-10-24 00:47:44'
+  version: 2.14.0
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Insights.zip
-  sha256: fe3de6f5fed173e755da73b284335d86a59d3240cf71a75f67806aaf259f5131
+  sha256: 8e86109a3c173e338df5b4b68fff20c020f4a765a238824445bb7e443141b825
   metadata:
     description: 'A stats dashboard on Stash''s Stats page, in six tabs: You (O''s,
       streaks, a year calendar, watch time, what works for you by performer and scene
@@ -1398,10 +1417,10 @@
   sha256: 8adcd9cac46cf9a8b8e7a525e0e1f4db4b56e407683d5693f50109a32bee6c66
 - id: IntifaceSync
   name: Intiface Sync
-  version: 1.50-vibe
-  date: '2026-10-24 00:47:44'
+  version: 1.51-vibe
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/IntifaceSync.zip
-  sha256: 40b558d2b0f64912289a6c6f5bfe617c75501205d31bfceaac75478664298521
+  sha256: 390884c15915366177b1583c8d84145e25759891920a5eb0c1c0ba3417501cba
   metadata:
     description: Syncs Funscripts with Buttplug.io / Intiface Central / TheHandy devices.
       Vibe fork adds support for vibrating (scalar) toys such as Lovense.
@@ -1499,10 +1518,10 @@
   sha256: 0dd3ffc9ffb2b438e3967a8d7ae070ede4146c42185cb82aca74f67a4c530138
 - id: Lockdown
   name: Lockdown
-  version: 2.12.2
-  date: '2026-10-24 00:47:44'
+  version: 2.12.3
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Lockdown.zip
-  sha256: 577260c951d9e01a2209e2c188a384b1b80a7e66fd95e7a71679e86b04d19522
+  sha256: 39cbd1d98fbe625749799ebb7f4eb1e5c7756bf4d486fab77902a9d1ff3cb5b9
   metadata:
     description: 'Lock Stash to a performer, a studio, or one or more tags until you
       get out: by an O (Finish), when a timer runs out (Timer), or by watching without
@@ -1694,10 +1713,10 @@
   sha256: b0b6d939938cfdc0651fbe2399443669d965f2e22869a6bdb4e1ec401de45175
 - id: Movies
   name: Movies Toolkit
-  version: 1.6.0
-  date: '2026-10-21 22:50:03'
+  version: 1.6.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Movies.zip
-  sha256: 3d444299c75b0a9a77bc17c8bb74dc20ebd5026c8c466ff9c5bfba9d7bc585fc
+  sha256: 975ab23587779db29d3d1645601c23ee93b6c1e30fb654d4ab4705398d4bf1a0
   metadata:
     description: 'Turns your scenes into movies. Scans for the movie each scene belongs
       to, then makes the ready ones in one go: covers, details, numbered scenes. Fills
@@ -2120,10 +2139,10 @@
   sha256: bf1678809cbfad70f23e7c99f33f35a924d92c45aa89e9b644230072bab4f0fa
 - id: PerformersToolkit
   name: Performers Toolkit
-  version: 0.19.1
-  date: '2026-10-24 00:47:44'
+  version: 0.22.0
+  date: '2026-10-26 11:39:33'
   path: https://allisless0.gitlab.io/stash-plugins/main/PerformersToolkit.zip
-  sha256: 803490d9330500c7d0c47ff650e26ba588965d07492f48cff99fcb604f45b2a6
+  sha256: da9ed8e612a7d317e3add7e4ceeaff06df7d470ae11abaecb6ffb7e880821491
   metadata:
     description: 'Your performers, complete. On each performer''s page: watch time,
       their rank among your performers and when you last watched them under the name,
@@ -2155,7 +2174,7 @@
   version: 0.2.0-14f25e5
   date: 2026-10-22 02:04:47
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/playerQuickAdd.zip
-  sha256: 7ff43857f8e1085447d4cfe86aebfe7d018450c82a3c17027a8bec325368ef7e
+  sha256: 0e755528cbf272ae04dc59315a5750c227ffb723e182b713311951770d2585cb
 - id: PlexSync
   name: Plex Sync
   metadata:
@@ -2272,10 +2291,10 @@
   sha256: 09749fa453b5a0edc6d591c7103c51c978f0ce42919c46693875d941ae497b09
 - id: QuickTools
   name: Quick Tools
-  version: 1.21.0
-  date: '2026-10-22 20:25:59'
+  version: 1.21.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/QuickTools.zip
-  sha256: 75257429fee8e83da526e4af983be302244b9d49a4044f7b5f3ed65aff91736e
+  sha256: 93aa0a709cd3c8bdf4fb030da2e3f4a933b700d56da4e2413f85407234cc5cf4
   metadata:
     description: Keyboard and mouse shortcuts for the scene player and performer pages.
       R rates, M adds a marker (Shift+M a range, U undoes), D marks the scene for
@@ -2374,10 +2393,10 @@
   sha256: ed89a7d1f0cfc4e4ee7114d289a4c6fe6327ade70b6f5416b7d76792efef9b80
 - id: RatingsToolkit
   name: Ratings Toolkit
-  version: 0.2.1
-  date: '2026-10-20 11:58:56'
+  version: 0.2.2
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/RatingsToolkit.zip
-  sha256: c2782372868ed2449ca09a3daf09d5acd1c4c973c7177082adcf69e22168440e
+  sha256: 73eab466045420c104bb233c96e0c9e5b6aa25e3c713547f53008e6a45424269
   metadata:
     description: 'Rate performers on a few criteria of your own (Face, Body, Passion,
       Charisma, Consistency, Range by default; groups, weights and what each level
@@ -2569,7 +2588,7 @@
   version: 1.0.1-122de4f
   date: 2026-09-01 10:06:10
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/SceneEditFirstTab.zip
-  sha256: 96bf2f43593132558963f6ee93a1ba6dc50386dd36a20c2a0fb657cd51a81705
+  sha256: 7907c2b6268d9a356c540068105134f79dfe2bc3325dfa10524cce0648767a28
 - id: markerTagToScene
   name: Scene Marker Tags to Scene
   metadata:
@@ -2621,7 +2640,7 @@
   version: 1.0.1
   date: '2026-10-09 22:17:36'
   path: https://jacksyy420.github.io/Stash-Plugins/SceneSnapshot.zip
-  sha256: 32a4396658e7ba905816585127dd3ee6c21b407fa60003e13834e9fbe0fac53c
+  sha256: 939add6078005f3fa78348ebff8871382afc62e772af631f02d6cfad1c329461
 - id: sceneTagCleaner
   name: Scene Tag Cleaner
   metadata:
@@ -2674,10 +2693,10 @@
     description: Mark the parts of a scene to keep or cut, right in the video player,
       and playback skips the cut parts. Export a trimmed file (cut, or re-encoded
       with H.264/H.265), re-encode a whole scene, or split a movie into its scenes.
-  version: 0.4.1-e951fea
-  date: 2026-10-24 23:00:22
+  version: 0.4.2-05925b7
+  date: 2026-10-25 00:55:26
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/sceneTrimmer.zip
-  sha256: 8d210ab94f101dab9604b79811368d62899401933dbc7db2244d00f338f38650
+  sha256: 65b526002a5c8c0f8c68587ed1aa6a7fc5112f756bf7b213f4043904997ba466
 - id: sceneUrlEnhancements
   name: Scene URL Enhancements
   version: 1.0.0
@@ -2731,10 +2750,10 @@
   sha256: 1daa6fb6f6485f21be8c7d328d686046725a7ac967d52321e90ec7ec12f70f10
 - id: SceneToolkit
   name: Scenes Toolkit
-  version: 0.12.0
-  date: '2026-10-24 00:47:44'
+  version: 0.13.0
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/SceneToolkit.zip
-  sha256: 93126b4bd5d4a0cef2586cfcc1bf848bf017b5d6d8a9efe19534563d3610214d
+  sha256: 3f547ebd8a9848006e15961da95a6426c6b918423b7cda17710b4327bb3799bd
   metadata:
     description: 'Finds details for scenes without a match: by fingerprint first,
       then by what the file name says. Scan in the background, then review: the ready
@@ -3249,10 +3268,10 @@
   - skManager
 - id: Slideshow
   name: Slideshow
-  version: 0.7.0
-  date: '2026-10-19 08:02:22'
+  version: 0.7.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Slideshow.zip
-  sha256: ff4ef91661c46dede188c5b414cce50827c0472d7155ffba5fe20f004387780f
+  sha256: 6f7c6edae890fe6c6eae14160aba76b0617032d495713587163893921e3bc792
   metadata:
     description: 'Plays pictures full screen, one at a time, on a timer (3, 5, 8 or
       12 seconds, or by hand) with a quick dissolve between them: a Play pictures
@@ -3690,7 +3709,7 @@
   version: 0.3.5-97ee08b
   date: 2026-10-24 17:41:30
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/StashMetadataMapper.zip
-  sha256: 0af4b79a9d06b2648af2ac003887a3214578ff8be66a38e49efd1a5f3f534f9c
+  sha256: 1d65f2422d86b291e84e77be9e822582dd9b9ad3498758c1d6a7add11a3b0c32
 - id: StashMiniGUI
   name: Stash Mini Gui
   metadata:
@@ -4407,10 +4426,10 @@
   sha256: 979cc6f1c7b8ec1c3242ec10992d461e69775b29f908ec733d5a0b2ac1c75ed7
 - id: StudiosToolkit
   name: Studios Toolkit
-  version: 0.4.1
-  date: '2026-10-24 00:47:44'
+  version: 0.5.0
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/StudiosToolkit.zip
-  sha256: a63f8c4ab59640b1d74312491140b076db6549438d1ce913e7d39841ffb7c784
+  sha256: a0a2d1bab79c2c239d1efd26a0a39d94c1aba0bd1067af7b98e4fb82f48393bc
   metadata:
     description: 'Your studios, complete. On each studio''s page: its scenes, watch
       time, O''s and its rank among your studios under the name, and a Catalog tab
@@ -4422,10 +4441,10 @@
       Everything can be undone, except merging and deleting, which ask twice.'
 - id: SuiteData
   name: Suite Data
-  version: 1.1.12
-  date: '2026-10-24 00:47:44'
+  version: 1.1.16
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/SuiteData.zip
-  sha256: 7fa42dddeaa3e4514149dc668ddbc0a57f9800ec4c9115bda05f1777ef288e3e
+  sha256: 63bca5bf14604b919f11e4364d8696c4e16e536911e5a8cb486d69b11a4c6f0e
   metadata:
     description: 'One safe place for what the suite''s plugins remember: Todo''s tasks,
       Lockdown''s history, watch time, toolkit histories and undo logs, hidden lists,
@@ -4471,7 +4490,7 @@
   version: 0.4.1-ec59786
   date: 2026-10-15 23:08:33
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagFileOrganizer.zip
-  sha256: ba701274c33b4d088f2dee4d5ad1fb31b58d0e9d33b85004cef6b9fe83272bde
+  sha256: 7d1b9ea8a1f21959a32951a29edafdc70b90c149675831f4911c4d66871e09d2
 - id: tagGalleriesFromImages
   name: Tag galleries from images
   metadata:
@@ -4497,7 +4516,7 @@
   version: 0.14-cf8e746
   date: 2026-10-03 00:52:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/tagImageGrabber.zip
-  sha256: 5402368b1139c8bbed3c47bc5cccf2ac44025835f4f99bf4329240b209b10b54
+  sha256: 15bb0ae9a47e4296b0327f8279646ca548fcb68d62cf827c14b3a13396d5b999
 - id: TagImagesFromGalleries
   name: Tag Images From Galleries
   metadata:
@@ -4655,10 +4674,10 @@
   sha256: 22613b5dbc840af5bb3d9f609f05fdda60f37a1ff51e6f027e93bad844e2c75c
 - id: TagAtlas
   name: Tags Toolkit
-  version: 1.7.0
-  date: '2026-10-21 22:50:03'
+  version: 1.7.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/TagAtlas.zip
-  sha256: 3d3c2ca631808ee7a82a3395600e6ef2c8572b8692d92a144da40643ffcb9c5c
+  sha256: 23f317996fa2bddf96fb1a7facfe91a76d9215d2d0af0a4250c4d30f449c9738
   metadata:
     description: 'Makes a messy tag list usable again. A background scan asks StashDB
       what each tag means; then you fill in the sure ones in one go (description,
@@ -4674,10 +4693,10 @@
       can be undone. Opens from a button on the Tags page.'
 - id: TasksToolkit
   name: Tasks Toolkit
-  version: 0.4.1
-  date: '2026-10-22 20:25:59'
+  version: 0.4.3
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/TasksToolkit.zip
-  sha256: 4988ec3d4829f24adb3d169a66b5e54b7c28ad6e74ce7e7ed8215648e063144a
+  sha256: 14ef9831a9691d74303bb2c30989c5942b9af221479837ae11317fedaa71cd8f
   metadata:
     description: 'One place for Stash''s own jobs and the toolkits'' scans. An overview
       of what your library needs (files to scan, scenes without a phash or cover,
@@ -4916,10 +4935,10 @@
   sha256: 693bf92cf8aa46e63b1f11f247700d8a01434b30a19ec7ee5255515fc234bb5e
 - id: Todo
   name: Todo
-  version: 1.7.0
-  date: '2026-10-19 08:02:22'
+  version: 1.7.1
+  date: '2026-10-25 23:16:21'
   path: https://allisless0.gitlab.io/stash-plugins/main/Todo.zip
-  sha256: 4befaf672d8d7ddc1e7c7f339ab80fe74b2706bd05123ed959f02c1fc2438fd5
+  sha256: 8ae0955f5aa7c543ce49ab92f346a168244d0ced61d25a77e0686dbd1779b628
   metadata:
     description: A simple task list behind a Todo button in the top bar. Tasks link
       to the scene, performer, studio, tag, gallery or group (movie) page you wrote
@@ -4974,7 +4993,7 @@
   version: 0.5-53d9e2f
   date: 2026-09-12 19:43:05
   path: https://dude-stash.github.io/ultimate-stash-plugins/main/ultimateScrape.zip
-  sha256: 9368155196542cee4d115acf54819311cc46a629a37f1f20e7e6b1922071ac0a
+  sha256: aa57b0d314df2aaac2cc98be7ce1bbc96b8c6c8bfe27d61f2389061a3ba408ed
 - id: UniversalMediaLauncher
   name: Universal Media Launcher
   metadata:
