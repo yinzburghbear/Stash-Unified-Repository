@@ -84,7 +84,7 @@
     {
       "id": "StashInteractiveTools",
       "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
-      "kept_version": "1.2.0-alpha.13",
+      "kept_version": "1.2.0-alpha.15",
       "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash-next.yml",
       "skipped_version": "1.1.1-next.1",
       "selection_reason": "highest_version"
@@ -92,7 +92,7 @@
     {
       "id": "StashInteractiveTools",
       "kept": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/alpha/stash-alpha.yml",
-      "kept_version": "1.2.0-alpha.13",
+      "kept_version": "1.2.0-alpha.15",
       "skipped": "https://raw.githubusercontent.com/xtc1337/StashInteractiveTools/next/stash.yml",
       "skipped_version": "1.1.0",
       "selection_reason": "highest_version"

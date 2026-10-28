@@ -3462,10 +3462,10 @@
   name: Stash Battle
   metadata:
     description: Adds an ELO based ranking system for scenes
-  version: 2.7.0-d3e740f
-  date: 2026-10-22 21:21:48
+  version: 3.0.0-56ab89b
+  date: 2026-10-27 03:36:42
   path: https://dtt-git.github.io/stash-battle/main/stash-battle.zip
-  sha256: 60ef1d320389dc448b6b8cd95508d7513ad9dbc8f40b29784ce228e8f6bfdb89
+  sha256: a063ea4999b0ee6e55ecc810cb9c8fe363fdf8f6903869efdcda67fc259709aa
 - id: StashDashboard
   name: Stash Dashboard
   metadata:
@@ -3668,10 +3668,10 @@
   name: Stash Interactive Tools (alpha)
   metadata:
     description: Enhance your Stash Interactive experience
-  version: 1.2.0-alpha.13
-  date: 2026-10-05 14:35:29
-  path: https://github.com/xtc1337/StashInteractiveTools/releases/download/v1.2.0-alpha.13/StashInteractiveTools-1.2.0-alpha.13.zip
-  sha256: 3c791bfd2182405365d096f49f0edab7b711b37e315392bb82bda83ac4ed12f8
+  version: 1.2.0-alpha.15
+  date: 2026-10-28 05:40:03
+  path: https://github.com/xtc1337/StashInteractiveTools/releases/download/v1.2.0-alpha.15/StashInteractiveTools-1.2.0-alpha.15.zip
+  sha256: fd9894ac0d1b6888663b730fd3a263ab2792dc50e9b8ae0d0bb487444c92064d
 - id: stashJellyfinExport
   name: Stash Jellyfin Exporter
   metadata:
