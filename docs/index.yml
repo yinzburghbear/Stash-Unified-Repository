@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.4.0-a4c78fa
-  date: 2026-10-24 04:14:46
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/cherrypick-v0.4.0/CherryPick.zip
-  sha256: b3b094e38b804acfc4e988dd58db3bbcf2f3219fc2fe92e2c6f5e0af231e6319
+  version: 0.4.2-714506a
+  date: 2026-10-28 20:33:42
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/cherrypick-v0.4.2/CherryPick.zip
+  sha256: d88cd17e4e3e322eb117fcd11344f8a3a6247bca1bcfbecb5a8772dfb63c5a4e
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -4486,10 +4486,10 @@
     description: Glossy sticker icons for your tags. Matches each tag by its StashDB
       link or its name and has Stash download the icon from candyboudoir.github.io.
       Needs Stash v0.31.0 or later.
-  version: 0.1.7-819600e
-  date: 2026-10-27 12:59:21
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.7/TagCandy.zip
-  sha256: 8b87c6325738766419b253d00a22260f7d8d876a60bfa02538bd5b8e2815e6a5
+  version: 0.1.8-2033245
+  date: 2026-10-28 11:31:05
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.1.8/TagCandy.zip
+  sha256: 7cdbc6016c49ee849cd92bccc5605fd8f8c52cb32fc3a9c425aaca95c338ae42
 - id: tagCategories
   name: Tag Categories
   metadata:
