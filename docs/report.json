@@ -1,11 +1,15 @@
 {
   "sources_total": 97,
-  "sources_working": 90,
+  "sources_working": 89,
   "packages": 544,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
       "error": "404 Client Error: Not Found for url: https://atreemandork.github.io/index.yml"
+    },
+    {
+      "url": "https://dude-stash.github.io/ultimate-stash-plugins/main/index.yml",
+      "error": "404 Client Error: Not Found for url: https://dude-stash.github.io/ultimate-stash-plugins/main/index.yml"
     },
     {
       "url": "https://raw.githubusercontent.com/Servbot91/Ascension/main/plugins/manifest.yml",
@@ -100,7 +104,7 @@
     {
       "id": "visage",
       "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
-      "kept_version": "2.8.0-b8dff1a",
+      "kept_version": "2.9.0-3a3960e",
       "skipped": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
       "skipped_version": "2.0.15-8991fab",
       "selection_reason": "source_priority"
