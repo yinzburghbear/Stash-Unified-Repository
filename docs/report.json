@@ -1,7 +1,7 @@
 {
   "sources_total": 97,
   "sources_working": 89,
-  "packages": 544,
+  "packages": 545,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
@@ -104,7 +104,7 @@
     {
       "id": "visage",
       "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
-      "kept_version": "2.10.0-223aa52",
+      "kept_version": "2.10.1-a5864ab",
       "skipped": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
       "skipped_version": "2.0.15-8991fab",
       "selection_reason": "source_priority"
