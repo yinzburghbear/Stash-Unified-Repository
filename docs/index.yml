@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.6.2-94218f5
-  date: 2026-11-02 04:21:00
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/cherrypick-v0.6.2/CherryPick.zip
-  sha256: 052a2bf8ea0e3791c13980ea251702d5e505c51c95783977cb304eae9ebfdea6
+  version: 0.6.3-2d088fe
+  date: 2026-11-03 14:41:00
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/cherrypick-v0.6.3/CherryPick.zip
+  sha256: 4f1e450ad2fa194a0e118141c92c12e44d8f6f4dbe4d3f8ade5823b90494d164
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -4762,10 +4762,10 @@
     description: Airbrushed 1980s dusk from Japanese city pop album covers. Record-sleeve
       cards, striped sunset suns for ratings, cassettes for audio-only scenes and
       a late-night FM host's voice.
-  version: 0.2.5-e9487ae
-  date: 2026-10-27 13:55:42
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/citypop-v0.2.5/Theme-CityPop.zip
-  sha256: aa0e00ff0333d60d8b6792c200900da434c5a3116d430b6b53a8d6f056854e48
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/citypop-v0.3.0/Theme-CityPop.zip
+  sha256: eba2237b00e814d1a575164473e23e0bd418c330bff2ebd4f18629cfd3918ca1
 - id: Theme-ColorPalette
   name: Theme - colorPalette
   metadata:
@@ -4780,20 +4780,20 @@
   metadata:
     description: Pink, playful and a little naughty. Glossy candy stickers, gold hearts
       for ratings and a gum-bubble loader.
-  version: 0.5.5-27629f5
-  date: 2026-10-23 14:01:53
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/juicy-v0.5.5/Theme-Juicy.zip
-  sha256: 1c1c7992b7964a3175d0d019ee473d3b87d192005f6b648ad7c5fa93855555ca
+  version: 0.6.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/juicy-v0.6.0/Theme-Juicy.zip
+  sha256: 447767c61ce5260189e13ffa72ca7e33403bce3166c14970ffc9e1a17bdaea8c
 - id: Theme-Leather
   name: Theme - Leather
   metadata:
     description: Black pebble-grain leather, saddle stitching and nickel studs with
       a blood-red accent. Studs for ratings, a collar for favourites and a strict
       voice.
-  version: 0.2.4-27629f5
-  date: 2026-10-23 14:01:53
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/leather-v0.2.4/Theme-Leather.zip
-  sha256: d0cc39d3025a46f6df596c16cc7b3a837d87c68941f7078f13114f19dfc3c5b3
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/leather-v0.3.0/Theme-Leather.zip
+  sha256: 3acc3bea20ae5601dfea20f0d3b93edf0189d5bc84a332edd5ba6b7645638915
 - id: Theme-Minimal
   name: Theme - Minimal
   metadata:
@@ -4832,10 +4832,10 @@
     description: A hacker's heads-up display in acid yellow and data cyan on matte
       black. Charge chevrons for ratings, a reticle that locks on for favourites and
       a cold system voice.
-  version: 0.2.5-e9487ae
-  date: 2026-10-27 13:55:42
-  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/overclock-v0.2.5/Theme-Overclock.zip
-  sha256: 8cff1027dbb0c3da35ee957793a3ae29199d89327303c846977be2ebc210c6a4
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/overclock-v0.3.0/Theme-Overclock.zip
+  sha256: 53c01a69c50dc57ffc8b945c0ec19f21a3fbb17bd29717ca4dc12cd45172fdb8
 - id: PinkNeon
   name: Theme - Pink Neon
   metadata:
