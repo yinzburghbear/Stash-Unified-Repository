@@ -1,11 +1,15 @@
 {
-  "sources_total": 97,
+  "sources_total": 98,
   "sources_working": 89,
   "packages": 545,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
       "error": "404 Client Error: Not Found for url: https://atreemandork.github.io/index.yml"
+    },
+    {
+      "url": "https://candyboudoir.github.io/index.yml",
+      "error": "404 Client Error: Not Found for url: https://candyboudoir.github.io/index.yml"
     },
     {
       "url": "https://dude-stash.github.io/ultimate-stash-plugins/main/index.yml",
@@ -104,7 +108,7 @@
     {
       "id": "visage",
       "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
-      "kept_version": "2.10.1-a5864ab",
+      "kept_version": "2.10.2-8158b57",
       "skipped": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
       "skipped_version": "2.0.15-8991fab",
       "selection_reason": "source_priority"
