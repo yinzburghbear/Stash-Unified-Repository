@@ -252,7 +252,7 @@
   version: 1.2.1-6e85da6
   date: 2026-10-09 19:04:05
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/bracketTags.zip
-  sha256: 0aa1b0803167b2fe3d2f36429a01d2556959861e37233b33cf6c918e2a163bbe
+  sha256: efcc791312400c4d2601830a4809623219fea175f786dcb56092414b0987f11e
 - id: BulkGEVIPerformerScrape
   name: Bulk GEVI Performer Scrape
   metadata:
@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.6.3-2d088fe
-  date: 2026-11-03 14:41:00
+  version: 0.7.0-1f76413
+  date: 2026-11-04 19:03:06
   path: https://stash.candyboudoir.com/CherryPick.zip
-  sha256: 4f1e450ad2fa194a0e118141c92c12e44d8f6f4dbe4d3f8ade5823b90494d164
+  sha256: e6c398e81af6267d7484c8b22577a5919473c6b78cbd8ee7632c2137c8b1a52d
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -332,10 +332,10 @@
       your Stash UI. Pick City Pop under Stash UI's Settings > Appearance > Colors
       to give it City Pop's dusk colours, brush-script titles and backdrop of stars
       and palms. Needs Stash UI.
-  version: 0.1.0-8025045
-  date: 2026-10-20 18:10:37
+  version: 0.1.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/StashUI-CityPop.zip
-  sha256: 599b9b2a09cc5375df99c38e7d6164841e00100250f6a7bbe0840588a2fc7a8f
+  sha256: 3ac1dc460aed46c29f802a7031360c232a5ced627f16a11380a82599eb59e6c5
 - id: cjCardTweaks
   name: CJ's Card Tweaks.
   metadata:
@@ -884,7 +884,7 @@
   version: 1.4.6-d7f3838
   date: 2026-10-05 07:09:39
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/folderSidebar.zip
-  sha256: 912be9f16dfd76b95e23fa1e0bf502e77a4b3c8695fe1b365b3c6c73e367cf66
+  sha256: 100254c7deecbc08de274583635733bac15db4dec1860bcd2d5122776457822e
 - id: folderSort
   name: folderSort
   metadata:
@@ -1790,10 +1790,10 @@
     description: What your favourite studios released in the last 48 hours, from ThePornDB
       and your other stash-boxes, each linked to the studio's own page to buy it,
       leaving out what you have. Needs Python, which Stash's Docker image includes.
-  version: 0.2.3-1a8e971
-  date: 2026-10-23 17:07:48
+  version: 0.2.4-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/NewReleases.zip
-  sha256: c9eac2b07a191bb0df80350b9ddcfdc72fc68c4f1fb19dd2f8d002cb2a4e70d6
+  sha256: 164c648e080d1502cd19d2be4e11569694ab20a9cd1558fc2dd489adb0df401a
 - id: nfoSceneParser
   name: nfoSceneParser
   metadata:
@@ -1928,10 +1928,10 @@
       to your Stash UI. Pick Overclock under Stash UI's Settings > Appearance > Colors
       to give it Overclock's acid yellow, glitch-split titles and HUD backdrop. Needs
       Stash UI.
-  version: 0.1.0-8025045
-  date: 2026-10-20 18:10:37
+  version: 0.1.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/StashUI-Overclock.zip
-  sha256: b0d8361f40fe85ba9514c36ad0fb86fea3a39b40c0c69524d4cba5a21d5dfa3d
+  sha256: 3fd500f8b62bda86c6f5954dc8a14520bc5c4403ae30e73fafc6c5895f32e495
 - id: overlay-info
   name: overlay-info
   metadata:
@@ -2234,10 +2234,10 @@
     description: Deterministic PMV editor â pick scenes and markers, arrange them
       on a beat grid, fine-tune every clip and render with FFmpeg or export as EDL/OTIO.
       Works in classic Stash and in Stash UI.
-  version: 0.9.22-29a10d0
-  date: 2026-11-02 16:46:58
+  version: 0.9.24-76a5953
+  date: 2026-11-05 16:27:16
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/pmv-creator.zip
-  sha256: f6258d827417fd1247f810203ef6fca667064a6c53e30ecf937acaf4eab3bd0e
+  sha256: 4a1a681c9a616cfc6d21ea16e870ecdd736f97aee0f8e88726bdbc30a6fba941
 - id: stash-ppics
   name: PornPics Importer
   metadata:
@@ -2305,7 +2305,7 @@
   version: 1.14.5-49403e8
   date: 2026-11-02 13:33:51
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/quickMarkers.zip
-  sha256: 4d52d0046bd5dccdc1fd5b016151d0de70007941e43cac28a4731a1903e1b77d
+  sha256: 0036241766728e7dc17f95cf1ad36aa00e83c32d294b131e9d14e5a62495d4c9
 - id: quickSentiment
   name: Quick Sentiment
   metadata:
@@ -4508,7 +4508,7 @@
   version: 1.10.2-3710669
   date: 2026-11-02 12:36:00
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagCategories.zip
-  sha256: bddeebc24be49a271f0979f35c61155bc0b6288e33570465978eebe36e71c4f4
+  sha256: 4baaeb23974f8ce45a66105043aa327518bfa859abab5a57339211751b2af37e
 - id: tagFileOrganizer
   name: Tag File Organizer
   metadata:
@@ -4604,7 +4604,7 @@
   version: 1.0.0-dd9ced9
   date: 2026-10-15 09:28:02
   path: https://pepegasan.github.io/Stash-Folder-Sidebar-Plugin/main/tagPerformers.zip
-  sha256: a76136afc5629f2e5b1a76ab539d5b43efa5b658b813447d50ab3161c11d7bee
+  sha256: 907e758fc4c442ebe22dd6991d6fee20d65575beda9c2e7a9307ec623eaf0988
 - id: tagScenesWithPerfTags
   name: Tag Scenes From Performer Tags
   metadata:
@@ -4763,10 +4763,10 @@
     description: Airbrushed 1980s dusk from Japanese city pop album covers. Record-sleeve
       cards, striped sunset suns for ratings, cassettes for audio-only scenes and
       a late-night FM host's voice.
-  version: 0.3.0-d14e674
-  date: 2026-11-03 14:13:34
+  version: 0.3.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/Theme-CityPop.zip
-  sha256: eba2237b00e814d1a575164473e23e0bd418c330bff2ebd4f18629cfd3918ca1
+  sha256: 9567e9c625f736ea0af35d5b07fa4069ca699b790de0c20921c684625c2ca3ea
 - id: Theme-ColorPalette
   name: Theme - colorPalette
   metadata:
@@ -4781,20 +4781,20 @@
   metadata:
     description: Pink, playful and a little naughty. Glossy candy stickers, gold hearts
       for ratings and a gum-bubble loader.
-  version: 0.6.0-d14e674
-  date: 2026-11-03 14:13:34
+  version: 0.6.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/Theme-Juicy.zip
-  sha256: 447767c61ce5260189e13ffa72ca7e33403bce3166c14970ffc9e1a17bdaea8c
+  sha256: 9af423bf061c96c00a5d72e758383ec2c600b0cb28a9caf72094e5f0fe03f577
 - id: Theme-Leather
   name: Theme - Leather
   metadata:
     description: Black pebble-grain leather, saddle stitching and nickel studs with
       a blood-red accent. Studs for ratings, a collar for favourites and a strict
       voice.
-  version: 0.3.0-d14e674
-  date: 2026-11-03 14:13:34
+  version: 0.3.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/Theme-Leather.zip
-  sha256: 3acc3bea20ae5601dfea20f0d3b93edf0189d5bc84a332edd5ba6b7645638915
+  sha256: f7b799be66c94964c3773cc4d1ae32afd25ecf757710b6c455cbe1228c0aa368
 - id: Theme-Minimal
   name: Theme - Minimal
   metadata:
@@ -4833,10 +4833,10 @@
     description: A hacker's heads-up display in acid yellow and data cyan on matte
       black. Charge chevrons for ratings, a reticle that locks on for favourites and
       a cold system voice.
-  version: 0.3.0-d14e674
-  date: 2026-11-03 14:13:34
+  version: 0.3.1-2f4039e
+  date: 2026-11-04 17:22:45
   path: https://stash.candyboudoir.com/Theme-Overclock.zip
-  sha256: 53c01a69c50dc57ffc8b945c0ec19f21a3fbb17bd29717ca4dc12cd45172fdb8
+  sha256: 997d1628a10b482fa4aa2fd5df109881a4fc3c56d3c52ebee25639ed6076ef67
 - id: PinkNeon
   name: Theme - Pink Neon
   metadata:
