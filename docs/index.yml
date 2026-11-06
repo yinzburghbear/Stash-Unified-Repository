@@ -94,7 +94,7 @@
   version: 0.3.1
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/ArchiveToolkit.zip
-  sha256: bc30dba41d2ad6b298b85044ea8be34fa7ca25bf0410975d993cb4997b62fd9b
+  sha256: a428cd389628cebb25099bc53bccbfccacd6c6a0fffc116d76f8f3a4fc76d1bc
   metadata:
     description: 'Which organized scenes are in their final archive format, and moves
       them there: a smarter Librarian. A scan (a Stash task that only reads, a page
@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.7.0-1f76413
-  date: 2026-11-04 19:03:06
+  version: 0.8.0-fd6fab4
+  date: 2026-11-05 17:40:05
   path: https://stash.candyboudoir.com/CherryPick.zip
-  sha256: e6c398e81af6267d7484c8b22577a5919473c6b78cbd8ee7632c2137c8b1a52d
+  sha256: a37f972cf2a4da25c4028b8b953ee41eeb2eb738eee3c840ac8ffd03584e579d
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -415,7 +415,7 @@
   version: 1.6.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Collections.zip
-  sha256: 99a6a8f63066a1664602b2ea1cb821b62755515121fa651eb9f67356ff47680c
+  sha256: ebcb6b5181b689ae18365f735de38846dcb42d9bd90ada735afec0ed58038098
   metadata:
     description: 'Give a studio its own tab in the top bar, sorted by O count, and
       keep it out of the main Scenes list. Optional round scores for Cock Hero videos:
@@ -860,7 +860,7 @@
   version: 1.12.5
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Flexoki.zip
-  sha256: ba031fa17172f04ebc930c54a7d90f59ee7db0988490bc4e0d08cc82086d4ded
+  sha256: ec4713e59e406c9119dcc9392b0854ad5f3b5727d868e27c5745c6650c277636
   metadata:
     description: 'A warm ink-and-paper theme for Stash, built on Steph Ango''s Flexoki
       palette: every colour in Stash''s interface remapped, with depth (raised cards
@@ -940,7 +940,7 @@
   version: 0.8.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/GalleriesToolkit.zip
-  sha256: e6df7016665a4edffe2ef3d2d703e7f9d55f4c416d0d65a5eeca4d7f3ff42d9c
+  sha256: d978d964874d5007596ab536aceec8bbe83af478181d5d1631478de33978f031
   metadata:
     description: Fills in image galleries downloaded as folders. A background scan
       reads each folder (site, post, title, the performers and studios you have, the
@@ -1387,7 +1387,7 @@
   version: 2.15.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Insights.zip
-  sha256: 0ceac7a74a1a3d4d68cf1baf147fc63fd54950c8a2a577c5ff749d064ba8f63f
+  sha256: c6e361ae237afa8b9f3fa582ed73cbe17ecb90d4e1349dc52da1bbc245824a89
   metadata:
     description: 'A stats dashboard on Stash''s Stats page, in six tabs: You (O''s,
       streaks, a year calendar, watch time, what works for you by performer and scene
@@ -1417,10 +1417,10 @@
   sha256: 8adcd9cac46cf9a8b8e7a525e0e1f4db4b56e407683d5693f50109a32bee6c66
 - id: IntifaceSync
   name: Intiface Sync
-  version: 1.70-vibe
-  date: '2026-11-03 21:33:40'
+  version: 1.71-vibe
+  date: '2026-11-05 20:22:47'
   path: https://allisless0.gitlab.io/stash-plugins/main/IntifaceSync.zip
-  sha256: 0047e794fce2cf2777326a22d543e749f8cad2350e1fced0bf6c47836122d768
+  sha256: d6d0b620a05d6ccb9cbb58301e20e786de049d011f739943da5e019673f97ebe
   metadata:
     description: Syncs Funscripts with Buttplug.io / Intiface Central / TheHandy devices.
       Vibe fork adds support for vibrating (scalar) toys such as Lovense.
@@ -1521,7 +1521,7 @@
   version: 2.23.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Lockdown.zip
-  sha256: ee5ecfd4d66b331643a0a3265be240b4e52df65c5c787cb956d002030016eafc
+  sha256: fd44161d4ff82621dc2926f255b11e9113109b39b5dbf0db4cef73af53bf8bd2
   metadata:
     description: 'Lock Stash to a performer (or a duo of two), a studio, or one or
       more tags until you get out (cards to play along the way): by an O (Finish),
@@ -1717,7 +1717,7 @@
   version: 1.7.1
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Movies.zip
-  sha256: e332c91393b55063972757b391a693e87a7280c468f6d6b10c8c588610c76db3
+  sha256: 12f2a0c416a677194dcca3b9118395cd38a7d6f51a35983d5e552182553cac6d
   metadata:
     description: 'Turns your scenes into movies. Scans for the movie each scene belongs
       to, then makes the ready ones in one go: covers, details, numbered scenes. Fills
@@ -2165,10 +2165,10 @@
   sha256: bf1678809cbfad70f23e7c99f33f35a924d92c45aa89e9b644230072bab4f0fa
 - id: PerformersToolkit
   name: Performers Toolkit
-  version: 0.28.0
-  date: '2026-11-03 21:33:40'
+  version: 0.29.1
+  date: '2026-11-05 20:22:47'
   path: https://allisless0.gitlab.io/stash-plugins/main/PerformersToolkit.zip
-  sha256: bcaf92049960ceeed01360f51bcf30b910b9547881456aac5811dfde0f5eb19f
+  sha256: 382ca2615312b5ce25e829f7000fa0a5b7872218ebf69d317bcf4e4239a119ef
   metadata:
     description: 'Your performers, complete. On each performer''s page: watch time,
       their rank among your performers and when you last watched them under the name,
@@ -2319,7 +2319,7 @@
   version: 1.22.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/QuickTools.zip
-  sha256: 5429183c50a040a20a8abdd20dbdb63efaadb1692258a016a73771920380f59f
+  sha256: 9e549f5fe42f6fc7ccef8ba7723adf7cfef22d62c32b00a47c9926071547e6a2
   metadata:
     description: Keyboard and mouse shortcuts for the scene player and performer pages.
       R rates, M adds a marker (Shift+M a range, Z or U undoes), D marks the scene
@@ -2422,7 +2422,7 @@
   version: 0.3.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/RatingsToolkit.zip
-  sha256: 3c1a9a4cc588ac70af80d77c906671b25e3a35bce334e9dfe3e765f0a1026ad1
+  sha256: c228c52a1610dd2fce2a220dd0e144eb3651d03577b631d757e88ecc70d37bbe
   metadata:
     description: 'Rate performers on a few criteria of your own (Face, Body, Passion,
       Charisma, Consistency, Range by default; groups, weights and what each level
@@ -2779,7 +2779,7 @@
   version: 0.16.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/SceneToolkit.zip
-  sha256: 752690eb99cbdd474824b0fa4e5c56905efbb0c3423b6bfda67e310ebed86e94
+  sha256: e0852d111b3c52c39cd2abad5253faf9a8fd14d8f14ae13f6041d9ebac39bc90
   metadata:
     description: 'Finds details for scenes without a match: by fingerprint first,
       then by what the file name says. Scan in the background, then review: the ready
@@ -3298,7 +3298,7 @@
   version: 0.9.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Slideshow.zip
-  sha256: a08a792733ec20b7e2f11da877886acf452614a1192bbb50fe1fbf1330e1cff3
+  sha256: 867e8b30585709f6de175c2f41a9d459b95f70151e9b21cfb90d8e3025ac2b81
   metadata:
     description: 'Plays pictures full screen, one at a time, on a timer (3, 5, 8 or
       12 seconds, or by hand) with a quick dissolve between them: a Play pictures
@@ -4456,7 +4456,7 @@
   version: 0.8.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/StudiosToolkit.zip
-  sha256: 0a0d6cf2b4820d9115cd12de926e3f00ecbe01f47bb6768ae4e5af8c6823a809
+  sha256: abca5629c32d892d24c35b47437585a6b26abf8c3442b730434de0871c7532d8
   metadata:
     description: 'Your studios, complete. On each studio''s page: its scenes, watch
       time, O''s and its rank among your studios under the name, and a Catalog tab
@@ -4471,7 +4471,7 @@
   version: 1.1.20
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/SuiteData.zip
-  sha256: 224e7e7a056b3b86fef7a0ee8a68fab40347b4179956666b30423a342383ec70
+  sha256: 6793b4ed7d836cbc9970df4265fa7507ad8fc3de443b3b8efcceaba4ff5627de
   metadata:
     description: 'One safe place for what the suite''s plugins remember: Todo''s tasks,
       Lockdown''s history, watch time, toolkit histories and undo logs, hidden lists,
@@ -4704,7 +4704,7 @@
   version: 1.8.1
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/TagAtlas.zip
-  sha256: ee45ee00f68923dd2ce7ccaf1dcea38884757e87819bbe9874e2653ba19cc515
+  sha256: df97cc750c30bdd7d10ba191514c40be999cea7be8a54554413bd438ff92d73a
   metadata:
     description: 'Makes a messy tag list usable again. A background scan asks StashDB
       what each tag means; then you fill in the sure ones in one go (description,
@@ -4723,7 +4723,7 @@
   version: 0.6.6
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/TasksToolkit.zip
-  sha256: 9093e56f131143b822344318b0bfc38ae432c0d39e7a0174b88bd02dfdfeff19
+  sha256: e1f8a2e5af124ec29a15a66ca9dbf4fbcce50fc475cd9ba65cfa7c84ee90b8a7
   metadata:
     description: 'Keeps Stash maintained for you. Turn on Autopilot (the Auto switch
       beside the Tasks button) and Stash scans new files, makes covers and phashes,
@@ -4953,7 +4953,7 @@
   version: 1.8.0
   date: '2026-11-03 21:33:40'
   path: https://allisless0.gitlab.io/stash-plugins/main/Todo.zip
-  sha256: b0d739ed7d7edc7a9afb5090cae383c03f7dbb2984ac8c23212443ce0bff029a
+  sha256: 6e1c7040336c669cdbde1c3c87df7498c88ee3c43d58680fa19a853cb16b6bf9
   metadata:
     description: A simple task list behind a Todo button in the top bar. Tasks link
       to the scene, performer, studio, tag, gallery or group (movie) page you wrote
