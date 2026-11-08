@@ -235,7 +235,7 @@
   version: 1.0.0-c207292
   date: 2026-05-11 07:08:09
   path: https://xlxil.github.io/stash-plugins/main/bang-marks-importer.zip
-  sha256: 292474b5eb53569e308dbd1d6f175684f629ea59e175b2cd35558833756d23e7
+  sha256: 8e609bae78074a85dbf4204e2fb89955001734eaa1aae703e987ad891c8b2e0c
 - id: binge
   name: Binge
   metadata:
@@ -1784,6 +1784,14 @@
   date: 2025-10-22 21:48:23
   path: https://feederbox826.github.io/plugins/main/nationality-tag.zip
   sha256: c0f90084b77ef521911a1e08b08f341cd318a9c711532f5e562f1798e28aa926
+- id: navhub
+  name: Nav Hub
+  metadata:
+    description: Unified plugin menu with a mobile bottom sheet and desktop shortcuts.
+  version: 0.1.0-a50ec6f
+  date: 2026-11-08 03:39:30
+  path: https://xlxil.github.io/stash-plugins/main/navhub.zip
+  sha256: dc8d370a6a6eaaa72fb030cb43bdb10dd950bb9beb760ce25f6db4634238cb23
 - id: NewReleases
   name: New Releases
   metadata:
@@ -4016,10 +4024,10 @@
   sha256: 38e2f09d2871accab45724b55e27e927b20eb7e776beaabbf8b1937c6ab5f04d
 - id: stash-sense2
   name: Stash Sense 2
-  version: 0.39.0
-  date: '2026-10-20 20:13:30'
-  path: https://raw.githubusercontent.com/AnonTester/stash-plugin-repo/main/releases/stash-sense2-0.39.0.zip
-  sha256: c9aca2bc186d87dd2e1aeda7e948f131c86daba4885174b96483e09a3d44b9b3
+  version: 0.39.1
+  date: '2026-11-08 01:21:29'
+  path: https://raw.githubusercontent.com/AnonTester/stash-plugin-repo/main/releases/stash-sense2-0.39.1.zip
+  sha256: 3580a25fc91fc4738b23a27955a4eef8b504c89ad489d3ae1405bf20cca741b9
   requires: []
   metadata:
     description: ML-powered performer identification and library curation -- detects
@@ -4493,12 +4501,12 @@
   name: Tag Candy
   metadata:
     description: Glossy sticker icons for your tags. Matches each tag by its StashDB
-      link or its name, with the icons inside the plugin. Needs Stash v0.31.0 or later,
-      and an API key when Stash has a password.
-  version: 0.3.0-d1a0788
-  date: 2026-11-04 05:58:12
-  path: https://files.candyboudoir.com/TagCandy/52f81b91c7bfb9a066802834aa489c6b52ac2dfd8bfb5921e268e9e863c8a15b.zip
-  sha256: 52f81b91c7bfb9a066802834aa489c6b52ac2dfd8bfb5921e268e9e863c8a15b
+      link or its name and has Stash download the icon from stash.candyboudoir.com.
+      Needs Stash v0.31.0 or later.
+  version: 0.4.0-6ec702f
+  date: 2026-11-08 07:00:52
+  path: https://stash.candyboudoir.com/TagCandy.zip
+  sha256: 2491baab494fc0e7507c4c39b5d1666b4346aab950a552e1c816dc002338d727
 - id: tagCategories
   name: Tag Categories
   metadata:

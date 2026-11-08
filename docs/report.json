@@ -1,7 +1,7 @@
 {
   "sources_total": 98,
   "sources_working": 89,
-  "packages": 545,
+  "packages": 546,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
