@@ -108,7 +108,7 @@
     {
       "id": "visage",
       "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",
-      "kept_version": "2.11.0-907f27b",
+      "kept_version": "2.12.0-7d67446",
       "skipped": "https://rollainkraus.github.io/stash-plugins/main/index.yml",
       "skipped_version": "2.0.15-8991fab",
       "selection_reason": "source_priority"
