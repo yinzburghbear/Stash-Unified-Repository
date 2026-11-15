@@ -32,7 +32,7 @@
   version: 1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/SecondaryPerformerImage.zip
-  sha256: 924fb6a13ebe385bcf6c33ec19138a4622945ca74ae67aa36fd11a05f8fd10bf
+  sha256: 1b7efaeaa094cb183cfcce0f7e1cf7e566c836dc5fadc3469fb8660225e41ddc
 - id: deleter
   name: Addtional Files Deleter
   metadata:
@@ -43,7 +43,7 @@
   version: 0.2-ecbe546
   date: 2026-09-02 17:28:45
   path: https://stashapp.github.io/CommunityScripts/stable/deleter.zip
-  sha256: 42d2eb35b16ba962524defada07106833c26fb41dec5613dce91e858a289e5b6
+  sha256: c198663746aff4e8792d13ea894ad992f772ed45b8557ac30893fc429104b9d1
 - id: AdulttimeInteractiveDL
   name: Adulttime Interactive Downloader
   metadata:
@@ -51,7 +51,7 @@
   version: 0.1.3-16aeef5
   date: 2026-03-04 06:09:02
   path: https://stashapp.github.io/CommunityScripts/stable/AdulttimeInteractiveDL.zip
-  sha256: b3b241f1b9ffe5ea539a01e02d4cc9616b0e3ede1ff08464425f479018ad0c60
+  sha256: 120a652b68445a541bfcb0f8e5cc2b0f692dc14d01143f5b52982de209538955
 - id: advancedRating
   name: Advanced Rating
   metadata:
@@ -80,7 +80,7 @@
   version: 0.9.3-74b0986
   date: 2026-03-20 16:59:27
   path: https://stashapp.github.io/CommunityScripts/stable/AIOverhaul.zip
-  sha256: 7d784c50e09f746a61e8ba9b7d58aff275042e186695c345ba82633a388625e8
+  sha256: fd31ef456355e4459a277ea1fde5685e1cf832377cf74e17287b56fab0e48c21
 - id: alternative-tag-layout
   name: alternative-tag-layout
   metadata:
@@ -154,7 +154,7 @@
   version: 0.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/audio-transcodes.zip
-  sha256: af3e2034940d712ca3201178fa6d2093dc30f020e18f8e0e59ee9072aa8e6dab
+  sha256: 23e3644d55a438a1778cca4f0cb616fb1acc657ed3912d88a286ac98f8757b5f
 - id: AudioPlayer
   name: AudioPlayer
   metadata:
@@ -163,7 +163,7 @@
   version: 0.3-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/AudioPlayer.zip
-  sha256: 959a26a0841fab545af2caf7053e6f53f58b718380389f83f3f8784f4c4fd141
+  sha256: f4fa65852dca5d43b3a54c2389d07ba13262059855da6a4eca8416af5b9d8eda
 - id: AudioPlayerLite
   name: AudioPlayerLite
   metadata:
@@ -172,7 +172,7 @@
   version: 0.2-c41f44a
   date: 2026-08-11 07:09:27
   path: https://stashapp.github.io/CommunityScripts/stable/AudioPlayerLite.zip
-  sha256: e1ebd859f86cac6c948feb3c272ca29de11e065aa0f93df864d6e5675519703d
+  sha256: 50bd4058aef857f160248a06d17508f17a8b219a4aa5f1066a08b4804e64ef7c
 - id: audioTab
   name: audioTab
   metadata:
@@ -269,7 +269,7 @@
   version: 0.3.6-4db934c
   date: 2026-08-31 22:40:42
   path: https://stashapp.github.io/CommunityScripts/stable/BulkImageScrape.zip
-  sha256: 2c1735032bc43890567cc3ae984367cb080c14487d0a736cefb3352c814e0dd3
+  sha256: f16aadb31780edb43c4af240cb019bb1892bba83ac714482a356100d6fab0d83
   requires:
   - PythonDepManager
 - id: bulkImportPerformers
@@ -322,7 +322,7 @@
   version: 1.0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/chooseYourAdventurePlayer.zip
-  sha256: 99be35015a68cc8d41a5b04e76e3df42e2473c286a9a5c36befc696987c4092f
+  sha256: b3e2790ff749fee8392a7b0c190fd447d374e934441c3f3284a69ff21f340387
   requires:
   - CommunityScriptsUILibrary
 - id: StashUI-CityPop
@@ -343,7 +343,7 @@
   version: 1.2-a3eb5e0
   date: 2026-03-05 12:20:20
   path: https://stashapp.github.io/CommunityScripts/stable/cjCardTweaks.zip
-  sha256: 7761ba6722a8d3125eb0afead50839e0ad56d2c2d68cff318c69a6dc319cfa16
+  sha256: e9eedde9f84b02b29fb9b9e5847812fa5d157a57227feb458af4783d58323e7a
   requires:
   - CommunityScriptsUILibrary
 - id: ClaudeViewer
@@ -435,7 +435,7 @@
   version: 0.2-be7e8b4
   date: 2026-09-02 17:57:36
   path: https://stashapp.github.io/CommunityScripts/stable/comicInfoExtractor.zip
-  sha256: 4ca0de42bda281363de663facf8f11297a8786d8b186ba5e0cbefdd74ac5648d
+  sha256: 86c93895779a879bcf606a2cb013d4a94a660ac128cc52b66f33a0d1942a41ff
 - id: CommunityScriptsUILibrary
   name: CommunityScriptsUILibrary
   metadata:
@@ -443,7 +443,7 @@
   version: 1.0.0-512fbb8
   date: 2024-11-27 21:50:31
   path: https://stashapp.github.io/CommunityScripts/stable/CommunityScriptsUILibrary.zip
-  sha256: e05a10d98f210fed948db05b1520aeac7bc00df5f140e170d357368ee79b43b2
+  sha256: 1b9a2cb4353603806b4b54e3cf20aee06718fc77f7d36794c872eb196f25c145
 - id: CompleteTheStash
   name: CompleteTheStash
   metadata:
@@ -486,7 +486,7 @@
   version: 1.0.0-d9facf3
   date: 2026-06-18 01:52:40
   path: https://stashapp.github.io/CommunityScripts/stable/cf-tag-filter.zip
-  sha256: 24c93b4f9e056d57f71b6fa3e718cc75d242fd004402d6e972d6e97cbf1cc71c
+  sha256: 69db6e9832fd315128380438eebd6c01f6f12285ae7a16c758b65fdcee6bb0ec
 - id: CustomTagsManager
   name: Custom Tags Manager
   metadata:
@@ -537,7 +537,7 @@
   version: 1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/defaultDataForPath.zip
-  sha256: 27b8b725133a386596e2aad75779a648e97840af4c8b6cc8e1bbe9766b85f792
+  sha256: e3e15c092db88d1163767a02ec7b64f7df4a45621d47b98a8748cf2520c2601d
 - id: DefaultCaption
   name: DefaultCaption
   metadata:
@@ -634,7 +634,7 @@
   version: 0.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/dupeMarker.zip
-  sha256: 1239af9722cf810698d151a0af5ebc2b22bf56cf3c1bdded67ce521d53b5abee
+  sha256: 5c180d6d430bed79648aa07a48cd9eacc4d2a1f5c125dfcb65eed328180f0c19
 - id: DupeFinder
   name: DupeFinder
   metadata:
@@ -651,7 +651,7 @@
   version: 1.0.2-3c4bce1
   date: 2026-10-15 22:16:44
   path: https://stashapp.github.io/CommunityScripts/stable/DupFileManager.zip
-  sha256: 9e575736fc8a40c76519ad92b61d8fa5e7e0beefb5dfac81dc74429c65b29e80
+  sha256: fe91ee8d070a345501360a1febc4b8bb5059dfaa2595110a6af25be228b39fd0
 - id: markerDupes
   name: Duplicate Scene Marker Cleaner
   metadata:
@@ -668,7 +668,7 @@
   version: 0.7-cb521e1
   date: 2026-08-05 13:25:15
   path: https://stashapp.github.io/CommunityScripts/stable/e621_tagger.zip
-  sha256: 2efb392cb4e525953896f783c60038ec7b824605f6ad1cdc7fb51357f05601f6
+  sha256: da99b365bdaa25fc3269ca6a4102e9d6fff7cb40c1edbba069d5c2af47813159
 - id: EarCandy
   name: Ear Candy
   metadata:
@@ -734,7 +734,7 @@
   version: 1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/stats.zip
-  sha256: 41f6f7c7df098fc133f893238ce73c45e9b82ef6b7d52631ea0c7ad6080ce5ea
+  sha256: e565518525932ceef102528c8dcd0d99aaddad0bf8b2605e74412c77ffd3ffb0
   requires:
   - CommunityScriptsUILibrary
 - id: externalLinksEnhanced
@@ -744,7 +744,7 @@
   version: 1.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/externalLinksEnhanced.zip
-  sha256: c7d6b2827849f267caad1573c70c99afa62c7a661dcd4f0c3d3e7a94358636ac
+  sha256: 9ee7d0f62b109d3c628afdb28afa785be2efabd67e66592a4b459e894d9f3109
 - id: external-player-launcher
   name: External Player Launcher
   metadata:
@@ -761,7 +761,7 @@
   version: 0.3-73e1efe
   date: 2026-04-10 15:43:33
   path: https://stashapp.github.io/CommunityScripts/stable/extraPerformerInfo.zip
-  sha256: 37890f4c332265c63cb7226ddaadaec8b982e43b7b2ad114c49b6b297298c431
+  sha256: 9ec1cc83d21f2e14cc2bfa9f672ae1d91324896d08fdd36edeb46a4a320085fe
 - id: extractSubtitles
   name: Extract Embedded Subtitles
   metadata:
@@ -770,7 +770,7 @@
   version: 0.1.0-bc6b12a
   date: 2026-06-28 06:31:45
   path: https://stashapp.github.io/CommunityScripts/stable/extractSubtitles.zip
-  sha256: 2a404e78e27232fdd0228d756df98c2bb75fe7e97d42dbc1f68ba5b99d39a71f
+  sha256: 31869350b05b6d83af9971d6390b435056009ec9c46fcd7c8eb9f25fce3dac08
 - id: FastTagger
   name: Fast Tagger
   metadata:
@@ -787,7 +787,7 @@
   version: 1.0.7-3c4bce1
   date: 2026-10-15 22:16:44
   path: https://stashapp.github.io/CommunityScripts/stable/filemonitor.zip
-  sha256: 4f8451929ff78cba4d733587c31bbd48f8265b94bbcc4194b642dc36743f58d4
+  sha256: c5aaf7f0766823792afb4f83d5b0a89399bf8f1ea7ccd69f5a0346310376ccf6
 - id: filenameParser
   name: Filename parser
   metadata:
@@ -795,7 +795,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/filenameParser.zip
-  sha256: ef579533b6b2457209387b0dde1c49a5f67e40943dfcb511bbc6b567e3ae7a1b
+  sha256: a739f320e92ec5a9799e0a878a061b153685a3fd7dff2f48e3d76399a3dd90cd
 - id: filename-title-checker
   name: Filename Title Checker
   metadata:
@@ -936,7 +936,7 @@
   version: 1.0.0-c1a0224
   date: 2026-01-05 08:25:49
   path: https://stashapp.github.io/CommunityScripts/stable/funscript_haven.zip
-  sha256: 13c3dd8d125139c00f707a9ee3f5e24a92e6182dc22236efc727fd92eb6c9936
+  sha256: b6dae32ebaaa379f10d1511bc17afc5545e27a90bc7f52433bd7e80000cff047
 - id: funscriptMarkers
   name: Funscript Markers
   metadata:
@@ -945,7 +945,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/funscriptMarkers.zip
-  sha256: 63fb2ddded45644d3aeeed684763a98de2c317c13fb756f85840a59af32b7354
+  sha256: 18d5d547b6677ade966d6d196a7dbf1a28dc16ee4d580791fdceebddbdb8701c
 - id: GalleriesToolkit
   name: Galleries Toolkit
   version: 0.9.0
@@ -968,7 +968,7 @@
   version: 1.2.0-241bbf3
   date: 2026-05-21 22:30:27
   path: https://stashapp.github.io/CommunityScripts/stable/date_parser.zip
-  sha256: 19c66c8faf810c00802ca225eb10f3bfd6eb5e50918aa9242be3b45528075e93
+  sha256: 37a36c327ea7a753cdfdefcc16b10bbf9b5865742673c48d4306208706780351
   requires:
   - PythonDepManager
 - id: gallery_linker
@@ -1219,7 +1219,7 @@
   version: 0.2.3-e1e7522
   date: 2026-04-15 21:34:56
   path: https://stashapp.github.io/CommunityScripts/stable/GroupDetails.zip
-  sha256: 9916cbf1c506d4b9dbbd1bc6b1af0a923b20433f7d868d67a0f2fe730842710c
+  sha256: 59f337fed5ea031ed986960965283089a65999e6e0e9f6de86815e02f3c4abc1
 - id: groupManagement
   name: Group Management
   metadata:
@@ -1236,7 +1236,7 @@
   version: 1.1.0-2112d4e
   date: 2026-03-17 17:53:39
   path: https://stashapp.github.io/CommunityScripts/stable/GroupAutoScraper.zip
-  sha256: 20ddd433563c7d34dd3b882e76f871be4c6353cdf345acde31c565256b01eea9
+  sha256: 310fe147ffbde0d80c2c90e2f410f6ad887bda73011e6494b55a116443fad359
 - id: HashTheStash
   name: HashTheStash
   metadata:
@@ -1253,7 +1253,7 @@
   version: 1.2.0-573e108
   date: 2026-10-15 22:12:41
   path: https://stashapp.github.io/CommunityScripts/stable/ahavenvlmconnector.zip
-  sha256: aabde09b5c07aee04b97285cffc3a4a7fa3e2aa313d5f554b90da902c421c63e
+  sha256: 4fa80e293c3cdfbbc261f9ca664c7e8ab6d6092441f741e7235a25268fd2b3ff
   requires:
   - PythonDepManager
 - id: hide-donate
@@ -1280,7 +1280,7 @@
   version: 1.2.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/hotCards.zip
-  sha256: 1ba516c76e435242663ec1bceee1937fdf735981075b34100c5e2570e46d2d5c
+  sha256: 029bca86c6dfd3cc5e23cb2bd57d40c22017470e189e33fe667875f50c9f87b9
   requires:
   - CommunityScriptsUILibrary
 - id: hotornot
@@ -1323,7 +1323,7 @@
   version: 1.0-c512db2
   date: 2026-04-05 08:45:08
   path: https://stashapp.github.io/CommunityScripts/stable/image-blackout.zip
-  sha256: 8f2c3e0774cb868efe8927287d667eca361b7b1803afc2182437c94a53eaaf49
+  sha256: 51affbd6c7ba6b8c14a16b3e69fb2222eed708965bfa339507404c89e77a1b47
 - id: image_date_from_metadata
   name: Image Date From Metadata
   metadata:
@@ -1331,7 +1331,7 @@
   version: 1.0.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/image_date_from_metadata.zip
-  sha256: c8724549f69cdefff050bee3fc0a51ab0daa9d82e44c13468d89ac4fe24b2654
+  sha256: 581e18ddd9f25929216ea1d9548faf3789e54a6d6a019a3b39aaac40ca66c272
   requires:
   - PythonDepManager
 - id: image-deck
@@ -1359,7 +1359,7 @@
   version: 0.4-c981bc4
   date: 2026-01-16 01:29:54
   path: https://stashapp.github.io/CommunityScripts/stable/imageGalleryNavigation.zip
-  sha256: 8c6a2cf03b431c9ceaa5a10970d0bedaaea4b2c4444b6f8b08d445b83577d13f
+  sha256: 73751cba2912e351ca9ddb1fbdc4615fdc625936d9a32a06fce8d19555855851
   requires:
   - CommunityScriptsUILibrary
 - id: ImageMetaSync
@@ -1443,7 +1443,7 @@
   version: 1.4-9cd5ce6
   date: 2026-10-15 22:18:28
   path: https://stashapp.github.io/CommunityScripts/stable/javstashAutofill.zip
-  sha256: 94be12fb74f58b2ca3806985d1c9b046aca4a34cd8dc84e2a09c1d17af360dce
+  sha256: 0035a7ab6bd7a7da988ac78015c2e8c72998cf5c2c330f1a89680d219a55726c
 - id: javstashAutofill+
   name: Javstash Autofill+
   metadata:
@@ -1515,7 +1515,7 @@
   version: 1.0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/LocalVisage.zip
-  sha256: 4c81124cedebaa94fd2a2eb576359e3fff59434a40fe5c760ba6e0c6eef9cd47
+  sha256: a991c46013b8c742a235ee5a38f45191994b078d74fa6fb0357d1d5dc5949c6b
   requires:
   - PythonDepManager
   - stashUserscriptLibrary7dJx1qP
@@ -1584,7 +1584,7 @@
   version: 0.3-705ad19
   date: 2026-05-21 17:08:27
   path: https://stashapp.github.io/CommunityScripts/stable/markerDeleteButton.zip
-  sha256: 0cac2991a6a483d45d06fbee547a1720ef3b8c742236497cd91939c22fcb90e3
+  sha256: 259c4d688406355562884936df24818cfaeded474b9da44ec6ff52b9d6d0b33d
   requires:
   - CommunityScriptsUILibrary
 - id: markerClipper
@@ -1630,7 +1630,7 @@
   version: 0.4.2-c594010
   date: 2026-06-08 03:14:18
   path: https://stashapp.github.io/CommunityScripts/stable/miscTags.zip
-  sha256: 4d64bae4e29fa19eda9f34e4f0f82c9588cb2ff6a7fd66a2f329e3fc303d4be5
+  sha256: aae81b8d52c96a2637f6941b2bccdbec165e938c6b73b9932a67a31c6df800af
 - id: missingScenes
   name: Missing Scenes
   metadata:
@@ -1658,7 +1658,7 @@
   version: 1.1.0-1117a1d
   date: 2026-07-29 06:47:18
   path: https://stashapp.github.io/CommunityScripts/stable/MosaicPoster.zip
-  sha256: c7b96471499cbbed040b24594e096482ebe5a6005c69ddff785a9a69c760d2e8
+  sha256: 8b0f284c035b4aacb58389a009b82f8ee9540fb27797ac32b08a7baacb12e3ac
 - id: scenesMovieDuration
   name: Movie Duration from Scenes
   metadata:
@@ -1820,7 +1820,7 @@
   version: 1.5.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/nfoSceneParser.zip
-  sha256: 1dc82560f851a72676dbdf59db6b7cf2ed3b7f81943ed612757ff3251e307779
+  sha256: 9a938fc5bf052974125bce7da22f43270a871db3fa3652d02eea94f21fff154b
 - id: nnnstats
   name: NNN Stats
   metadata:
@@ -1975,7 +1975,7 @@
   version: 1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/pathParser.zip
-  sha256: 19dbb1f6147803b631aad1b414f76f28b0a2db7279090e06df09510b4c07a65a
+  sha256: 137cfec68f22e2b25be9f3252c5f0626059366350682b15f08bebaf8f9e9f25d
 - id: performerAttributeTagger
   name: Performer Attribute Tagger
   metadata:
@@ -2081,7 +2081,7 @@
   version: 1.1.0-589983b
   date: 2026-04-16 15:06:31
   path: https://stashapp.github.io/CommunityScripts/stable/performer-poster-backdrop.zip
-  sha256: 12d8fe9c2d596fdec458546b54ac81cac8febaae7d530097988e9ca53d35b4d6
+  sha256: aaccc18279640352580aa41475d43ac942e8af11ecc01c1d8b1563b3ce961db4
 - id: performer_rater
   name: Performer Quick Rater
   metadata:
@@ -2130,7 +2130,7 @@
   version: 0.3-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/performerStashboxUrlToID.zip
-  sha256: 6525cebbc4075601bcd961805de2c7bbcee24d38a2713c5f02fcd7c2ae36991b
+  sha256: 3893a409291b66b70140fa8c0390643fe9230fa01254af555c7dd597838f8f52
 - id: PerformerTagBasedSupportingImages
   name: Performer Tag Based Supporting Images
   metadata:
@@ -2228,7 +2228,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/PlexSync.zip
-  sha256: a70bb23791ea030d709548c9cf8c63ec85a2d82f3a67669c7915b823de07f094
+  sha256: 32bdd85cb616ba82bdd1cd6f1542dbcb94214144f7d7bd4fbdb1c277b642615e
 - id: PlexThemeRedux
   name: Plex Theme Redux
   metadata:
@@ -2298,7 +2298,7 @@
   version: 0.1.3-1a9a777
   date: 2025-12-29 21:13:43
   path: https://stashapp.github.io/CommunityScripts/stable/PythonToolsInstaller.zip
-  sha256: 4c729753cd1f79095d97b98d9201d973de4944c3515833e2ac830f4b3be018ba
+  sha256: 82a8b6e13417eee45d4a4a1cb0eb9d19ba91926f130adc3c45a979e6e797ae3b
 - id: PythonDepManager
   name: PythonDepManager
   metadata:
@@ -2306,7 +2306,7 @@
   version: 0.1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/PythonDepManager.zip
-  sha256: feefe97bd2f888212f63f7ea94986f12bf007bce3060cd1e8628837d157c4ba4
+  sha256: 0da605e7a0753ad5c0264af6705c79dc6de0c268af633d6951e73d46f89213a9
 - id: QuickFolders
   name: Quick Folders
   metadata:
@@ -2417,7 +2417,7 @@
   version: 2.0.2-b470716
   date: 2025-12-29 00:48:40
   path: https://stashapp.github.io/CommunityScripts/stable/random_button.zip
-  sha256: 7a7e19f7ca8e1990eb813ea8bc624d556a2550bf5a0fa96aa8aa8d48c8d109f4
+  sha256: f8c297cd36efd4907ddcd1ff5cff502d0936920e7940d47b3cdfe5531ab33e22
 - id: randomize-performer-images
   name: Randomize Performer Images
   metadata:
@@ -2496,7 +2496,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/untagRedundantTags.zip
-  sha256: abb88918c702456647e156424be91f40fae4af030e7913b26a5373a9dcc006f6
+  sha256: a742edb280bb2ce7a1429dbdd033b18572a45e93cfe49c7ba621bfae637b0c45
 - id: themeNoSceneCardPopovers
   name: Remove Scene Card Popovers
   metadata:
@@ -2521,7 +2521,7 @@
   version: 1.0.4-3c4bce1
   date: 2026-10-15 22:16:44
   path: https://stashapp.github.io/CommunityScripts/stable/renamefile.zip
-  sha256: c1827430402d0a0ea7fae09e4a8a48f30610460e755a4c62a51138cb5cdca864
+  sha256: 5c90923dbc94bbc965eaa12d2cedcfeeee99e3c180384ceb8bbf94c58a4c09cb
 - id: renameGalleryOnUpdate
   name: renameGalleryOnUpdate
   metadata:
@@ -2622,7 +2622,7 @@
   version: 1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/sceneCoverCropper.zip
-  sha256: 3099b333d77d2aaa8d6fcd9228da317bbcd7f68b819fb0bd34bfe02de9c4af3c
+  sha256: 5501d3a2f033711923e05edbb3a0383d5fa572caea79db90fb942b08c154f620
   requires:
   - CommunityScriptsUILibrary
 - id: SceneEditFirstTab
@@ -2641,7 +2641,7 @@
   version: 1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/markerTagToScene.zip
-  sha256: 3642cbc4b6c4d8c793827e97b560b61cf325e12230597b7bc6b5a92405ddb94d
+  sha256: 792968f2f9f21bcd89bfda82f05ffe3c7169f5e322780cbb8fda2e00688d99ce
 - id: sceneMatcher
   name: Scene Matcher
   metadata:
@@ -2661,7 +2661,7 @@
   version: 0.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/scenePageRememberStates.zip
-  sha256: 97d08ba4a65352a8726326ffd01840eb7a1a5666fe60afd6fbf7fd0274c93b08
+  sha256: c74d79b5cd040e7e0fe6ce36e743cffd0465c1f6cb1e4da7c165726c6d1c9111
 - id: scene-refresh
   name: Scene Refresh
   version: 2.0.0
@@ -2711,7 +2711,7 @@
   version: 1.1-c512db2
   date: 2026-04-05 08:45:08
   path: https://stashapp.github.io/CommunityScripts/stable/scene-to-imageclip.zip
-  sha256: f26bd78c70be0ea022446cc8d77419399e09329a10864407afd7f6e13066b3a2
+  sha256: e8a1f2f753be46b3714703396efc57c2fab6391b580db920e6f47c1a9f8e08ed
 - id: sceneTranslate
   name: Scene Translate
   metadata:
@@ -2792,7 +2792,7 @@
   version: 1.2.0-f0738ef
   date: 2026-08-31 16:15:19
   path: https://stashapp.github.io/CommunityScripts/stable/scenerename.zip
-  sha256: 8bb7ab6d4fa389e516aea9d0ee81eda2149d0e917c0a23084cc21c4834b8f4d1
+  sha256: 5ec36fe14d3c5ef9eb80271d2891b9877ee4cb6ca857b41aef96c7733a7bf21a
 - id: SceneToolkit
   name: Scenes Toolkit
   version: 0.20.1
@@ -2845,7 +2845,7 @@
   version: 3.0-afc8208
   date: 2026-04-22 08:13:28
   path: https://stashapp.github.io/CommunityScripts/stable/mobileWallLayout.zip
-  sha256: 190eedaebc57405478dc1847cec13334914c8ec9991d7ec85a661b1e74499b0b
+  sha256: 62a95c0481b3f35efd070e03421d07d08067e70d7b9d3024ce8267b0a39518f6
 - id: SenpaiAddonPack
   name: Senpai Addon Pack
   metadata:
@@ -2892,7 +2892,7 @@
   version: 1.0.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/setPerformersFromTags.zip
-  sha256: f3b1991a3e56ccd1044bea02b449c8c98e76b53b6bfececc70100f28e8e27e1d
+  sha256: 1eb715031288cb33f492ace1de5111809b44266217f7c1e445f9e90a1c306070
 - id: set_scene_cover
   name: Set Scene Cover
   metadata:
@@ -2901,7 +2901,7 @@
   version: 0.4-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/set_scene_cover.zip
-  sha256: f93769515e525001b9d864e7ffdb4a65e9b8f28dedc626fceb24850d50f031ad
+  sha256: 3781271cb9639d75dfbcd50fc09aed68eb1b65e4b8d407160a630bcf474a8392
 - id: setSceneCover
   name: Set Scene Cover
   metadata:
@@ -2929,7 +2929,7 @@
   version: 1.9-6173c3d
   date: 2026-05-27 13:29:34
   path: https://stashapp.github.io/CommunityScripts/stable/sfwswitch.zip
-  sha256: bbdaabf89c4bd7b2f7c49b3e7eb2a9c618f2735dca7f38fa120097e915fb92da
+  sha256: 78d0bf239130e3cd28edb50a54aa152fd3e1061c109781051be2569951bd7895
 - id: shelve
   name: shelve
   metadata:
@@ -3343,7 +3343,7 @@
   version: 1.0.02-a47c7a8
   date: 2026-04-09 14:57:20
   path: https://stashapp.github.io/CommunityScripts/stable/SmartResolve.zip
-  sha256: e4ab29f29cf15d0b9bdb3932c4550bd94bd9d258454170cab03042121840f79f
+  sha256: ef9977cef4514e19de7f2288744a5572f896bce8b35ec9044ea417ae4bd1bb36
 - id: softDelete
   name: Soft Delete
   metadata:
@@ -3376,7 +3376,7 @@
   version: 1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/star_identifier.zip
-  sha256: e3c1b8f087223e12cfbd074620df2892f47e1068dc266f92aeab76588b709e46
+  sha256: 656828997d56798b3ba968533fc44e10d25c98598ca01f72b9f7733e57e577c2
 - id: StarRatings
   name: Star Ratings
   metadata:
@@ -3403,7 +3403,7 @@
   version: 1.0.3-6ecabe6
   date: 2026-07-28 14:37:29
   path: https://stashapp.github.io/CommunityScripts/stable/stashai.zip
-  sha256: 11ae8675d60ecbaba5d9c2f3c05dc7fe7d88f10c591ba90dfc6d1c22b2d5dfb1
+  sha256: 9ed5b75d60c4977b47f67e4bb8aa60225e164879cb43bead31124a89111dd1bb
   requires:
   - CommunityScriptsUILibrary
 - id: stash-app-drawer
@@ -3803,7 +3803,7 @@
   version: 1.0-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/stashNotes.zip
-  sha256: a2aadcc1c00376c55ccae7b4fcdfd9055af5dcf7a0a3b0b1d96817f32409a81a
+  sha256: 88375d2d8da70ad6d6cff740a9fad420bfa13a2b8c09543df34682ce9983fd4f
 - id: stashOpenMediaPlayer
   name: Stash Open Media Player
   metadata:
@@ -4015,7 +4015,7 @@
   version: 0.6.1-9fae7ec
   date: 2026-09-05 06:43:46
   path: https://stashapp.github.io/CommunityScripts/stable/stash-scheduler.zip
-  sha256: 9ba95e916865f34d209293b78593d72b0ba7cf0f39e42f043772f752a427f6f3
+  sha256: ea6a93ed798cc16d6d8ff46652c30e3ba9429944f5370ed5ce7526abbd8156ee
 - id: stashScrapeDescriptionDiff
   name: Stash Scrape Description Diff
   metadata:
@@ -4265,7 +4265,7 @@
   version: 0.0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/stashAppAndroidTvCompanion.zip
-  sha256: 0bb6fd696c110cae0f8f7e1ca6eb72d11727d735005c629c3ea27afa4ababd05
+  sha256: ad3858d11f19ee0972f6f89b5da086bbe087da0a97bfc397e8e0579f9afb4498
 - id: stashdb-performer-gallery
   name: stashdb performer gallery
   metadata:
@@ -4278,7 +4278,7 @@
   version: 0.4-fbb1a91
   date: 2026-09-13 13:10:32
   path: https://stashapp.github.io/CommunityScripts/stable/stashdb-performer-gallery.zip
-  sha256: d48d8f61174af8e6ad9e1a4e674d311b27b9485adab4a862e26fa1146a45730b
+  sha256: 54bd6f2bb3441d63f6a97599cfa5d8fa5f6a0ffcd24933054c9db26729bd8583
 - id: stashDBSync
   name: StashDB Sync
   metadata:
@@ -4370,7 +4370,7 @@
   version: 1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/stashNotifications.zip
-  sha256: 22549a00669aea889a29ed749c8d5b069535fb20c48602be4f1756829c4ab950
+  sha256: 3ababaac2d8d66d39c97cbc2676423736f596a7a271ae89f8a07df605827161a
 - id: stashTagPerformerImage
   name: stashTagPerformerImage
   metadata:
@@ -4544,7 +4544,7 @@
   version: 0.1-eeebafb
   date: 2026-05-30 04:14:41
   path: https://stashapp.github.io/CommunityScripts/stable/tagGalleriesFromImages.zip
-  sha256: 95e0d543ac585cb596e50c7c09c1dfc09feafb7b825135103e3672ecaf02f82b
+  sha256: 8571dd71693211d6402a1687d372b386c2f86c058966fef1ede1b08b56ab6805
 - id: tagGraph
   name: Tag Graph
   metadata:
@@ -4578,7 +4578,7 @@
   version: 1.1-eeebafb
   date: 2026-05-30 04:14:41
   path: https://stashapp.github.io/CommunityScripts/stable/tagImagesFromGalleries.zip
-  sha256: 3417075908debec01af9f2cfa4c039d98eca8fc6b2e7291b2bedd48493d7f649
+  sha256: 75b5db09b888a3acc27dd0329593762dd03533c038c57e80b93f8aa2d8136ffc
 - id: tagImagesWithPerfTags
   name: Tag Images From Performer Tags
   metadata:
@@ -4586,7 +4586,7 @@
   version: 0.2-8d8e2a9
   date: 2026-06-07 09:29:33
   path: https://stashapp.github.io/CommunityScripts/stable/tagImagesWithPerfTags.zip
-  sha256: d92ffda76f2382302ce1658e528ef84c37f799838e15698618cd5f8468166393
+  sha256: f754ca40420521072a436a4e304d73d112b26b6d6ec9de7b56cb91e57b879e52
 - id: tagManager
   name: Tag Manager
   metadata:
@@ -4631,7 +4631,7 @@
   version: 1.0.3-1277b24
   date: 2026-08-24 00:51:23
   path: https://stashapp.github.io/CommunityScripts/stable/tagScenesWithPerfTags.zip
-  sha256: 4631a616c7d69af56821e2feae9e9fb63cbe1348f7587e55e1f5d9d3b0d1ecfc
+  sha256: 0d98ee3c501b9b2b15fc99a85ab49742bae123e4be102a0a79de33bd904600da
 - id: TagSidebar
   name: Tag Sidebar
   metadata:
@@ -4697,7 +4697,7 @@
   version: 0.5-0587f0d
   date: 2026-02-19 14:37:15
   path: https://stashapp.github.io/CommunityScripts/stable/tagCopyPaste.zip
-  sha256: 28ed7b02d9799964d5e32d14c888d912fcdb998dcb1deea8527ef30ba1d9643b
+  sha256: 7b77d88983fa4c361f5432b345004a3b6fe0768a034acdcfcb462d3557c18646
   requires:
   - CommunityScriptsUILibrary
 - id: tagger-img-res
@@ -4755,10 +4755,10 @@
   name: The Porn DB Markers
   metadata:
     description: Sync Markers from The Porn DB aka theporndb.net
-  version: 0.4.4-884f27b
-  date: 2026-02-26 20:37:22
+  version: 0.4.5-538b0ff
+  date: 2026-11-15 10:40:45
   path: https://stashapp.github.io/CommunityScripts/stable/TPDBMarkers.zip
-  sha256: f30e1ba56a2e47faf361654172cb15b570d3a802b135bbdb7e2de9b184f10964
+  sha256: bcce1729501c71db3c34bd2f6af32eeb5c314de7f168e21f4f79b044003d1f8e
 - id: TheaterMode
   name: Theater Mode
   metadata:
@@ -4775,7 +4775,7 @@
   version: 3.0.0-9e98f76
   date: 2026-10-15 21:59:47
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-BlackHole.zip
-  sha256: 40b523485d008811ac1577a5ccccae762aa5ef10dce935f555a673bf70319354
+  sha256: 821298801ea780d99dba04cb013e800265cb426f227af0680baa5aa28c277bc7
 - id: Theme-CityPop
   name: Theme - City Pop
   metadata:
@@ -4794,7 +4794,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-ColorPalette.zip
-  sha256: 1d976e2df9f4feb31550d9467d8c725f524cf078e1331b588978c754fa8bf72c
+  sha256: c93dea18e38ff0c9e89cd7c15910079e66a436da375597d5a807cc2cec4ff9ab
 - id: Theme-Juicy
   name: Theme - Juicy
   metadata:
@@ -4821,7 +4821,7 @@
   version: 0.3.0-296b58d
   date: 2026-10-15 21:56:16
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-Minimal.zip
-  sha256: b7aa127e462ba2f770362dfb5d040abb32337c4f15b60552d2cb8607721d2e27
+  sha256: c3c398a315fbfe765757a6dddcd160f6966eb307943d420d677fc2ad61d69b1c
 - id: Theme-ModernDark
   name: Theme - ModernDark
   metadata:
@@ -4829,7 +4829,7 @@
   version: 1.3-c10e0d2
   date: 2025-12-24 20:34:07
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-ModernDark.zip
-  sha256: a45f31b61810490dc8b4dbbc6e68d3a5d38de1fe551aee5f52ed7d373522247d
+  sha256: 8b2f72608cf2a964c94f6673e72df70a2342c556592da605ecefda775150a1fd
 - id: Theme-NeonDark
   name: Theme - NeonDark
   metadata:
@@ -4837,7 +4837,7 @@
   version: 2.0-541199c
   date: 2026-10-15 21:49:05
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-NeonDark.zip
-  sha256: 611281678cd0aed9b86421763f5c905b32fd310e9b3d0917c948dc9407168cac
+  sha256: e6b42e44371ca1babdec794c5d86152cc96611c28d03f9fcfc7fd744bc21a5a9
 - id: Theme-Night
   name: Theme - Night
   metadata:
@@ -4845,7 +4845,7 @@
   version: 0.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-Night.zip
-  sha256: 5d5b98cee589cbaaceda731a307ecc1f6edac91c865e234eb4d5b4c5cc17c439
+  sha256: 6eee1469f10f533c4b8f9283272af811bb0a81915c465cf2301dee332726bd9c
 - id: Theme-Overclock
   name: Theme - Overclock
   metadata:
@@ -4871,7 +4871,7 @@
   version: 2.0.0-b3eb20b
   date: 2026-10-15 22:06:59
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-Plex.zip
-  sha256: 8035321f2e3d0df04cc97f6eb572d54e981cd33df8383f76699ab28a8bc2352f
+  sha256: ad2ba78defcef72f0341e3c590511b4ca1d44de6a60d656183979ad07420eae6
 - id: Theme-PornHub
   name: Theme - Pornhub
   metadata:
@@ -4879,7 +4879,7 @@
   version: 2.0.0-8ae8205
   date: 2026-10-15 22:04:11
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-PornHub.zip
-  sha256: 64ef8d213bd1aca73f5c6a64538d61fa202e1fa04d8f6c5f8f9de2b96616d4ba
+  sha256: fb35d20df1a3244aa5b5aa3df203f6b43dfd4451767ac623c5dc0df6dfc4f006
 - id: Theme-Pulsar
   name: Theme - Pulsar
   metadata:
@@ -4887,7 +4887,7 @@
   version: 2.0-3e845f8
   date: 2026-10-15 21:45:21
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-Pulsar.zip
-  sha256: 5c83764e50feb39debb05c85baf343eb1db21ae90a23ae3f3ec6cf4dce93e23b
+  sha256: aac9242a9123e3087bf4117af43243aa53dfb526b8e395c8dc60c3c62893834d
 - id: Theme-PulsarLight
   name: Theme - PulsarLight
   metadata:
@@ -4895,7 +4895,7 @@
   version: 1.0-9f63088
   date: 2026-10-15 22:01:46
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-PulsarLight.zip
-  sha256: 79662916a069f7494de77d60f4b44aa17a443cda87fe162254573cbdde9ff277
+  sha256: f28de44fe33dffb5670ae63805cd49bf3d942b82d04c009ac2b4524ce7b2e6da
 - id: Theme-RoundedYellow
   name: Theme - Rounded Yellow
   metadata:
@@ -4903,7 +4903,7 @@
   version: 2.0-f2c0ead
   date: 2026-10-15 22:08:47
   path: https://stashapp.github.io/CommunityScripts/stable/Theme-RoundedYellow.zip
-  sha256: 4c8435f4a7de06bcd5e520e718f26b116ec327b91eefd2a1c500294a32cd2a70
+  sha256: eb4c70ec7e08fa6854af30331a1fb1fa3d870d70012bc78f21574e7097f50e88
 - id: themeSwitch
   name: Theme Switch
   metadata:
@@ -4911,7 +4911,7 @@
   version: 2.1.3-c50978e
   date: 2026-10-15 22:14:55
   path: https://stashapp.github.io/CommunityScripts/stable/themeSwitch.zip
-  sha256: c8dab54114f82f7a1f5a7fb86753105ba1588b4e541a56b89209a2978ea04f6f
+  sha256: 4428b23c9c66ba8ca07c73bbbff196034a44ce9ddd8416d175d4393435a512a8
   requires:
   - CommunityScriptsUILibrary
 - id: ThumbPreviews
@@ -4922,7 +4922,7 @@
   version: 1.0-d431f73
   date: 2026-08-07 19:24:51
   path: https://stashapp.github.io/CommunityScripts/stable/ThumbPreviews.zip
-  sha256: 3735d482a50dceccd5726d426bfb19d1f402e6f39167ed31773373f0f6e65ec9
+  sha256: d072cba14d0116566e035b3eb3806b66abb8c01cf1054038c52933dc52e1dd45
 - id: timestampTrade
   name: Timestamp Trade
   metadata:
@@ -4930,7 +4930,7 @@
   version: 0.8.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/timestampTrade.zip
-  sha256: 734091850933d37ecff9f19080507fe102c79021bbf361a4068dec48ed2b06b3
+  sha256: 3f7bf44c31cb3a01ea9e38822660a8412382b49368a6f1741dba13f4a0ac7198
 - id: TitleFormatter
   name: TitleFormatter
   metadata:
@@ -4950,7 +4950,7 @@
   version: 1.2-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/titleFromFilename.zip
-  sha256: 8b48c14126af9e911a1a03b161ab8098313b0e0b85ba420208e7d559b486cffd
+  sha256: c3625bf580a95dbd9f028d45cdb1471404ec7b98dfc35b1f47c4fac8a3f217a7
 - id: titleobserver
   name: titleobserver
   metadata:
@@ -5068,7 +5068,7 @@
   version: 0.1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/VideoBanner.zip
-  sha256: d8083590dd899c35533d81f36d825a1559c24bf24816e9c91ce7bb362d89fc14
+  sha256: 3cf101e3cc22b903f47285724eca8e61a17ec7e4d24408856ff08a03a91bcc37
 - id: videoChapterMarkers
   name: Video Chapter Markers
   metadata:
@@ -5076,7 +5076,7 @@
   version: 1.1-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/videoChapterMarkers.zip
-  sha256: 5c9fb14d3d471928bc4e143450b9f81c4f597681fc867b5cbc0affc5420e8d95
+  sha256: 65fb89ab0f8fceb0ca436647e7be809968ee69b41bba3de503beb49d6170cc29
 - id: VideoScrollWheel
   name: VideoScrollWheel
   metadata:
@@ -5087,7 +5087,7 @@
   version: 0.4-43feb59
   date: 2025-12-20 01:59:59
   path: https://stashapp.github.io/CommunityScripts/stable/VideoScrollWheel.zip
-  sha256: 5c28edb293d2ace359ab1b39752abb8fd6374ffeba499e393551d71bf89dc4b5
+  sha256: 432749f5374f39accbb1ccbb4f53c0242febb56b3216e637b51c45c3785cc254
   requires:
   - CommunityScriptsUILibrary
 - id: opie_vintageFilms
@@ -5105,7 +5105,7 @@
   version: 2.13.0-202891e
   date: 2026-11-14 12:24:55
   path: https://stashapp.github.io/CommunityScripts/stable/visage.zip
-  sha256: 42bf957453fddd8e36bb91be27f4826b5b0087f8c34ab4131bb0e46d3bc2101b
+  sha256: 283a572e23ce4fb1ba3231fc713f99f4c7bc9ea3182919ec4616c52c04db6156
 - id: vjs-mmb-fullscreen
   name: vjs-mmb-fullscreen
   metadata:
