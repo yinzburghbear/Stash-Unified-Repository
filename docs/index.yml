@@ -63,7 +63,7 @@
   version: 3.1.1-a23e4c8
   date: 2026-08-26 09:53:55
   path: https://ordureconnoisseur.github.io/plugins/main/advancedRating.zip
-  sha256: 318aa23beff824f6b2dcf40fe92b7062d47558affed94fbe132d9ee5652bf060
+  sha256: 0b88837ed95653551fac17885907c33efb110dab726576c16bcf0c0d47a34721
 - id: stashAppAdvancedRating
   name: Advanced Rating System
   metadata:
@@ -244,7 +244,7 @@
   version: 0.14.2-c87177c
   date: 2026-09-06 21:28:26
   path: https://ordureconnoisseur.github.io/plugins/main/binge.zip
-  sha256: 3a9db67fd30fac3cc97b9e7919bd9dd17cefa810344eb409e3966198915e23a2
+  sha256: b9ae05590f5e3d4dd4ea57bd9d75f71bbba4b19b81f5ee8ceaaf75ba013ef760
 - id: bracketTags
   name: Bracket Tags
   metadata:
@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.9.1-e2a1838
-  date: 2026-11-09 02:17:59
+  version: 0.9.2-bd08087
+  date: 2026-11-17 05:51:20
   path: https://stash.candyboudoir.com/CherryPick.zip
-  sha256: d19ef34fca1a4a3908ed882ae3494b4bd79abcb9ddf0c7b545650502545143c2
+  sha256: 62c31af6577f4f7e75b2293ab3510ec8523b295b3c58b2581d95d1d47ed45ceb
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -2479,7 +2479,7 @@
   version: 0.5.2-4714d1d
   date: 2026-08-24 13:52:52
   path: https://ordureconnoisseur.github.io/plugins/main/refract-cards.zip
-  sha256: 4d084877194462e2705cfefa8f54c82983cbe301923afd5a7afb3b48b26cd9fa
+  sha256: 74fae847cef4e19f74a7fddaa53c9e866c6b0cd326b98a03d79a18a804acfe6e
 - id: refract
   name: Refract Theme
   metadata:
@@ -2488,7 +2488,7 @@
   version: 1.24.3-458b135
   date: 2026-09-06 09:04:46
   path: https://ordureconnoisseur.github.io/plugins/main/refract.zip
-  sha256: ce07d32c39f90d9e8d4d007cff0aca6edd92ae33ba8f54f276dfa0cbd6c566bb
+  sha256: fda67699b6906a59bef3bf2449f6c574650b26bea8b69fc8e33b6fdf1a2c2424
 - id: untagRedundantTags
   name: Remove redundant parent tags from tagged objects
   metadata:
@@ -3771,10 +3771,10 @@
   metadata:
     description: Queue scenes and live search filters, watch up to 16 simultaneously.
       Filter slots auto-cycle through matching scenes.
-  version: 3.14.3-0ec281a
-  date: 2026-11-16 09:18:46
+  version: 3.14.4-10ad132
+  date: 2026-11-16 22:21:52
   path: https://ordureconnoisseur.github.io/plugins/main/multiView.zip
-  sha256: e0bc55c40d6ff9da2b223b42e9501ab77ced724379bd3b9b5f68178f59e2f2d1
+  sha256: 1b38c7db2dba645ed0da6b80440703e5d957251713b577ae2989ee56327e66a8
 - id: stashNewPerformerFilterButton
   name: Stash New Performer Filter Button
   metadata:
