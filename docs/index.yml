@@ -1639,10 +1639,10 @@
       you don't have locally. View missing scenes for performers, studios and tags,
       with optional Whisparr v3 integration (StashDB scenes) for automated downloading
       and cleanup.
-  version: 1.5.1-1f3486b
-  date: 2026-10-30 18:33:47
+  version: 1.5.2-c7de69b
+  date: 2026-11-18 03:26:52
   path: https://carrotwaxr.github.io/stash-plugins/stable/missingScenes.zip
-  sha256: e06d1224cc2de52bad17b166bce667663e2500b79665b87d32c0a8e5d12cc669
+  sha256: afca5321f59e1a75f2fc957a6988f7bc31ee834bcf1824808a0a97e517a0f1ee
 - id: more-studio-row
   name: more-studio-row
   metadata:
@@ -4030,10 +4030,10 @@
   name: Stash Sense
   metadata:
     description: ML-powered performer identification and library curation for Stash
-  version: 0.1.2-67f1172
-  date: 2026-03-03 22:18:29
+  version: 0.1.3-beta.10-b1bd41a
+  date: 2026-11-18 15:57:51
   path: https://carrotwaxr.github.io/stash-sense/plugin/stash-sense.zip
-  sha256: 38e2f09d2871accab45724b55e27e927b20eb7e776beaabbf8b1937c6ab5f04d
+  sha256: 6bf5613b9c69d7f98324a38f156624ffe946cdd1bbf9a5101fc6e729575d1348
 - id: stash-sense2
   name: Stash Sense 2
   version: 0.39.7
