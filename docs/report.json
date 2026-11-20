@@ -1,15 +1,11 @@
 {
   "sources_total": 98,
-  "sources_working": 89,
-  "packages": 548,
+  "sources_working": 91,
+  "packages": 549,
   "failed": [
     {
       "url": "https://atreemandork.github.io/index.yml",
       "error": "404 Client Error: Not Found for url: https://atreemandork.github.io/index.yml"
-    },
-    {
-      "url": "https://candyboudoir.github.io/index.yml",
-      "error": "404 Client Error: Not Found for url: https://candyboudoir.github.io/index.yml"
     },
     {
       "url": "https://dude-stash.github.io/ultimate-stash-plugins/main/index.yml",
@@ -32,15 +28,83 @@
       "error": "404 Client Error: Not Found for url: https://raw.githubusercontent.com/evolite/stashgifs/master/index.yml"
     },
     {
-      "url": "https://rtm-stash.github.io/clean-scene-details/main/index.yml",
-      "error": "404 Client Error: Not Found for url: https://rtm-stash.github.io/clean-scene-details/main/index.yml"
-    },
-    {
       "url": "https://thismanyboyfriends2.github.io/stash-plugins/main/index.yml",
       "error": "404 Client Error: Not Found for url: https://thismanyboyfriends2.github.io/stash-plugins/main/index.yml"
     }
   ],
   "conflicts": [
+    {
+      "id": "CherryPick",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.6.3-2d088fe",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.9.2-bd08087",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "NewReleases",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.2.3-1a8e971",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.2.5-3f4b42a",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "StashUI-CityPop",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.1.0-8025045",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.1.1-2f4039e",
+      "selection_reason": "highest_version"
+    },
+    {
+      "id": "StashUI-Overclock",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.1.0-8025045",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.1.1-2f4039e",
+      "selection_reason": "highest_version"
+    },
+    {
+      "id": "TagCandy",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.2.0-4d740e3",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.4.0-6ec702f",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "Theme-CityPop",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.3.0-d14e674",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.3.1-2f4039e",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "Theme-Juicy",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.6.0-d14e674",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.6.1-2f4039e",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "Theme-Leather",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.3.0-d14e674",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.3.1-2f4039e",
+      "selection_reason": "source_order_tiebreak"
+    },
+    {
+      "id": "Theme-Overclock",
+      "kept": "https://candyboudoir.github.io/index.yml",
+      "kept_version": "0.3.0-d14e674",
+      "skipped": "https://stash.candyboudoir.com/index.yml",
+      "skipped_version": "0.3.1-2f4039e",
+      "selection_reason": "source_order_tiebreak"
+    },
     {
       "id": "pathParser",
       "kept": "https://stashapp.github.io/CommunityScripts/stable/index.yml",

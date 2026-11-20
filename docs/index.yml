@@ -63,7 +63,7 @@
   version: 3.1.1-a23e4c8
   date: 2026-08-26 09:53:55
   path: https://ordureconnoisseur.github.io/plugins/main/advancedRating.zip
-  sha256: c7e5d4909bfd4bea0696f24125c221c696822bcb8ef55d669107f2e35420d6f7
+  sha256: 7a0635772bdc2cd4dfb8db36a2d69c45ed4abcf7a30efbcaf80bc5ae818524e8
 - id: stashAppAdvancedRating
   name: Advanced Rating System
   metadata:
@@ -244,7 +244,7 @@
   version: 0.14.2-c87177c
   date: 2026-09-06 21:28:26
   path: https://ordureconnoisseur.github.io/plugins/main/binge.zip
-  sha256: 6befc5d1c918ce3c0386def24012f8ebae83d80759212b574c81c8033e0fe040
+  sha256: 0b5aa6726d8af5b3c1dc4499254d740fff17ed267373fb7c7d3ef4c9eb79bf8f
 - id: bracketTags
   name: Bracket Tags
   metadata:
@@ -311,10 +311,10 @@
   metadata:
     description: Learns what you like from your ratings and plays. A For you row,
       Your score on scenes you haven't rated, More like this and performer brackets.
-  version: 0.9.2-bd08087
-  date: 2026-11-17 05:51:20
-  path: https://stash.candyboudoir.com/CherryPick.zip
-  sha256: 62c31af6577f4f7e75b2293ab3510ec8523b295b3c58b2581d95d1d47ed45ceb
+  version: 0.6.3-2d088fe
+  date: 2026-11-03 14:41:00
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/cherrypick-v0.6.3/CherryPick.zip
+  sha256: 4f1e450ad2fa194a0e118141c92c12e44d8f6f4dbe4d3f8ade5823b90494d164
 - id: chooseYourAdventurePlayer
   name: Choose Your Own Adventure Player (Backer)
   metadata:
@@ -332,10 +332,10 @@
       your Stash UI. Pick City Pop under Stash UI's Settings > Appearance > Colors
       to give it City Pop's dusk colours, brush-script titles and backdrop of stars
       and palms. Needs Stash UI.
-  version: 0.1.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/StashUI-CityPop.zip
-  sha256: 3ac1dc460aed46c29f802a7031360c232a5ced627f16a11380a82599eb59e6c5
+  version: 0.1.0-8025045
+  date: 2026-10-20 18:10:37
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/citypop-stashui-v0.1.0/StashUI-CityPop.zip
+  sha256: 599b9b2a09cc5375df99c38e7d6164841e00100250f6a7bbe0840588a2fc7a8f
 - id: cjCardTweaks
   name: CJ's Card Tweaks.
   metadata:
@@ -355,6 +355,15 @@
   date: 2026-03-07 02:53:03
   path: https://kokkeng1.github.io/stash_plugin_custom/ClaudeViewer.zip
   sha256: 3e0b5be2fbf4cf204ec4d6ae4ddcdce606ce7a02aefacc7369db22d173a75940
+- id: clean_details
+  name: Clean Scene Details
+  metadata:
+    description: Surgically removes case-insensitive text strings, watermarks, or
+      promos from scene details.
+  version: 1.0.0-0deccee
+  date: 2026-10-27 00:03:29
+  path: https://rtm-stash.github.io/clean-scene-details/main/clean_details.zip
+  sha256: 6fec16f7f3d5a5f3016ada6c5013385869dc360da57f65bd288a1360d152aaee
 - id: CleanUpQueue
   name: Clean Up Queue
   metadata:
@@ -1665,10 +1674,10 @@
       you don't have locally. View missing scenes for performers, studios and tags,
       with optional Whisparr v3 integration (StashDB scenes) for automated downloading
       and cleanup.
-  version: 1.5.2-c7de69b
-  date: 2026-11-18 03:26:52
+  version: 1.7.0-c47dbf5
+  date: 2026-11-20 05:01:14
   path: https://carrotwaxr.github.io/stash-plugins/stable/missingScenes.zip
-  sha256: afca5321f59e1a75f2fc957a6988f7bc31ee834bcf1824808a0a97e517a0f1ee
+  sha256: 0a32e79a16280fd7ba2af7d3f4e3c492b9806018d9dd3c15b1c77e673d36f5d3
 - id: more-studio-row
   name: more-studio-row
   metadata:
@@ -1836,10 +1845,10 @@
     description: What your favourite studios released in the last 48 hours, from ThePornDB
       and your other stash-boxes, each linked to the studio's own page to buy it,
       leaving out what you have. Needs Python, which Stash's Docker image includes.
-  version: 0.2.5-3f4b42a
-  date: 2026-11-11 00:47:36
-  path: https://stash.candyboudoir.com/NewReleases.zip
-  sha256: 72940bad61469418a8d2fbcc96c606cfdcc86ac87132bb2356cf3149b692b25a
+  version: 0.2.3-1a8e971
+  date: 2026-10-23 17:07:48
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/newreleases-v0.2.3/NewReleases.zip
+  sha256: c9eac2b07a191bb0df80350b9ddcfdc72fc68c4f1fb19dd2f8d002cb2a4e70d6
 - id: nfoSceneParser
   name: nfoSceneParser
   metadata:
@@ -1974,10 +1983,10 @@
       to your Stash UI. Pick Overclock under Stash UI's Settings > Appearance > Colors
       to give it Overclock's acid yellow, glitch-split titles and HUD backdrop. Needs
       Stash UI.
-  version: 0.1.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/StashUI-Overclock.zip
-  sha256: 3fd500f8b62bda86c6f5954dc8a14520bc5c4403ae30e73fafc6c5895f32e495
+  version: 0.1.0-8025045
+  date: 2026-10-20 18:10:37
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/overclock-stashui-v0.1.0/StashUI-Overclock.zip
+  sha256: b0d8361f40fe85ba9514c36ad0fb86fea3a39b40c0c69524d4cba5a21d5dfa3d
 - id: overlay-info
   name: overlay-info
   metadata:
@@ -2088,10 +2097,10 @@
   metadata:
     description: Search multiple sources for performer images. Supports mainstream,
       JAV, male, and trans performers with configurable sources.
-  version: 1.5.0-f651e52
-  date: 2026-09-29 13:42:19
+  version: 1.5.1-e5b566f
+  date: 2026-11-20 04:28:21
   path: https://carrotwaxr.github.io/stash-plugins/stable/performerImageSearch.zip
-  sha256: 2b8c8d74cfa68869cd601e9ea97ec442e31798bd1906adb6fa4c4b826822df08
+  sha256: 9af5f3bf7201dfbbe148ea021a825b64dd455b83b5459a71cf59af9ac876c76e
 - id: performerMerge
   name: Performer Merge
   metadata:
@@ -2505,7 +2514,7 @@
   version: 0.5.2-4714d1d
   date: 2026-08-24 13:52:52
   path: https://ordureconnoisseur.github.io/plugins/main/refract-cards.zip
-  sha256: a8f9031b893ced45d4a656fc04c0a15db74ad06c35061342c58e3e3a4b4df03d
+  sha256: a502207a350615b76aa6179045f0d0aa21c8015d1c2061901d8c21d5184527c0
 - id: refract
   name: Refract Theme
   metadata:
@@ -2514,7 +2523,7 @@
   version: 1.24.3-458b135
   date: 2026-09-06 09:04:46
   path: https://ordureconnoisseur.github.io/plugins/main/refract.zip
-  sha256: c9c79097f4c3ab16d5d841126dd588184d0ee3725ad9133eba2427267077ada3
+  sha256: ae7765cf8ab2d419ce36136d902bea815f68e06039073119da99f6acd439cd3e
 - id: untagRedundantTags
   name: Remove redundant parent tags from tagged objects
   metadata:
@@ -3799,10 +3808,10 @@
   metadata:
     description: Queue scenes and live search filters, watch up to 16 simultaneously.
       Filter slots auto-cycle through matching scenes.
-  version: 3.14.6-d027c28
-  date: 2026-11-18 22:01:33
+  version: 3.14.8-22107bd
+  date: 2026-11-20 00:13:01
   path: https://ordureconnoisseur.github.io/plugins/main/multiView.zip
-  sha256: 78d2429702de7a59d168a6c9d53147a00cd47d4ac635c9982796da90998c9c4c
+  sha256: d30ed84388a2b4ce70506bbb3f6b6398d80da359e4bdb675dbd950d223e5cabd
 - id: stashNewPerformerFilterButton
   name: Stash New Performer Filter Button
   metadata:
@@ -4541,12 +4550,12 @@
   name: Tag Candy
   metadata:
     description: Glossy sticker icons for your tags. Matches each tag by its StashDB
-      link or its name and has Stash download the icon from stash.candyboudoir.com.
+      link or its name and has Stash download the icon from candyboudoir.github.io.
       Needs Stash v0.31.0 or later.
-  version: 0.4.0-6ec702f
-  date: 2026-11-08 07:00:52
-  path: https://stash.candyboudoir.com/TagCandy.zip
-  sha256: 2491baab494fc0e7507c4c39b5d1666b4346aab950a552e1c816dc002338d727
+  version: 0.2.0-4d740e3
+  date: 2026-10-31 15:41:43
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/tagcandy-v0.2.0/TagCandy.zip
+  sha256: 61bd324334e7b7f4eb83d8f57dc32d7ec59c5afd5377c653ab64b4b73c164f40
 - id: tagCategories
   name: Tag Categories
   metadata:
@@ -4622,10 +4631,10 @@
     description: Match and sync local tags with stash-box endpoints. Features multi-endpoint
       support, tag caching, layered search (exact, fuzzy, synonym), and field-by-field
       merge dialog.
-  version: 0.7.0-2b306a8
-  date: 2026-09-29 05:27:49
+  version: 0.7.1-84bc602
+  date: 2026-11-19 23:31:59
   path: https://carrotwaxr.github.io/stash-plugins/stable/tagManager.zip
-  sha256: 35db86ca87adf027b153e48520cbf46318e8527c38ba465a4502fb02617eb7dc
+  sha256: abab1a165b76b854cadef70ff5be83adda56d6bb572955e02eea64e1718ca279
 - id: tagMerge
   name: Tag Merge
   metadata:
@@ -4811,10 +4820,10 @@
     description: Airbrushed 1980s dusk from Japanese city pop album covers. Record-sleeve
       cards, striped sunset suns for ratings, cassettes for audio-only scenes and
       a late-night FM host's voice.
-  version: 0.3.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/Theme-CityPop.zip
-  sha256: 9567e9c625f736ea0af35d5b07fa4069ca699b790de0c20921c684625c2ca3ea
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/citypop-v0.3.0/Theme-CityPop.zip
+  sha256: eba2237b00e814d1a575164473e23e0bd418c330bff2ebd4f18629cfd3918ca1
 - id: Theme-ColorPalette
   name: Theme - colorPalette
   metadata:
@@ -4829,20 +4838,20 @@
   metadata:
     description: Pink, playful and a little naughty. Glossy candy stickers, gold hearts
       for ratings and a gum-bubble loader.
-  version: 0.6.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/Theme-Juicy.zip
-  sha256: 9af423bf061c96c00a5d72e758383ec2c600b0cb28a9caf72094e5f0fe03f577
+  version: 0.6.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/juicy-v0.6.0/Theme-Juicy.zip
+  sha256: 447767c61ce5260189e13ffa72ca7e33403bce3166c14970ffc9e1a17bdaea8c
 - id: Theme-Leather
   name: Theme - Leather
   metadata:
     description: Black pebble-grain leather, saddle stitching and nickel studs with
       a blood-red accent. Studs for ratings, a collar for favourites and a strict
       voice.
-  version: 0.3.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/Theme-Leather.zip
-  sha256: f7b799be66c94964c3773cc4d1ae32afd25ecf757710b6c455cbe1228c0aa368
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/leather-v0.3.0/Theme-Leather.zip
+  sha256: 3acc3bea20ae5601dfea20f0d3b93edf0189d5bc84a332edd5ba6b7645638915
 - id: Theme-Minimal
   name: Theme - Minimal
   metadata:
@@ -4881,10 +4890,10 @@
     description: A hacker's heads-up display in acid yellow and data cyan on matte
       black. Charge chevrons for ratings, a reticle that locks on for favourites and
       a cold system voice.
-  version: 0.3.1-2f4039e
-  date: 2026-11-04 17:22:45
-  path: https://stash.candyboudoir.com/Theme-Overclock.zip
-  sha256: 997d1628a10b482fa4aa2fd5df109881a4fc3c56d3c52ebee25639ed6076ef67
+  version: 0.3.0-d14e674
+  date: 2026-11-03 14:13:34
+  path: https://github.com/CandyBoudoir/candyboudoir.github.io/releases/download/overclock-v0.3.0/Theme-Overclock.zip
+  sha256: 53c01a69c50dc57ffc8b945c0ec19f21a3fbb17bd29717ca4dc12cd45172fdb8
 - id: PinkNeon
   name: Theme - Pink Neon
   metadata:
